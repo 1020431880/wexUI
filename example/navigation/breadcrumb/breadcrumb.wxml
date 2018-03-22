@@ -1,0 +1,17 @@
+<view class="container">
+    <view class="doc-title h3">Breadcrumb 面包屑</view>
+    <!-- 模块 -->
+    <view class="example-title">面包屑</view>
+    <view class="example-content">
+        <scroll-view scroll-x="true">
+            <view class="wexui-breadcrumb">
+                <view class="breadcrumb-title text-primary">首页<label class="breadcrumb-split">/</label></view>
+                <view class="breadcrumb-title text-primary">子页面1<label class="breadcrumb-split">/</label></view>
+                <view class="breadcrumb-title text-primary">子页面11<label class="breadcrumb-split">/</label></view>
+                <view class="breadcrumb-title text-primary">子页面111<label class="breadcrumb-split">/</label></view>
+                <view class="breadcrumb-title text-primary">子页面1111<label class="breadcrumb-split">/</label></view>
+                <view class="breadcrumb-title current">子页面11111</view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

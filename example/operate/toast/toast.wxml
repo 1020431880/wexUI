@@ -1,0 +1,27 @@
+<import src="../../../dist/wexUI/templates/toast/toast.wxml" />
+
+<view class="container">
+    <view class="doc-title h3">Toast 消息提示框</view>
+    <!-- 模块 -->
+    <view class="example-title">官方toast</view>
+    <view class="example-content">
+        <view class="btn btn-default" bindtap="tapShowLoading">官方loading</view>
+        <view class="btn btn-default" bindtap="tapShowSuccess">官方success</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">自定义toast</view>
+    <view class="example-content">
+        <view class="btn btn-default btn-block" bindtap="tapShowToast">自定义Toast-文字提示</view>
+        <view class="btn btn-default btn-block" bindtap="tapShowToastCallback">自定义Toast-调用回调函数</view>
+        <view class="btn btn-default btn-block" bindtap="tapShowToastMask">自定义Toast-显示遮罩层</view>
+        <view class="btn btn-default btn-block" bindtap="tapShowToastLoading">自定义Toast-loading</view>
+        <view class="btn btn-success btn-block" bindtap="tapShowToastSuccess">自定义Toast-success</view>
+        <view class="btn btn-danger btn-block" bindtap="tapShowToastFail">自定义Toast-fail</view>
+        <view class="btn btn-info btn-block" bindtap="tapShowToastInfo">自定义Toast-info</view>
+        <view class="btn btn-warning btn-block" bindtap="tapShowToastWarn">自定义Toast-warn</view>
+        <view class="btn btn-primary btn-block" bindtap="tapShowToastImage">自定义Toast-图片作为图标</view>
+    </view>
+
+    <!--导入wexUI的toast模版-->
+    <template is="wexui-toast" data="{{Toast}}"></template>
+</view>

@@ -1,0 +1,30 @@
+<view class="container">
+    <!-- 不同的功能块 -->
+    <view class="wexui-tabbar">
+        <!--不同菜单对应不同页面-->
+        <view class="tabbar-content">
+            <view wx:if="{{tabbar1}}">内容1</view>
+            <view wx:if="{{tabbar2}}">内容2</view>
+            <view wx:if="{{tabbar3}}">内容3</view>
+        </view>
+        <!--底部栏菜单-->
+        <view class="tabbar-footer">
+            <view class="{{tabbar1?'current':''}}" bindtap="tapTabbar1">
+                <image src="../../images/home-check.png" wx:if="{{tabbar1}}"/>
+                <image src="../../images/home.png" wx:else/>
+                <span>主页</span>
+            </view>
+            <view class="{{tabbar2?'current':''}}" bindtap="tapTabbar2">
+                <image src="../../images/calendar-check.png" wx:if="{{tabbar2}}"/>
+                <image src="../../images/calendar.png" wx:else/>
+                <span>日历</span>
+            </view>
+            <view class="{{tabbar3?'current':''}}" bindtap="tapTabbar3">
+                <image src="../../images/my-check.png" wx:if="{{tabbar3}}"/>
+                <image src="../../images/my.png" wx:else/>
+                <span>我的</span>
+                <span class="wexui-badge badge-dot"></span>
+            </view>
+        </view>
+    </view>
+</view>

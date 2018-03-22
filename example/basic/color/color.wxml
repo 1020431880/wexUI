@@ -1,0 +1,119 @@
+<view class="container">
+    <view class="doc-title h3">颜色</view>
+    <!-- 模块 -->
+    <view class="example-title">主要配色</view>
+    <view class="example-content">
+        <view class="outer">
+            <view class="color" style="background:#2d8cf0;color:#fff;">#2d8cf0</view>
+            <view class="color" style="background:#57a3f3;color:#fff;">#57a3f3</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#30b8f7;color:#fff;">#30b8f7</view>
+            <view class="color" style="background:#59c7f9;color:#fff;">#59c7f9</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#29b327;color:#fff;">#29b327</view>
+            <view class="color" style="background:#5bc558;color:#fff;">#5bc558</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#ff870d;color:#fff;">#ff870d</view>
+            <view class="color" style="background:#f9a650;color:#fff;">#f9a650</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#ec3535;color:#fff;">#ec3535</view>
+            <view class="color" style="background:#f9605f;color:#fff;">#f9605f</view>
+        </view>
+
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">辅助配色</view>
+    <view class="example-content">
+        <view class="outer">
+            <view class="color" style="background:#4a89dc;color:#fff;">#4a89dc</view>
+            <view class="color" style="background:#5d9cec;color:#fff;">#5d9cec</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#f6bb42;color:#fff;">#f6bb42</view>
+            <view class="color" style="background:#ffce54;color:#fff;">#ffce54</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#e9573f;color:#fff;">#e9573f</view>
+            <view class="color" style="background:#fc6e51;color:#fff;">#fc6e51</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#d08e39;color:#fff;">#d08e39</view>
+            <view class="color" style="background:#e0b06f;color:#fff;">#e0b06f</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#ad9641;color:#fff;">#ad9641</view>
+            <view class="color" style="background:#c5b065;color:#fff;">#c5b065</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#8ac053;color:#fff;">#8ac053</view>
+            <view class="color" style="background:#a0d468;color:#fff;">#a0d468</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#37bc9b;color:#fff;">#37bc9b</view>
+            <view class="color" style="background:#48cfad;color:#fff;">#48cfad</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#19be6b;color:#fff;">#19be6b</view>
+            <view class="color" style="background:#49d08c;color:#fff;">#49d08c</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#ea5f7c;color:#fff;">#ea5f7c</view>
+            <view class="color" style="background:#f5839b;color:#fff;">#f5839b</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#ef2d73;color:#fff;">#ef2d73</view>
+            <view class="color" style="background:#fb5590;color:#fff;">#fb5590</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#da4453;color:#fff;">#da4453</view>
+            <view class="color" style="background:#ed5565;color:#fff;">#ed5565</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#967adc;color:#fff;">#967adc</view>
+            <view class="color" style="background:#ac92ec;color:#fff;">#ac92ec</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#bc31f7;color:#fff;">#bc31f7</view>
+            <view class="color" style="background:#c969f3;color:#fff;">#c969f3</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#e6e9ed;color:#aab2bd;">#e6e9ed</view>
+            <view class="color" style="background:#f5f7fa;color:#aab2bd;">#f5f7fa</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#aab2bd;color:#fff;">#aab2bd</view>
+            <view class="color" style="background:#ccd1d9;color:#fff;">#ccd1d9</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#434a54;color:#fff;">#434a54</view>
+            <view class="color" style="background:#656d78;color:#fff;">#656d78</view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">文字颜色</view>
+    <view class="example-content">
+        <view class="outer">
+            <view class="color" style="background:#353638;color:#fff;">#353638 主要</view>
+            <view class="color" style="background:#4b4c50;color:#fff;">#4b4c50 正文</view>
+            <view class="color" style="background:#8e8e90;color:#fff;">#8e8e90 描述</view>
+            <view class="color" style="background:#bfbfc1;color:#fff;">#bfbfc1 次要</view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">灰色极简</view>
+    <view class="example-content">
+        <view class="outer">
+            <view class="color" style="background:#dddddd;color:#4b4c50;">#dddddd</view>
+            <view class="color" style="background:#eeeeee;color:#4b4c50;">#eeeeee</view>
+        </view>
+        <view class="outer">
+            <view class="color" style="background:#f2f2f2;color:#4b4c50;">#f2f2f2</view>
+            <view class="color" style="background:#f8f8f8;color:#4b4c50;">#f8f8f8</view>
+            <view class="color" style="background:#fbfbfb;color:#4b4c50;">#fbfbfb</view>
+        </view>
+    </view>
+</view>

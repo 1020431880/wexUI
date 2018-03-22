@@ -1,0 +1,44 @@
+<view class="container">
+    <view class="doc-title h3">InputNumber 数字输入框</view>
+    <!-- 模块 -->
+    <view class="example-title">输入框</view>
+    <view class="example-content">
+        <view class="input-number">
+            <label class="input-number-label" bindtap="tapMinus">-</label>
+            <input type="text" value="{{value}}"  />
+            <label class="input-number-label" bindtap="tapPlus">+</label>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-content">
+        <view class="input-number disabled">
+            <label class="input-number-label">-</label>
+            <input type="text" value="0"  disabled  />
+            <label class="input-number-label">+</label>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">尺寸</view>
+    <view class="example-content">
+        <view class="input-number size-small disabled">
+            <label class="input-number-label" bindtap="tapMinus">-</label>
+            <input type="text" class="input-number-input" value="{{value}}"  />
+            <label class="input-number-label" bindtap="tapPlus">+</label>
+        </view>
+        <view class="input-number size-small">
+            <label class="input-number-label" bindtap="tapMinus">-</label>
+            <input type="text" value="{{value}}"  class="input-number-input"/>
+            <label class="input-number-label" bindtap="tapPlus">+</label>
+        </view>
+        <view class="input-number">
+            <label class="input-number-label" bindtap="tapMinus">-</label>
+            <input type="text" value="{{value}}"  class="input-number-input"/>
+            <label class="input-number-label" bindtap="tapPlus">+</label>
+        </view>
+        <view class="input-number size-big">
+            <label class="input-number-label" bindtap="tapMinus">-</label>
+            <input type="text" value="{{value}}" class="input-number-input" />
+            <label class="input-number-label" bindtap="tapPlus">+</label>
+        </view>
+    </view>
+</view>

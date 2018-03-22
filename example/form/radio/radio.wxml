@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="doc-title h3">Radio 单选框</view>
+   <!-- 模块 -->
+    <view class="example-title">单选框</view>
+    <view class="example-content">
+         <radio-group class="radio-group" bindchange="radioChange">
+              <label class="radio"><radio value="苹果" />苹果</label>
+              <label class="radio"><radio value="西红柿"  />西红柿</label>
+         </radio-group>
+    </view>
+</view>

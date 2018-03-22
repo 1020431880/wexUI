@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="doc-title h3">Checkbox 复选框</view>
+   <!-- 模块 -->
+    <view class="example-title">复选框</view>
+    <view class="example-content">
+        <checkbox-group class="radio-group" bindchange="radioChange">
+            <label class="radio"><checkbox value="苹果" />苹果</label>
+            <label class="radio"><checkbox value="西红柿"  />西红柿</label>
+        </checkbox-group>
+    </view>
+</view>

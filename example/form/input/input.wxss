@@ -1,0 +1,7 @@
+.input-text {
+    border: solid 2rpx #eee;
+}
+
+.desc {
+    padding: 10rpx;
+}

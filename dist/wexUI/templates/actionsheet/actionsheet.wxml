@@ -1,0 +1,19 @@
+<template name="wexui-actionsheet">
+    <!-- 背景mask -->
+    <view class="wexui-actionsheet {{Actionsheet.show?'actionsheet-show':''}}">
+        <view class="actionsheet-mask" catchtap="tapHideActionsheet"></view>
+        <!-- 自定义按钮 -->
+        <view class="actionsheet-content">
+            <block wx:for="{{Actionsheet.actions}}">
+                <view class="actionsheet-actions" catchtap="tapActionsItem" data-index="{{index}}">{{item.name}}
+                    <span>{{item.subname}}</span>
+                </view>
+            </block>
+            <!-- 分享和关闭按钮 -->
+            <view class="actionsheet-default" wx:if="{{Actionsheet.showShare}}">
+                <button class="share-button" open-type="share">{{Actionsheet.shareText}}</button>
+            </view>
+            <view class="actionsheet-default" wx:if="{{Actionsheet.showCancel}}" catchtap="tapHideActionsheet">{{Actionsheet.cancelText}}</view>
+        </view>
+    </view>
+</template>

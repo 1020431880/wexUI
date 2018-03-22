@@ -1,0 +1,30 @@
+<view class="container">
+    <view class="doc-title h3">SearchBox 搜索框</view>
+    <!-- 模块 -->
+    <view class="example-title">搜索框</view>
+    <view class="example-content">
+        <view class="wexui-searchbox">
+            <view class="searchbox-input">
+                <input type="text" placeholder="搜索内容" />
+            </view>
+        </view>
+    </view>
+    <view class="example-content">
+        <view class="wexui-searchbox">
+            <view class="searchbox-input">
+                <icon type="search" size="16" />
+                <input type="text" placeholder="搜索内容" />
+            </view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">搜索框</view>
+    <view class="example-content">
+        <view class="wexui-searchbox">
+            <view class="searchbox-input">
+                <input type="text" placeholder="搜索内容" />
+            </view>
+            <view class="searchbox-text text-success">取消</view>
+        </view>
+    </view>
+</view>

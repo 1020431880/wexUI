@@ -1,0 +1,10 @@
+<view class="container">
+    <view class="doc-title h3">Textarea 文本域</view>
+    <!-- 模块 -->
+    <view class="example-title">文本域</view>
+    <view class="example-content">
+        <view class="input-textarea">
+            <textarea placeholder="请输入内容" maxlength="-1"  />
+        </view>
+    </view>
+</view>

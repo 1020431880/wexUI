@@ -1,0 +1,3 @@
+.example-content .wexui-capsule{
+    margin:4rpx 10rpx;
+}

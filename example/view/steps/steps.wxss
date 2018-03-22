@@ -1,0 +1,10 @@
+.wexui-steps {
+    margin: 40rpx 0px;
+}
+
+
+/*自定义className，只需要更改第一个className就可以了*/
+
+.mySteps.wexui-steps .steps-done .steps-content {
+    color: #ec3535!important;
+}

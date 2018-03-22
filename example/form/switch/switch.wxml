@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="doc-title h3">Switch 开关选择器</view>
+    <!-- 模块 -->
+    <view class="example-title">开关</view>
+    <view class="example-content">
+        <switch checked  /><switch  />
+    </view>
+</view>

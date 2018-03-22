@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="doc-title h3">IconFont 字体图标</view>
+    <!-- 模块 -->
+    <view class="example-title">字体图标</view>
+    <view class="example-content">
+        <view class="icon icon-edit"></view>
+        <view class="icon icon-delete"></view>
+        <view class="icon icon-drop-sort"></view>
+        <view class="icon icon-gears"></view>
+        <view class="icon icon-spinner1 animated short spin"></view>
+    </view>
+</view>

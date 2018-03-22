@@ -1,0 +1,82 @@
+<view class="container">
+    <view class="doc-title h3">Badge 徽章</view>
+    <!-- 模块 -->
+    <view class="example-content">
+       <view class="view-block"></view>
+       <view class="view-block"><span class="wexui-badge badge-count">9</span></view>
+       <view class="view-block"><span class="wexui-badge badge-count">19</span></view>
+       <view class="view-block"><span class="wexui-badge badge-count">99+</span></view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-content">
+        <view class="wexui-list list-active">
+            <view class="list-content">标题文字 <span class="wexui-badge badge-dot"></span></view>
+        </view>
+        <view class="wexui-list list-active">
+            <view class="list-content">标题文字 <span class="wexui-badge badge-dot"></span></view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-content">
+        <view class="wexui-list list-active">
+            <view class="list-desc">描述文字 <span class="wexui-badge badge-dot"></span></view>
+        </view>
+        <view class="wexui-list list-active">
+            <view class="list-desc">描述文字 <span class="wexui-badge badge-dot"></span></view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-content">
+        <view class="wexui-list list-active">
+            <view class="list-content">标题文字</view>
+            <view class="list-desc padding-right-10">描述文字 <span class="wexui-badge badge-dot"></span></view>
+        </view>
+        <view class="wexui-list list-active">
+            <view class="list-content">标题文字</view>
+            <view class="list-desc padding-right-10">描述文字<span class="wexui-badge badge-dot"></span></view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-content">
+        <view class="wexui-panel">
+            <view class="panel-logo">
+                <image src="../../images/card.png" />
+                <span class="wexui-badge badge-count">10</span>
+            </view>
+            <view class="panel-content">
+                <view class="panel-title">标题一</view>
+                <view class="panel-desc">曲曲折折的荷塘上面，弥望的是田田的叶子。叶子出水很高，像亭亭的舞女的裙。层层的叶子中间，零星地点缀着些白花，有袅娜地开着的，有羞涩地打着朵儿的；</view>
+            </view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-content">
+        <view class="wexui-list list-active">
+            <view class="list-logo">
+                <image src="../../images/card.png" />
+            </view>
+            <view class="list-desc">请选择内容<span class="wexui-badge badge-dot"></span></view>
+        </view>
+        <view class="wexui-list list-active">
+            <view class="list-logo">
+                <image src="../../images/card.png" />
+            </view>
+            <view class="list-desc">请选择内容<span class="wexui-badge badge-dot"></span></view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-content">
+        <view class="wexui-list list-active">
+            <view class="list-logo">
+                <image src="../../images/card.png" />
+            </view>
+            <view class="list-content">请选择内容<span class="wexui-badge badge-dot"></span></view>
+        </view>
+        <view class="wexui-list list-active">
+            <view class="list-logo">
+                <image src="../../images/card.png" />
+            </view>
+            <view class="list-content">请选择内容 <span class="wexui-badge badge-dot"></span></view>
+        </view>
+    </view>
+</view>

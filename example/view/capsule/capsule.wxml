@@ -1,0 +1,44 @@
+<view class="container">
+    <view class="doc-title h3">Capsule 胶囊</view>
+    <!-- 模块 -->
+    <view class="example-title">基本用法</view>
+    <view class="example-content">
+        <view class="wexui-capsule">
+            <view class="capsule-left">1折</view>
+            <view class="capsule-right">限购一份</view>
+        </view>
+        <view class="wexui-capsule capsule-danger">
+            <view class="capsule-right">收藏优先发货</view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">主题颜色</view>
+    <view class="example-content">
+        <view class="wexui-capsule">
+            <view class="capsule-left">1折</view>
+            <view class="capsule-right">限购一份</view>
+        </view>
+        <view class="wexui-capsule capsule-primary">
+            <view class="capsule-left">2折</view>
+            <view class="capsule-right">限购一份</view>
+        </view>
+        <view class="wexui-capsule capsule-info">
+            <view class="capsule-left">4折</view>
+            <view class="capsule-right">限购一份</view>
+        </view>
+        <view class="wexui-capsule capsule-success">
+            <view class="capsule-left">3折</view>
+            <view class="capsule-right">限购一份</view>
+        </view>
+
+        <view class="wexui-capsule capsule-warn">
+            <view class="capsule-left">5折</view>
+            <view class="capsule-right">限购一份</view>
+        </view>
+        <view class="wexui-capsule capsule-danger">
+            <view class="capsule-left">6折</view>
+            <view class="capsule-right">限购一份</view>
+        </view>
+    </view>
+
+</view>

@@ -1,0 +1,4 @@
+<view class="container">
+    <view class="doc-title h3">Backtop 返回顶部</view>
+    <view class="wexui-backtop" bindtap="tapBacktop"><text class="icon icon-angle-up"></text></view>
+</view>

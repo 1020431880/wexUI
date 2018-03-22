@@ -1,0 +1,87 @@
+<view class="container">
+    <view class="doc-title h3">Tabs 选项卡</view>
+    <!-- 模块 -->
+    <view class="example-title">默认选项卡</view>
+    <view class="example-content">
+        <view class="wexui-tabs">
+            <scroll-view scroll-x="true">
+                <view class="tabs-header">
+                    <view class="tabs-item">
+                        <view class="tabs-title {{tabIndex=='0'?'current':''}}" bindtap="tapTabsDefault" data-id="0">全部</view>
+                    </view>
+                    <view class="tabs-item">
+                        <view class="tabs-title {{tabIndex=='1'?'current':''}}" bindtap="tapTabsDefault" data-id="1">待付款的</view>
+                    </view>
+                    <view class="tabs-item">
+                        <view class="tabs-title {{tabIndex=='2'?'current':''}}" bindtap="tapTabsDefault" data-id="2">待发货的</view>
+                    </view>
+                    <view class="tabs-item">
+                        <view class="tabs-title {{tabIndex=='3'?'current':''}}" bindtap="tapTabsDefault" data-id="3">待收货的</view>
+                    </view>
+                    <view class="tabs-item">
+                        <view class="tabs-title {{tabIndex=='4'?'current':''}}" bindtap="tapTabsDefault" data-id="4">已经完成的</view>
+                    </view>
+                    <view class="tabs-item">
+                        <view class="tabs-title {{tabIndex=='5'?'current':''}}" bindtap="tapTabsDefault" data-id="5">还未完成的</view>
+                    </view>
+                </view>
+            </scroll-view>
+            <view class="tabs-content">
+                <view wx:if="{{tabIndex == '0'}}">内容1</view>
+                <view wx:if="{{tabIndex == '1'}}">内容2</view>
+                <view wx:if="{{tabIndex == '2'}}">内容3</view>
+                <view wx:if="{{tabIndex == '3'}}">内容4</view>
+                <view wx:if="{{tabIndex == '4'}}">内容5</view>
+                <view wx:if="{{tabIndex == '5'}}">内容6</view>
+            </view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">swiper滑动效果的选项卡</view>
+    <view class="example-content">
+        <view class="wexui-tabs">
+            <scroll-view scroll-x="true">
+                <view class="tabs-header">
+                    <view class="tabs-item">
+                        <view class="tabs-title {{currentTab=='0'?'current':''}}" bindtap="tapTabs" data-id="0">全部</view>
+                    </view>
+                    <view class="tabs-item">
+                        <view class="tabs-title {{currentTab=='1'?'current':''}}" bindtap="tapTabs" data-id="1">待付款的</view>
+                    </view>
+                    <view class="tabs-item">
+                        <view class="tabs-title {{currentTab=='2'?'current':''}}" bindtap="tapTabs" data-id="2">待发货的</view>
+                    </view>
+                    <view class="tabs-item">
+                        <view class="tabs-title {{currentTab=='3'?'current':''}}" bindtap="tapTabs" data-id="3">待收货的</view>
+                    </view>
+                    <view class="tabs-item">
+                        <view class="tabs-title {{currentTab=='4'?'current':''}}" bindtap="tapTabs" data-id="4">已经完成的</view>
+                    </view>
+                    <view class="tabs-item">
+                        <view class="tabs-title {{currentTab=='5'?'current':''}}" bindtap="tapTabs" data-id="5">还未完成的</view>
+                    </view>
+                </view>
+            </scroll-view>
+            <swiper current="{{currentTab}}" bindchange="changeSwiper">
+                <swiper-item>
+                    <view>内容1</view>
+                </swiper-item>
+                <swiper-item>
+                    <view>内容2</view>
+                </swiper-item>
+                <swiper-item>
+                    <view>内容3</view>
+                </swiper-item>
+                <swiper-item>
+                    <view>内容4</view>
+                </swiper-item>
+                <swiper-item>
+                    <view>内容5</view>
+                </swiper-item>
+                <swiper-item>
+                    <view>内容6</view>
+                </swiper-item>
+            </swiper>
+        </view>
+    </view>
+</view>

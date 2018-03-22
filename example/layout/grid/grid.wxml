@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="doc-title h3">Grid 九宫格</view>
+    <!-- 模块 -->
+    <view class="example-title">九宫格</view>
+    <view class="example-content">
+        <view class="wexui-grid">
+            <view class="grid-item"><image src="../../images/icon-grid.png" class="grid-item-icon"/><view class="grid-item-label">Grid</view></view>
+            <view class="grid-item"><image src="../../images/icon-grid.png" class="grid-item-icon"/><view class="grid-item-label">Grid</view></view>
+            <view class="grid-item"><image src="../../images/icon-grid.png" class="grid-item-icon"/><view class="grid-item-label">Grid</view></view>
+            <view class="grid-item"><image src="../../images/icon-grid.png" class="grid-item-icon"/><view class="grid-item-label">Grid</view></view>
+            <view class="grid-item"><image src="../../images/icon-grid.png" class="grid-item-icon"/><view class="grid-item-label">Grid</view></view>
+            <view class="grid-item"><image src="../../images/icon-grid.png" class="grid-item-icon"/><view class="grid-item-label">Grid</view></view>
+            <view class="grid-item"><image src="../../images/icon-grid.png" class="grid-item-icon"/><view class="grid-item-label">Grid</view></view>
+            <view class="grid-item"><image src="../../images/icon-grid.png" class="grid-item-icon"/><view class="grid-item-label">Grid</view></view>
+             <view class="grid-item"><image src="../../images/icon-grid.png" class="grid-item-icon"/><view class="grid-item-label">Grid</view></view>
+        </view>
+    </view>
+</view>

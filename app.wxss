@@ -1,0 +1,38 @@
+@import 'dist/wexUI/wexUI.wxss';
+.container {
+    height: 110%;
+    padding: 20rpx;
+    margin: 0px;
+}
+
+.container .example-title {
+    margin-top: 40rpx;
+    margin-bottom: 20rpx;
+    padding-left: 20rpx;
+    color: #8e8e90;
+    font-size: 30rpx;
+}
+
+.container .example-content {
+    margin-top: 20rpx;
+    background: #fff;
+    padding: 10rpx;
+    border-right: 6rpx;
+    box-shadow: 0px 2px 10px #ddd;
+    font-size: 30rpx;
+}
+
+.container .example-content>.btn {
+    margin: 10rpx;
+}
+
+.container .example-content .outer {
+    display: flex;
+}
+
+.container .example-content .color {
+    flex: 1;
+    margin: 10rpx;
+    padding: 20rpx;
+    text-align: center;
+}

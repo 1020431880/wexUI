@@ -1,0 +1,50 @@
+.popup-container {
+    padding: 40rpx;
+}
+
+.zan-popup {
+    visibility: hidden;
+}
+
+.zan-popup--show {
+    visibility: visible;
+}
+
+.zan-popup__mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.zan-popup__container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background: #fff;
+    transform: translate3d(-50%, -50%, 0);
+    transform-origin: center;
+    transition: all 0.4s ease;
+    z-index: 11;
+}
+
+.zan-popup--show .zan-popup__mask {
+    display: block;
+}
+
+.zan-popup--bottom .zan-popup__container {
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding:20px;
+    transform: translate3d(0, 100%, 0);
+}
+
+.zan-popup--show.zan-popup--bottom .zan-popup__container {
+    transform: translate3d(0, 0, 0);
+}

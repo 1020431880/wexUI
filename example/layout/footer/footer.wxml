@@ -1,0 +1,32 @@
+<view class="container">
+    <view class="doc-title h3">Footer 页脚</view>
+    <!-- 模块 -->
+    <view class="example-title">页脚</view>
+    <view class="example-content">
+        <view class="wexui-footer">
+            <view class="footer-text">Copyright © 2016-2017 wexUI</view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">底部链接</view>
+    <view class="example-content">
+        <view class="wexui-footer">
+            <view class="footer-link">
+                <navigator url="" class="footer-link-text">底部链接</navigator>
+            </view>
+            <view class="footer-text">Copyright © 2016-2017 wexUI</view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">底部链接</view>
+    <view class="example-content">
+        <view class="wexui-footer">
+            <view class="footer-link">
+                <navigator url="" class="footer-link-text">链接1</navigator>
+                |
+                 <navigator url="" class="footer-link-text">链接2</navigator>
+            </view>
+            <view class="footer-text">Copyright © 2016-2017 wexUI</view>
+        </view>
+    </view>
+</view>

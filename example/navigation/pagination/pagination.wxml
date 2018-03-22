@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="doc-title h3">Pagination 分页</view>
+    <!-- 模块 -->
+    <view class="example-title">分页</view>
+    <view class="example-content">
+        <view class="wexui-pagination">
+            <view class="pagination-prev">上一页</view>
+            <view class="pagination-next">下一页</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,8 @@
+<view class="container fullscreen">
+    <view class="doc-title h3">Slider 滑动选择器</view>
+    <!-- 模块 -->
+    <view class="example-title">滑动选择器</view>
+    <view class="example-content">
+        <slider  show-value/>
+    </view>
+</view>

@@ -1,0 +1,11 @@
+.list-desc span{
+    padding-left:20rpx;
+    border-left:solid 2rpx #eee;
+}
+.operate{
+    text-align: center;
+    margin-top:30rpx;
+}
+.operate .btn{
+    margin:0px 30px;
+}

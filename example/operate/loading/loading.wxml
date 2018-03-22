@@ -1,0 +1,9 @@
+<view class="container">
+    <view class="doc-title h3">Loading 加载</view>
+    <!-- 模块 -->
+    <view class="example-title">加载</view>
+    <view class="example-content">
+        <view class="btn btn-default" bindtap="tapShowLoading">显示加载</view>
+        <view class="btn btn-danger" bindtap="tapHideLoading">关闭加载</view>
+    </view>
+</view>

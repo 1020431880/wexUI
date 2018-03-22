@@ -1,0 +1,17 @@
+<view class="container">
+    <view class="doc-title h3">Avatar 头像</view>
+    <!-- 模块 -->
+    <view class="example-title">头像</view>
+    <view class="example-content">
+        <view>
+            <image src="../../images/icon-head.png" class="wexui-avatar large"  />
+            <image src="../../images/icon-head.png" class="wexui-avatar"  />
+            <image src="../../images/icon-head.png" class="wexui-avatar small"  />
+        </view>
+        <view>
+            <image src="../../images/icon-head.png" class="wexui-avatar large round "  />
+            <image src="../../images/icon-head.png" class="wexui-avatar round"  />
+            <image src="../../images/icon-head.png" class="wexui-avatar small round"  />
+        </view>
+    </view>
+</view>

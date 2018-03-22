@@ -1,0 +1,25 @@
+<view class="container">
+    <view class="doc-title h3">ButtonGroup 按钮组</view>
+    <!-- 模块 -->
+    <view class="example-title">1.输入框组</view>
+    <view class="example-content">
+        <view class="button-group">
+            <view class="btn btn-default">按钮1</view>
+            <view class="btn btn-default">按钮2</view>
+            <view class="btn btn-default">按钮3</view>
+            <view class="btn btn-default">按钮4</view>
+        </view>
+        <view class="button-group margin-top-10">
+            <view class="btn btn-primary">按钮1</view>
+            <view class="btn btn-primary">按钮2</view>
+            <view class="btn btn-primary">按钮3</view>
+            <view class="btn btn-primary">按钮4</view>
+        </view>
+        <view class="button-group margin-top-10">
+            <view class="btn btn-danger-outline">按钮1</view>
+            <view class="btn btn-danger-outline">按钮2</view>
+            <view class="btn btn-danger-outline">按钮3</view>
+            <view class="btn btn-danger-outline">按钮4</view>
+        </view>
+    </view>
+</view>

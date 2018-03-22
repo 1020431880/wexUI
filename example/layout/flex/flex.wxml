@@ -1,0 +1,21 @@
+<view class="container">
+    <view class="doc-title h3">Flex 布局</view>
+    <!-- 模块 -->
+    <view class="example-title">等分布局(1:1)</view>
+    <view class="example-content">
+        <view class="wexui-flex">
+            <view class="flex-item">1</view>
+            <view class="flex-item">2</view>
+            <view class="flex-item">3</view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">按比例(1:12)</view>
+    <view class="example-content">
+        <view class="wexui-flex">
+            <view class="flex-item-1">1</view>
+            <view class="flex-item-3">2</view>
+            <view class="flex-item-8">3</view>
+        </view>
+    </view>
+</view>

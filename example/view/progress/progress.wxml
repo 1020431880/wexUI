@@ -1,0 +1,34 @@
+<view class="container">
+    <view class="doc-title h3">Progress 进度条</view>
+    <!-- 模块 -->
+    <view class="example-title">基本用法</view>
+    <view class="example-content">
+        <progress percent="0" class="margin-top-10"  />
+        <progress percent="30" activeColor="#2d8cf0" class="margin-top-10"  />
+        <progress percent="30" activeColor="#2d8cf0" show-info class="margin-top-10"  />
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">进度条主题</view>
+    <view class="example-content">
+        <progress percent="30" activeColor="#2d8cf0" show-info class="margin-top-10"  />
+        <progress percent="30" activeColor="#30b6f5" show-info class="margin-top-10"  />
+        <progress percent="30" activeColor="#29b327" show-info class="margin-top-10"  />
+        <progress percent="30" activeColor="#ff870d" show-info class="margin-top-10"  />
+        <progress percent="30" activeColor="#fec3535" show-info class="margin-top-10"  />
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">进度条尺寸</view>
+    <view class="example-content">
+        <progress percent="30" stroke-width="10" activeColor="#2d8cf0" show-info class="margin-top-10"  />
+        <progress percent="30" stroke-width="10" activeColor="#30b6f5" show-info class="margin-top-10"  />
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">进度条动画</view>
+    <view class="example-content">
+        <progress percent="{{percent}}" active="true" activeColor="#2d8cf0" show-info class="margin-top-10"  />
+        <progress percent="{{percent}}" active="true" activeColor="#30b6f5" show-info class="margin-top-10"  />
+        <progress percent="{{percent}}" active="true" activeColor="#fec3535" show-info class="margin-top-10"  />
+        <view class="btn btn-primary" bindtap="tapResetPercent">重置进度</view>
+        <view class="btn btn-primary" bindtap="tapCompletePercent">完成进度</view>
+    </view>
+</view>

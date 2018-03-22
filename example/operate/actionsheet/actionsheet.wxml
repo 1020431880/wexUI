@@ -1,0 +1,13 @@
+<import src="../../../dist/wexUI/templates/actionsheet/actionsheet.wxml" />
+
+<view class="container">
+    <view class="doc-title h3">Actionsheet 行动按钮</view>
+    <!-- 模块 -->
+    <view class="example-title">行动按钮</view>
+    <view class="example-content">
+        <view class="btn btn-default btn-block" bindtap="tapShowActionsheet">Actionsheet行动按钮</view>
+    </view>
+
+    <!--导入wexUI的actionsheet模版-->
+    <template is="wexui-actionsheet" data="{{Actionsheet}}"></template>
+</view>

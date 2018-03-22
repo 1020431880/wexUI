@@ -1,0 +1,58 @@
+<view class="container">
+    <view class="doc-title h3">Input 文本框</view>
+    <!-- 模块 -->
+    <view class="example-title">文本框</view>
+    <view class="example-content">
+        <view class="h5 desc">普通</view>
+        <view class="input-text">
+            <input type="text" placeholder="请输入内容"  />
+        </view>
+        <view class="h5 desc">带下边框</view>
+        <view class="input-text input-border">
+            <input type="text" placeholder="请输入内容"  />
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">尺寸</view>
+    <view class="example-content">
+        <view class="h5 desc">size-large</view>
+        <view class="input-text size-large input-border">
+            <input type="text" placeholder="请输入内容"  />
+        </view>
+        <view class="h5 desc">size-big</view>
+        <view class="input-text size-big input-border">
+            <input type="text" placeholder="请输入内容"  />
+        </view>
+        <view class="h5 desc">普通</view>
+        <view class="input-text input-border">
+            <input type="text" placeholder="请输入内容"  />
+        </view>
+        <view class="h5 desc">size-small</view>
+        <view class="input-text size-small input-border">
+            <input type="text" placeholder="请输入内容"  />
+        </view>
+        <view class="h5 desc">size-mini</view>
+        <view class="input-text size-mini input-border">
+            <input type="text" placeholder="请输入内容"  />
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">禁用</view>
+    <view class="example-content">
+        <view class="input-text disabled">
+            <input type="text" placeholder="请输入内容"  disabled  />
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">带图标输入框</view>
+    <view class="example-content">
+        <view class="input-text input-border">
+            <icon type="warn" size="20"  />
+            <input type="text" placeholder="请输入内容"  />
+        </view>
+        <view class="input-text input-border">
+            <image src="../../images/key.png"  />
+            <input type="text" placeholder="请输入内容"  />
+        </view>
+    </view>
+</view>

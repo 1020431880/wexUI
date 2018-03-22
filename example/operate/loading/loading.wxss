@@ -1,0 +1,3 @@
+.example .btn{
+    margin:10rpx;
+}

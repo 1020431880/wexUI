@@ -1,0 +1,14 @@
+<template name="wexui-toptips">
+    <view class="wexui-toptips {{Toptips.type?Toptips.type:''}} {{Toptips.show?'animated slideInDown short':'animated slideOutUp short'}}">
+        <!--展示Icon-->
+        <view class="toptips-icon" wx:if="{{Toptips.type != null && Toptips.type != '' && Toptips.showIcon}}">
+            <view class="icon-loading" wx:if="{{Toptips.type == 'loading'}}"></view>
+            <view class="icon icon-round-check-o" wx:if="{{Toptips.type == 'success'}}"></view>
+            <view class="icon icon-round-close-o" wx:if="{{Toptips.type == 'fail'}}"></view>
+            <view class="icon icon-info-o" wx:if="{{Toptips.type == 'info'}}"></view>
+            <view class="icon icon-warn-o" wx:if="{{Toptips.type == 'warn'}}"></view>
+        </view>
+        <!--展示提示内容-->
+        <view class="toptips-content" wx:if="{{Toptips.title != null && Toptips.title != ''}}">{{Toptips.title}}</view>
+    </view>
+</template>

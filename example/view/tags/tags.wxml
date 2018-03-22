@@ -1,0 +1,61 @@
+<view class="container">
+    <view class="doc-title h3">Tags 标签</view>
+    <!-- 模块 -->
+    <view class="example-title">默认标签</view>
+    <view class="example-content">
+        <view class="wexui-tags">默认标签</view>
+        <view class="wexui-tags">带关闭<span class="tags-close"></span></view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">被禁用的标签</view>
+    <view class="example-content">
+        <view class="wexui-tags disabled">被禁用</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">标签尺寸(不支持带关闭按钮的标签)</view>
+    <view class="example-content">
+        <view class="wexui-tags disabled size-small">小标签禁用</view>
+        <view class="wexui-tags tags-primary-outline size-small">小标签</view>
+        <view class="wexui-tags tags-success-outline size-big">大标签</view>
+        <view class="wexui-tags tags-success size-small">小标签</view>
+        <view class="wexui-tags tags-danger">默认大小</view>
+        <view class="wexui-tags tags-warning size-big">大标签</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">不同颜色标签</view>
+    <view class="example-content">
+        <view class="wexui-tags tags-gray">灰色标签</view>
+        <view class="wexui-tags tags-primary">标签一</view>
+        <view class="wexui-tags tags-info">标签二</view>
+        <view class="wexui-tags tags-success">标签二</view>
+        <view class="wexui-tags tags-warning">标签二</view>
+        <view class="wexui-tags tags-danger">标签二</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">不同颜色带关闭按钮</view>
+    <view class="example-content">
+        <view class="wexui-tags tags-primary">标签一<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-info">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-success">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-warning">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-danger">标签二<span class="tags-close"></span></view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">空心标签</view>
+    <view class="example-content">
+        <view class="wexui-tags tags-primary-outline">标签一<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-info-outline">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-success-outline">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-warning-outline">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-danger-outline">标签二<span class="tags-close"></span></view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">带分割线标签</view>
+    <view class="example-content">
+        <view class="wexui-tags tags-primary-outline tags-split">标签一<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-info-outline tags-split">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-success-outline tags-split">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-warning-outline tags-split">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-danger-outline tags-split">标签二<span class="tags-close"></span></view>
+    </view>
+</view>

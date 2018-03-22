@@ -1,0 +1,125 @@
+<view class="container">
+    <view class="doc-title h3">Typography 排版</view>
+    <!-- 模块 -->
+    <view class="example-title">标题</view>
+    <view class="example-content">
+        <view class="h1">
+            h1 大标题
+            <text class="small">小标题</text>
+        </view>
+        <view class="h2">
+            h2 大标题
+            <text class="small">小标题</text>
+        </view>
+        <view class="h3">h3 大标题
+            <text class="small">小标题</text>
+        </view>
+        <view class="h4">
+            h4 大标题
+            <text class="small">小标题</text>
+        </view>
+        <view class="h5">
+            h5 大标题
+            <text class="small">小标题</text>
+        </view>
+        <view class="h6">
+            h6 大标题
+            <text class="small">小标题</text>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">文字强调</view>
+    <view class="example-content">
+        <view class="text-deleted">带删除线的文字</view>
+        <view class="text-block">文字变为块状元素</view>
+        <view class="text-bold text-block">重要文字，加粗显示</view>
+        <text class="text-smail text-block">小型文本，是父容器字体大小的85%</text>
+        <text class="text-underline">下划线效果展示</text>
+        <text class="text-mark">突出的显示文本</text>
+        <text class="text-code">突出显示代码内容</text>
+        <view class="text-uppercase">gaoshiwei 转为大写字母</view>
+        <view class="text-lowercase">GAOSHIWEI 转为小写字母</view>
+        <view class="text-capitalize">gaoshiwei 转为首字母大写</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">文字大小</view>
+    <view class="example-content">
+        <view class="font-12">字体12px</view>
+        <view class="font-13">字体13px</view>
+        <view class="font-14">字体14px</view>
+        <view class="font-15">字体15px</view>
+        <view class="font-16">字体16px</view>
+        <view class="font-17">字体17px</view>
+        <view class="font-18">字体18px</view>
+        <view class="font-19">字体19px</view>
+        <view class="font-20">...</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">内容对齐</view>
+    <view class="example-content">
+        <view>text-left 左对齐</view>
+        <view>text-center 居中</view>
+        <view>text-right 右对齐</view>
+        <view>valign-top 居上</view>
+        <view>valign-middle 居中</view>
+        <view>valign-bottom 局下</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">定位浮动</view>
+    <view class="example-content">
+        <view>float-left 样式左浮动</view>
+        <view>float-right 样式右浮动</view>
+        <view>float-none 样式没有浮动none</view>
+        <view>clearfix 样式清除浮动</view>
+        <view>display-none 样式display=none</view>
+        <view>display-block 样式display=block</view>
+        <view>position-absolute 样式position=absolute</view>
+        <view>position-fixed 样式position=fixed</view>
+        <view>position-relative 样式position=relative</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">外边距</view>
+    <view class="example-content">
+        <view>margin-top-3</view>
+        <view>margin-top-5</view>
+        <view>margin-top-10</view>
+        <view>margin-top-15</view>
+        <view>margin-top-20</view>
+        <view>...</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">内边距</view>
+    <view class="example-content">
+        <view>padding-top-3</view>
+        <view>padding-top-5</view>
+        <view>padding-top-10</view>
+        <view>padding-top-15</view>
+        <view>padding-top-20</view>
+        <view>...</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">分割线</view>
+    <view class="example-content">
+        <view class="line margin-top-10 margin-bottom-10"></view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">文字单行溢出省略号</view>
+    <view class="example-content">
+        <view class="text-overflow" style="width:90%;">我是一段很长的文字，我超出了会溢出省略号，不信试试看哦</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">超链接文字</view>
+    <view class="example-content">
+        <text class="text-link">我是一个模仿的超链接</text>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">文字大小规范建议</view>
+    <view class="example-content">
+        <view>1.wexUI默认字体32rpx(16p像素)</view>
+        <view>2.内容正文，form表单，页面布局，页面导航等场景下使用30rpx(15像素)</view>
+        <view>3.文字标题一般用32rpx(16像素)，可以加粗。</view>
+        <view>4.辅助性文字使用28rpx(14像素)</view>
+        <view>5.次要文字使用26rpx(13像素)</view>
+        <view>6.页脚，胶囊和一些狭小的空间内情景下使用的标签或者文字，使用24rpx(12像素)</view>
+    </view>
+</view>

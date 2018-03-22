@@ -1,0 +1,21 @@
+<template name="wexui-toast">
+    <!-- mask遮罩层 -->
+    <view class="wexui-toast-mask" wx:if="{{Toast.mask}}"></view>
+    <!-- 展示Toast提示 -->
+    <view class="wexui-toast {{Toast.show?'toast-show':''}}">
+        <!-- 展示Icon -->
+        <view class="toast-icon" wx:if="{{Toast.icon != null && Toast.icon != '' && Toast.image == ''}}">
+            <view class="icon-loading" wx:if="{{Toast.icon == 'loading'}}"></view>
+            <view class="icon icon-round-check" wx:if="{{Toast.icon == 'success'}}"></view>
+            <view class="icon icon-round-close" wx:if="{{Toast.icon == 'fail'}}"></view>
+            <view class="icon icon-info" wx:if="{{Toast.icon == 'info'}}"></view>
+            <view class="icon icon-warn" wx:if="{{Toast.icon == 'warn'}}"></view>
+        </view>
+        <!-- 展示图片 -->
+        <view class="toast-image" wx:if="{{Toast.image != null && Toast.image != ''}}">
+            <image src="{{Toast.image}}"  />
+        </view>
+        <!-- 展示提示内容 -->
+        <view class="toast-content" wx:if="{{Toast.title != null && Toast.title != ''}}">{{Toast.title}}</view>
+    </view>
+</template>

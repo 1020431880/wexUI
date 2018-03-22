@@ -1,0 +1,10 @@
+.view-block {
+    margin-top: 20rpx;
+    margin-left: 60rpx;
+    width: 100rpx;
+    height: 100rpx;
+    background: #ddd;
+    border-radius: 8rpx;
+    position: relative;
+    display: inline-block;
+}

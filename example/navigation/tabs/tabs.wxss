@@ -1,0 +1,8 @@
+.tabs-content,
+swiper {
+    text-align: center;
+    padding: 20rpx;
+    height: 30px;
+    line-height: 30px;
+    border-top: solid 2rpx #eee;
+}

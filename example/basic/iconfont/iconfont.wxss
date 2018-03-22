@@ -1,0 +1,5 @@
+.icon {
+    font-size: 30px;
+    padding: 16rpx;
+    margin: 10rpx;
+}

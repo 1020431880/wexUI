@@ -1,0 +1,67 @@
+<view class="container">
+    <view class="doc-title h3">Panel 面板</view>
+     <!-- 模块 -->
+    <view class="example-title">文字面板</view>
+    <view class="example-content">
+        <view class="wexui-panel">
+             我是一段文字，我在面板里面
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">图文组合</view>
+    <view class="example-content">
+        <view class="wexui-panel">
+            <view class="panel-logo">
+                <image src="../../images/card.png"  />
+            </view>
+            <view class="panel-content">
+                <view class="panel-title">标题一</view>
+                <view class="panel-desc">曲曲折折的荷塘上面，弥望的是田田的叶子。叶子出水很高，像亭亭的舞女的裙。层层的叶子中间，零星地点缀着些白花，有袅娜地开着的，有羞涩地打着朵儿的；</view>
+            </view>
+        </view>
+        <view class="wexui-panel">
+            <view class="panel-logo">
+                <image src="../../images/card.png"  />
+            </view>
+            <view class="panel-content">
+                <view class="panel-title">标题二</view>
+                <view class="panel-desc">荷塘的四面，远远近近，高高低低都是树，而杨柳最多。这些树将一片荷塘重重围住；只在小路一旁，漏着几段空隙，像是特为月光留下的。树色一例是阴阴的，乍看像一团烟雾；</view>
+            </view>
+        </view>
+        <view class="wexui-panel-more">查看更多</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">文字组合</view>
+    <view class="example-content">
+        <view class="wexui-panel">
+            <view class="panel-content">
+                <view class="panel-title">标题一</view>
+                <view class="panel-desc">曲曲折折的荷塘上面，弥望的是田田的叶子。叶子出水很高，像亭亭的舞女的裙。层层的叶子中间，零星地点缀着些白花，有袅娜地开着的，有羞涩地打着朵儿的；</view>
+            </view>
+        </view>
+        <view class="wexui-panel">
+            <view class="panel-content">
+                <view class="panel-title">标题二</view>
+                <view class="panel-desc">曲曲折折的荷塘上面，弥望的是田田的叶子。叶子出水很高，像亭亭的舞女的裙。层层的叶子中间，零星地点缀着些白花，有袅娜地开着的，有羞涩地打着朵儿的；</view>
+            </view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">文字列表附加信息</view>
+    <view class="example-content">
+        <view class="wexui-panel">
+            <view class="panel-content">
+                <view class="panel-title">标题一</view>
+                <view class="panel-desc">曲曲折折的荷塘上面，弥望的是田田的叶子。叶子出水很高，像亭亭的舞女的裙。层层的叶子中间，零星地点缀着些白花，有袅娜地开着的，有羞涩地打着朵儿的；</view>
+                <view class="panel-info">文字来源 | 时间 |其他信息</view>
+            </view>
+        </view>
+        <view class="wexui-panel">
+            <view class="panel-content">
+                <view class="panel-title">标题二</view>
+                <view class="panel-desc">曲曲折折的荷塘上面，弥望的是田田的叶子。叶子出水很高，像亭亭的舞女的裙。层层的叶子中间，零星地点缀着些白花，有袅娜地开着的，有羞涩地打着朵儿的；</view>
+                <view class="panel-info">文字来源 | 时间 |其他信息</view>
+            </view>
+        </view>
+    </view>
+</view>

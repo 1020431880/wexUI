@@ -1,0 +1,106 @@
+<view class="index">
+    <view class="header">
+        <image class="header-logo" src="../example/images/logo.png" />
+        <view class="header-title h2">wexUI</view>
+        <view class="header-desc">Do More. Do Better!</view>
+    </view>
+    <view class="body">
+        <!-- 基本元素 -->
+        <view class="item">
+            <view class="title {{item1?'title-show':''}}" bindtap="showMenu" data-item="item1">基本元素</view>
+            <view class="item-outer {{item1?'item-outer-show':''}}">
+                <view class="item-inner {{item1?'item-inner-show':''}}">
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/basic/typography/typography">Typography 排版</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/basic/color/color">Color 配色</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/basic/icon/icon">Icon 图标</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/basic/iconfont/iconfont">IconFont 字体图标</view>
+                </view>
+            </view>
+        </view>
+        <!-- 表单组件 -->
+        <view class="item">
+            <view class="title {{item2?'title-show':''}}" bindtap="showMenu" data-item="item2">表单组件</view>
+            <view class="item-outer {{item2?'item-outer-show':''}}">
+                <view class="item-inner {{item2?'item-inner-show':''}}">
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/button/button">Button 按钮</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/input/input">Input 文本框</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/inputNumber/inputNumber">InputNumber 数字输入框</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/textarea/textarea">Textarea 文本域</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/radio/radio">Radio 单选框</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/checkbox/checkbox">Checkbox 复选框</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/switch/switch">Switch 开关切换</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/slider/slider">Slider 滑块</view>
+                </view>
+            </view>
+        </view>
+        <!-- 操作反馈 -->
+        <view class="item">
+            <view class="title {{item3?'title-show':''}}" bindtap="showMenu" data-item="item3">操作反馈</view>
+            <view class="item-outer {{item3?'item-outer-show':''}}">
+                <view class="item-inner {{item3?'item-inner-show':''}}">
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/operate/loading/loading">Loading 加载</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/operate/toast/toast">Toast 操作提示</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/operate/modal/modal">Modal 模态框</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/operate/toptips/toptips">Toptips 顶部提示</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/operate/actionsheet/actionsheet">Actionsheet 行动按钮</view>
+                </view>
+            </view>
+        </view>
+        <!-- 页面布局 -->
+        <view class="item">
+            <view class="title {{item4?'title-show':''}}" bindtap="showMenu" data-item="item4">页面布局</view>
+            <view class="item-outer {{item4?'item-outer-show':''}}">
+                <view class="item-inner {{item4?'item-inner-show':''}}">
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/layout/flex/flex">Flex 布局</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/layout/grid/grid">Grid 九宫格</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/layout/card/card">Card 卡片</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/layout/panel/panel">Panel 面板</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/layout/list/list">List 列表</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/layout/footer/footer">Footer 页脚</view>
+                </view>
+            </view>
+        </view>
+        <!-- 页面导航 -->
+        <view class="item">
+            <view class="title {{item5?'title-show':''}}" bindtap="showMenu" data-item="item5">页面导航</view>
+            <view class="item-outer {{item5?'item-outer-show':''}}">
+                <view class="item-inner {{item5?'item-inner-show':''}}">
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/navigation/tabs/tabs">Tabs 选项卡</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/navigation/tabbar/tabbar">Tabbar 底部栏</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/navigation/pagination/pagination">Pagination 分页</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/navigation/breadcrumb/breadcrumb">Breadcrumb 面包屑</view>
+                </view>
+            </view>
+        </view>
+        <!-- CSS3动画 -->
+        <view class="item">
+            <view class="title {{item6?'title-show':''}}" bindtap="showMenu" data-item="item6">CSS3动画</view>
+            <view class="item-outer {{item6?'item-outer-show':''}}">
+                <view class="item-inner {{item6?'item-inner-show':''}}">
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/css3/animate/animate">Animate 动画</view>
+                </view>
+            </view>
+        </view>
+        <!-- 页面展示 -->
+        <view class="item">
+            <view class="title {{item7?'title-show':''}}" bindtap="showMenu" data-item="item7">页面展示</view>
+            <view class="item-outer {{item7?'item-outer-show':''}}">
+                <view class="item-inner {{item7?'item-inner-show':''}}">
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/article/article">Article文章</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/avatar/avatar">Avatar 头像</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/badge/badge">Badge 徽标</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/capsule/capsule">Capsule 胶囊</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/tags/tags">Tags 标签</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/buttonGroup/buttonGroup">ButtonGroup 按钮组</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/inputGroup/inputGroup">InputGroup 输入框组</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/loadMore/loadMore">LoadMore 加载更多</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/progress/progress">Progress 进度条</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/searchBox/searchBox">Searchbox 搜索框</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/steps/steps">Steps 步骤条</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/backtop/backtop">Backtop 返回顶部</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/popup/popup">Popup 弹出层</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

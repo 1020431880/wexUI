@@ -1,0 +1,19 @@
+.container .example-content-content .flex {
+    height: 100px;
+}
+
+.container .example-content .wexui-flex .flex-item,
+.container .example-content .wexui-flex .flex-item-1,
+.container .example-content .wexui-flex .flex-item-2,
+.container .example-content .wexui-flex .flex-item-3,
+.container .example-content .wexui-flex .flex-item-4,
+.container .example-content .wexui-flex .flex-item-5,
+.container .example-content .wexui-flex .flex-item-6,
+.container .example-content .wexui-flex .flex-item-7,
+.container .example-content .wexui-flex .flex-item-8,
+.container .example-content .wexui-flex .flex-item-9,
+.container .example-content .wexui-flex .flex-item-10,
+.container .example-content .wexui-flex .flex-item-11,
+.container .example-content .wexui-flex .flex-item-12 {
+    border: solid 2rpx #ddd;
+}

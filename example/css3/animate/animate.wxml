@@ -1,0 +1,37 @@
+<view class="container">
+    <view class="doc-title h3">CSS3 动画</view>
+    <!-- 模块 -->
+    <view class="example-title">动画特效</view>
+    <view class="example-content">
+        <view class="btn btn-primary {{fadeIn?'animated fadeIn':''}}" bindtap="tapAnimate1">fadeIn</view>
+        <view class="btn btn-primary {{fadeInLeft?'animated fadeInLeft':''}}" bindtap="tapAnimate1_1">fadeInLeft</view>
+        <view class="btn btn-primary {{fadeInRight?'animated fadeInRight':''}}" bindtap="tapAnimate1_2">fadeInRight</view>
+        <view class="btn btn-primary {{fadeInUp?'animated fadeInUp':''}}" bindtap="tapAnimate1_3">fadeInUp</view>
+        <view class="btn btn-primary {{fadeInDown?'animated fadeInDown':''}}" bindtap="tapAnimate1_4">fadeInDown</view>
+        <view class="btn btn-primary {{fadeOut?'animated fadeOut':''}}" bindtap="tapAnimate2">fadeOut</view>
+        <view class="btn btn-primary {{fadeOutLeft?'animated fadeOutLeft':''}}" bindtap="tapAnimate2_1">fadeOutLeft</view>
+        <view class="btn btn-primary {{fadeOutRight?'animated fadeOutRight':''}}" bindtap="tapAnimate2_2">fadeOutRight</view>
+        <view class="btn btn-primary {{fadeOutUp?'animated fadeOutUp':''}}" bindtap="tapAnimate2_3">fadeOutUp</view>
+        <view class="btn btn-primary {{fadeOutDown?'animated fadeOutDown':''}}" bindtap="tapAnimate2_4">fadeOutDown</view>
+        <view class="btn btn-primary {{slideInUp?'animated slideInUp':''}}" bindtap="tapAnimate3">slideInUp</view>
+        <view class="btn btn-primary {{slideInDown?'animated slideInDown':''}}" bindtap="tapAnimate4">slideInDown</view>
+        <view class="btn btn-primary {{slideInLeft?'animated slideInLeft':''}}" bindtap="tapAnimate5">slideInLeft</view>
+        <view class="btn btn-primary {{slideInRight?'animated slideInRight':''}}" bindtap="tapAnimate6">slideInRight</view>
+        <view class="btn btn-primary {{slideOutUp?'animated slideOutUp':''}}" bindtap="tapAnimate7">slideOutUp</view>
+        <view class="btn btn-primary {{slideOutDown?'animated slideOutDown':''}}" bindtap="tapAnimate8">slideOutDown</view>
+        <view class="btn btn-primary {{slideOutLeft?'animated slideOutLeft':''}}" bindtap="tapAnimate9">slideOutLeft</view>
+        <view class="btn btn-primary {{slideOutRight?'animated slideOutRight':''}}" bindtap="tapAnimate10">slideOutRight</view>
+        <view class="btn btn-primary {{zoomIn?'animated zoomIn':''}}" bindtap="tapAnimate11">zoomIn</view>
+        <view class="btn btn-primary {{zoomOut?'animated zoomOut':''}}" bindtap="tapAnimate12">zoomOut</view>
+        <view class="btn btn-primary {{bounceIn?'animated bounceIn':''}}" bindtap="tapAnimate13">bounceIn</view>
+        <view class="btn btn-primary {{bounceOut?'animated bounceOut':''}}" bindtap="tapAnimate14">bounceOut</view>
+        <view class="btn btn-primary {{flash?'animated flash':''}}" bindtap="tapAnimate15">flash</view>
+        <view class="btn btn-primary {{pulse?'animated pulse':''}}" bindtap="tapAnimate16">pulse</view>
+        <view class="btn btn-primary {{shake?'animated shake':''}}" bindtap="tapAnimate17">shake</view>
+        <view class="btn btn-primary {{slideInUpBit?'animated slideInUpBit':''}}" bindtap="tapAnimate18">slideInUpBit</view>
+        <view class="btn btn-primary {{slideOutUpBit?'animated slideOutUpBit':''}}" bindtap="tapAnimate19">slideOutUpBit</view>
+        <view class="btn btn-primary {{slideInDownBit?'animated slideInDownBit':''}}" bindtap="tapAnimate20">slideInDownBit</view>
+        <view class="btn btn-primary {{slideOutDownBit?'animated slideOutDownBit':''}}" bindtap="tapAnimate21">slideOutDownBit</view>
+        <view class="btn btn-primary animated spin">旋转</view>
+    </view>
+</view>

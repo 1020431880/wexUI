@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="doc-title h3">Modal 模态框</view>
+    <!-- 模块 -->
+    <view class="example-title">模态框</view>
+    <view class="example-content">
+        <view class="btn btn-default" bindtap="tapShowModal">显示Modal</view>
+    </view>
+</view>

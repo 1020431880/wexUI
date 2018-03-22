@@ -1,0 +1,13 @@
+.demo {
+    margin-top:10%;
+    background: #ddd;
+    height: 300px;
+    transform: translate(-100%,0);
+    transition: all .3s;
+    visibility: hidden;
+}
+
+.demo.show {
+    visibility: visible;
+    transform: translate(0,0);
+}

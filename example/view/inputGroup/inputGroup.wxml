@@ -1,0 +1,26 @@
+<view class="container">
+    <view class="doc-title h3">InputGroup 输入框组</view>
+    <!-- 模块 -->
+    <view class="example-title">输入框组</view>
+    <view class="example-content">
+        <!-- 带icon图标 -->
+        <view class="input-group">
+            <label class="input-label">
+                <icon type="search" size="18"  />
+            </label>
+            <input type="text" placeholder="内容"  />
+        </view>
+        <!-- 文字 -->
+        <view class="input-group margin-top-10">
+            <label class="input-label">名称</label>
+            <input type="text" placeholder="内容"  />
+        </view>
+        <!-- 图片 -->
+        <view class="input-group margin-top-10">
+            <label class="input-label">
+                <image src="../../images/account.png"  />
+            </label>
+            <input type="text" placeholder="内容"  />
+        </view>
+    </view>
+</view>

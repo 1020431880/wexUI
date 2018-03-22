@@ -1,0 +1,19 @@
+<import src="../../../dist/wexUI/templates/toptips/toptips.wxml" />
+
+<view class="container">
+    <view class="doc-title h3">Toptips 顶部提示</view>
+    <!-- 模块 -->
+    <view class="example-title">顶部提示</view>
+    <view class="example-content">
+        <view class="btn btn-default btn-block" bindtap="tapShowToptips">Toptips顶部提示-默认</view>
+        <view class="btn btn-default btn-block" bindtap="tapShowToptipsCallback">Toptips顶部提示-回调函数</view>
+        <view class="btn btn-primary btn-block" bindtap="tapShowToptipsLoading">Toptips顶部提示-loading</view>
+        <view class="btn btn-success btn-block" bindtap="tapShowToptipsSuccess">Toptips顶部提示-success</view>
+        <view class="btn btn-danger btn-block" bindtap="tapShowToptipsFail">Toptips顶部提示-fail</view>
+        <view class="btn btn-info btn-block" bindtap="tapShowToptipsInfo">Toptips顶部提示-info</view>
+        <view class="btn btn-warning btn-block" bindtap="tapShowToptipsWarn">Toptips顶部提示-warn</view>
+    </view>
+
+    <!--导入wexUI的toptips模版-->
+    <template is="wexui-toptips" data="{{Toptips}}"></template>
+</view>

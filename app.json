@@ -1,0 +1,60 @@
+{
+  "pages": [
+
+    "example/index",
+
+    "example/basic/typography/typography",
+    "example/basic/color/color",
+    "example/basic/icon/icon",
+    "example/basic/iconfont/iconfont",
+
+    "example/form/button/button",
+    "example/form/input/input",
+    "example/form/textarea/textarea",
+    "example/form/inputNumber/inputNumber",
+    "example/form/radio/radio",
+    "example/form/checkbox/checkbox",
+    "example/form/switch/switch",
+    "example/form/slider/slider",
+
+    "example/operate/loading/loading",
+    "example/operate/toast/toast",
+    "example/operate/modal/modal",
+    "example/operate/toptips/toptips",
+    "example/operate/actionsheet/actionsheet",
+
+    "example/layout/flex/flex",
+    "example/layout/grid/grid",
+    "example/layout/list/list",
+    "example/layout/panel/panel",
+    "example/layout/card/card",
+    "example/layout/footer/footer",
+
+    "example/navigation/tabs/tabs",
+    "example/navigation/tabbar/tabbar",
+    "example/navigation/breadcrumb/breadcrumb",
+    "example/navigation/pagination/pagination",
+
+    "example/css3/animate/animate",
+
+    "example/view/article/article",
+    "example/view/badge/badge",
+    "example/view/tags/tags",
+    "example/view/capsule/capsule",
+    "example/view/avatar/avatar",
+    "example/view/buttonGroup/buttonGroup",
+    "example/view/inputGroup/inputGroup",
+    "example/view/loadMore/loadMore",
+    "example/view/progress/progress",
+    "example/view/searchBox/searchBox",
+    "example/view/steps/steps",
+    "example/view/popup/popup",
+    "example/view/backtop/backtop"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

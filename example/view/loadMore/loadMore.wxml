@@ -1,0 +1,19 @@
+<view class="container">
+    <view class="doc-title h3">LoadMore 加载更多</view>
+    <!-- 模块 -->
+    <view class="example-title">加载更多</view>
+    <view class="example-content">
+        <view class="wexui-loadmore">正在加载更多..</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">带动画的加载</view>
+    <view class="example-content">
+        <view class="wexui-loadmore"><text class="wexui-loading1"></text>正在加载更多..</view>
+        <view class="wexui-loadmore"><text class="wexui-loading2"></text>正在加载更多..</view>
+        <view class="wexui-loadmore"><text class="wexui-loading3"></text>正在加载更多..</view>
+        <view class="wexui-loadmore"><text class="wexui-loading4"></text>正在加载更多..</view>
+        <view class="wexui-loadmore"><text class="wexui-loading5"></text>正在加载更多..</view>
+        <view class="wexui-loadmore"><text class="wexui-loading6"></text>正在加载更多..</view>
+    </view>
+
+</view>

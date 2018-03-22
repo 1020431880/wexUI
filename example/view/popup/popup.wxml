@@ -1,0 +1,49 @@
+<view class="container">
+    <view class="doc-title h3">Popup 弹出层</view>
+    <!-- 模块 -->
+    <view class="example-title">弹出层</view>
+    <view class="example-content">
+        <view class="btn btn-default btn-block" bindtap="tapShowPopupCenter">从中间弹出Popup</view>
+        <view class="btn btn-default btn-block" bindtap="tapShowPopupTop">从顶部弹出Popup</view>
+        <view class="btn btn-default btn-block" bindtap="tapShowPopupBottom">从底部弹出Popup</view>
+        <view class="btn btn-default btn-block" bindtap="tapShowPopupLeft">从左边弹出Popup</view>
+        <view class="btn btn-default btn-block" bindtap="tapShowPopupRight">从右边弹出Popup</view>
+    </view>
+
+    <!--Popup弹出框功能模块-->
+    <view class="wexui-popup popup-center {{showPopupCenter?'popup-show':''}}">
+        <view class="popup-mask" bindtap="tapShowPopupCenter"></view>
+        <view class="popup-container">
+            <view class="btn btn-default btn-block" bindtap="tapShowPopupCenter">从中间弹出Popup</view>
+        </view>
+    </view>
+    <!--Popup弹出框功能模块-->
+    <view class="wexui-popup popup-top {{showPopupTop?'popup-show':''}}">
+        <view class="popup-mask" bindtap="tapShowPopupTop"></view>
+        <view class="popup-container">
+            <view class="btn btn-default btn-block" bindtap="tapShowPopupTop">从顶部弹出Popup</view>
+        </view>
+    </view>
+    <!--Popup弹出框功能模块-->
+    <view class="wexui-popup popup-bottom {{showPopupBottom?'popup-show':''}}">
+        <view class="popup-mask" bindtap="tapShowPopupBottom"></view>
+        <view class="popup-container">
+            <view class="btn btn-default btn-block" bindtap="tapShowPopupBottom">从底部弹出Popup</view>
+        </view>
+    </view>
+    <!--Popup弹出框功能模块-->
+    <view class="wexui-popup popup-left {{showPopupLeft?'popup-show':''}}">
+        <view class="popup-mask" bindtap="tapShowPopupLeft"></view>
+        <view class="popup-container">
+            <view class="btn btn-default btn-block" bindtap="tapShowPopupLeft">从左边弹出Popup</view>
+        </view>
+    </view>
+    <!--Popup弹出框功能模块-->
+    <view class="wexui-popup popup-right {{showPopupRight?'popup-show':''}}">
+        <view class="popup-mask" bindtap="tapShowPopupRight"></view>
+        <view class="popup-container">
+            <view class="btn btn-default btn-block" bindtap="tapShowPopupRight">从右边弹出Popup</view>
+        </view>
+    </view>
+
+</view>
