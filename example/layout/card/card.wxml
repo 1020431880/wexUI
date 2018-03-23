@@ -16,11 +16,18 @@
                 <view class="card-right-cols text-describe">x2</view>
             </view>
             <view class="card-rows">
-                <view class="card-left-cols text-danger">已发货</view>
+                <view class="card-left-cols text-danger">已发货
+                    <view class="wexui-capsule capsule-danger">
+                        <view class="capsule-right">限购一份</view>
+                    </view>
+                    <view class="wexui-capsule capsule-success">
+                        <view class="capsule-right">优先发货</view>
+                    </view>
+                </view>
             </view>
         </view>
     </view>
-     <view class="wexui-card">
+    <view class="wexui-card">
         <view class="card-thumb">
             <image src="../../images/card-thumb.jpg" />
         </view>
@@ -34,11 +41,18 @@
                 <view class="card-right-cols text-describe">x2</view>
             </view>
             <view class="card-rows">
-                <view class="card-left-cols text-danger">已发货</view>
+                <view class="card-left-cols text-danger">已发货
+                    <view class="wexui-capsule capsule-danger">
+                        <view class="capsule-right">限购一份</view>
+                    </view>
+                    <view class="wexui-capsule capsule-success">
+                        <view class="capsule-right">优先发货</view>
+                    </view>
+                </view>
             </view>
         </view>
     </view>
-     <view class="wexui-card">
+    <view class="wexui-card">
         <view class="card-thumb">
             <image src="../../images/card-thumb.jpg" />
         </view>
@@ -52,7 +66,14 @@
                 <view class="card-right-cols text-describe">x2</view>
             </view>
             <view class="card-rows">
-                <view class="card-left-cols text-danger">已发货</view>
+                <view class="card-left-cols text-danger">已发货
+                    <view class="wexui-capsule capsule-danger">
+                        <view class="capsule-right">限购一份</view>
+                    </view>
+                    <view class="wexui-capsule capsule-success">
+                        <view class="capsule-right">优先发货</view>
+                    </view>
+                </view>
             </view>
         </view>
     </view>

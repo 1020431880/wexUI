@@ -1,4 +1,4 @@
-<import src="../../../dist/wexUI/templates/steps/steps.wxml"  />
+<import src="../../../dist/wexUI/templates/steps/steps.wxml" />
 <view class="container">
     <view class="doc-title h3">Steps 步骤条</view>
     <!-- 模块 -->
@@ -14,19 +14,19 @@
         <template is="wexui-steps" data="{{type:'horiz',hasDesc:true,steps:steps4}}"></template>
     </view>
     <!-- 模块 -->
-    <view class="example-title">竖向骤条</view>
+    <view class="example-title">竖向步骤条</view>
     <view class="example-content">
         <template is="wexui-steps" data="{{type:'vert',steps:steps1}}"></template>
         <template is="wexui-steps" data="{{type:'vert',steps:steps2}}"></template>
         <template is="wexui-steps" data="{{type:'vert',steps:steps3}}"></template>
     </view>
     <!-- 模块 -->
-    <view class="example-title">竖向骤条-带描述</view>
+    <view class="example-title">竖向步骤条-带描述</view>
     <view class="example-content">
         <template is="wexui-steps" data="{{type:'vert',hasDesc:true,steps:steps4}}"></template>
     </view>
-      <!-- 模块 -->
-    <view class="example-title">竖向骤条-自定义class</view>
+    <!-- 模块 -->
+    <view class="example-title">竖向步骤条-自定义class</view>
     <view class="example-content">
         <template is="wexui-steps" data="{{type:'vert',hasDesc:true,className:'mySteps',steps:steps4}}"></template>
     </view>
