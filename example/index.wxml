@@ -12,7 +12,7 @@
                 <view class="item-inner {{item1?'item-inner-show':''}}">
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/basic/typography/typography">Typography 排版</view>
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/basic/color/color">Color 配色</view>
-                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/basic/icon/icon">Icon 图标</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/basic/icon/icon">Icon 官方图标</view>
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/basic/iconfont/iconfont">IconFont 字体图标</view>
                 </view>
             </view>

@@ -1,54 +1,23 @@
 <view class="container">
-    <view class="doc-title h3">Icon 图标</view>
+    <view class="doc-title h3">Icon 官方图标</view>
     <!-- 模块 -->
-    <view class="example-title">小程序Icon</view>
+    <view class="example-title">官方图标</view>
     <view class="example-content">
-        <view class="page__bd">
-            <view class="icon-box">
-                <icon type="success" size="80"></icon>
-                <view class="icon-box__ctn">
-                    <view class="icon-box__title">成功</view>
-                    <view class="icon-box__desc">用于表示操作顺利达成</view>
-                </view>
-            </view>
-            <view class="icon-box">
-                <icon type="info" size="80"></icon>
-                <view class="icon-box__ctn">
-                    <view class="icon-box__title">提示</view>
-                    <view class="icon-box__desc">用于表示信息提示；也常用于缺乏条件的操作拦截，提示用户所需信息</view>
-                </view>
-            </view>
-            <view class="icon-box">
-                <icon type="warn" size="80" color="#FFBE00"></icon>
-                <view class="icon-box__ctn">
-                    <view class="icon-box__title">普通警告</view>
-                    <view class="icon-box__desc">用于表示操作后将引起一定后果的情况</view>
-                </view>
-            </view>
-            <view class="icon-box">
-                <icon type="warn" size="80"></icon>
-                <view class="icon-box__ctn">
-                    <view class="icon-box__title">强烈警告</view>
-                    <view class="icon-box__desc">用于表示操作后将引起严重的不可挽回的后果的情况</view>
-                </view>
-            </view>
-            <view class="icon-box">
-                <icon type="waiting" size="80"></icon>
-                <view class="icon-box__ctn">
-                    <view class="icon-box__title">等待</view>
-                    <view class="icon-box__desc">用于表示等待</view>
-                </view>
-            </view>
-            <view class="icon_sp_area">
-                <icon type="success" size="23"></icon>
-                <icon type="success_no_circle" size="23"></icon>
-                <icon type="circle" size="23"></icon>
-                <icon type="warn" size="23" color="#F43530"></icon>
-                <icon type="download" size="23"></icon>
-                <icon type="info_circle" size="23"></icon>
-                <icon type="cancel" size="23"></icon>
-                <icon type="search" size="20"></icon>
-            </view>
-        </view>
+        <icon type="success" size="32" />
+        <icon type="info" size="32" />
+        <icon type="success" size="32" />
+        <icon type="warn" size="32" />
+        <icon type="waiting" size="32" />
+        <icon type="safe_success" size="32" />
+        <icon type="safe_warn" size="32" />
+        <icon type="success_circle" size="32" />
+        <icon type="success_no_circle" size="32" />
+        <icon type="waiting_circle" size="32" />
+        <icon type="circle" size="32" />
+        <icon type="download" size="32" />
+        <icon type="info_circle" size="32" />
+        <icon type="cancel" size="32" />
+        <icon type="search" size="32" />
+        <icon type="clear" size="32" />
     </view>
 </view>
