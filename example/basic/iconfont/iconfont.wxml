@@ -1,12 +1,29 @@
 <view class="container">
     <view class="doc-title h3">IconFont 字体图标</view>
     <!-- 模块 -->
-    <view class="example-title">字体图标</view>
+    <view class="example-title">字体图标(更多图标请在example/iconfont下查看)</view>
     <view class="example-content">
         <view class="icon icon-edit"></view>
         <view class="icon icon-delete"></view>
         <view class="icon icon-drop-sort"></view>
-        <view class="icon icon-gears"></view>
+        <view class="icon icon-money"></view>
+        <view class="icon icon-email"></view>
+        <view class="icon icon-key"></view>
+        <view class="icon icon-bell"></view>
+        <view class="icon icon-validation-code"></view>
+        <view class="icon icon-flag"></view>
+        <view class="icon icon-like"></view>
+        <view class="icon icon-location-on"></view>
+        <view class="icon icon-save"></view>
+
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">字体图标(可以使用css3动画)</view>
+    <view class="example-content">
         <view class="icon icon-spinner1 animated short spin"></view>
+        <view class="icon icon-spinner2 animated short spin"></view>
+        <view class="icon icon-spinner3 animated short spin"></view>
+        <view class="icon icon-spinner4 animated short spin"></view>
+        <view class="icon icon-setting animated short spin"></view>
     </view>
 </view>

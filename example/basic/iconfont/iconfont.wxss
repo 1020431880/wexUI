@@ -2,4 +2,5 @@
     font-size: 30px;
     padding: 16rpx;
     margin: 10rpx;
+    color:#8e8e90;
 }
