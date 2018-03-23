@@ -18,7 +18,7 @@
         <view class="btn btn-success btn-block" bindtap="tapShowToastSuccess">自定义Toast-success</view>
         <view class="btn btn-danger btn-block" bindtap="tapShowToastFail">自定义Toast-fail</view>
         <view class="btn btn-info btn-block" bindtap="tapShowToastInfo">自定义Toast-info</view>
-        <view class="btn btn-warning btn-block" bindtap="tapShowToastWarn">自定义Toast-warn</view>
+        <view class="btn btn-warn btn-block" bindtap="tapShowToastWarn">自定义Toast-warn</view>
         <view class="btn btn-primary btn-block" bindtap="tapShowToastImage">自定义Toast-图片作为图标</view>
     </view>
 

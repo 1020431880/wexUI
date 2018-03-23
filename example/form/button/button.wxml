@@ -8,7 +8,7 @@
         <view class="btn btn-primary">主要按钮</view>
         <view class="btn btn-success">成功按钮</view>
         <view class="btn btn-info">提示按钮</view>
-        <view class="btn btn-warning">警告按钮</view>
+        <view class="btn btn-warn">警告按钮</view>
         <view class="btn btn-danger">危险按钮</view>
         <view class="btn btn-link">链接按钮</view>
         <view class="btn disabled">禁用按钮</view>
@@ -20,7 +20,7 @@
         <view class="text-primary">主要文字</view>
         <view class="text-success">成功文字</view>
         <view class="text-info">提示文字</view>
-        <view class="text-warning">警告文字</view>
+        <view class="text-warn">警告文字</view>
         <view class="text-danger">危险文字</view>
     </view>
     <!-- 模块 -->
@@ -29,31 +29,29 @@
         <view class="btn btn-primary-outline">主要按钮</view>
         <view class="btn btn-success-outline">成功按钮</view>
         <view class="btn btn-info-outline">提示按钮</view>
-        <view class="btn btn-warning-outline">警告按钮</view>
+        <view class="btn btn-warn-outline">警告按钮</view>
         <view class="btn btn-danger-outline">危险按钮</view>
     </view>
       <!-- 模块 -->
     <view class="example-title">带动画正在处理中按钮</view>
     <view class="example-content">
-        <view class="btn btn-primary loading"><text class="wexui-loading2"></text>正在处理中</view>
+        <view class="btn btn-primary loading size-big"><text class="wexui-loading2"></text>正在处理中</view>
     </view>
     <!-- 模块 -->
     <view class="example-title">图标按钮</view>
     <view class="example-content">
         <view class="btn btn-primary"><icon type="success" size="18" color="#fff"/>官方图标按钮</view>
-        <view class="btn btn-primary"><image src="../../images/add.png"/>图片按钮</view>
+        <view class="btn btn-primary"><image src="../../images/cut.png"/>使用图片按钮</view>
         <view class="btn btn-primary"><text class="icon icon-save"></text>字体图标按钮</view>
         <view class="btn btn-primary"><text class="icon icon-delete"></text>字体图标按钮</view>
         <view class="btn btn-default-outline"><text class="icon icon-edit"></text>字体图标按钮</view>
-        <view class="btn btn-primary-outline"><text class="icon icon-delete"></text>字体图标按钮</view>
+        <view class="btn btn-dashed"><text class="icon icon-delete"></text>字体图标按钮</view>
     </view>
     <!-- 模块 -->
     <view class="example-title">尺寸</view>
     <view class="example-content">
-        <view class="btn btn-primary size-large btn-block">特大</view>
         <view class="btn btn-success size-big btn-block">大按钮</view>
-        <view class="btn btn-info btn-block">默认大小</view>
-        <view class="btn btn-warning size-small btn-block">小按钮</view>
-        <view class="btn btn-danger size-mini btn-block">迷你按钮</view>
+        <view class="btn btn-primary btn-block">默认大小</view>
+        <view class="btn btn-danger size-small btn-block">小按钮</view>
     </view>
 </view>

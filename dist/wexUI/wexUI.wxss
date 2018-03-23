@@ -70,34 +70,6 @@ icon {
 }
 
 /*
- * 功能：文本框，按钮等样式大小
- *
- * 描述：文本框，按钮等样式大小
- * 创建日期：2017-11-27
- * 更新日期：2017-11-27
- */
-
-.size-large {
-    padding: 26rpx 46rpx !important;
-    font-size: 34rpx !important;
-}
-
-.size-big {
-    padding: 20rpx 36rpx !important;
-    font-size: 32rpx !important;
-}
-
-.size-small {
-    padding: 12rpx 20rpx !important;
-    font-size: 28rpx !important;
-}
-
-.size-mini {
-    padding: 8rpx 12rpx !important;
-    font-size: 26rpx !important;
-}
-
-/*
  * 功能：圆角样式
  *
  * 描述：圆角样式
@@ -118,18 +90,18 @@ icon {
 }
 
 /*
- * 功能：通用禁用状态
+ * 功能：公用禁用状态
  *
- * 描述：通用禁用状态
+ * 描述：公用禁用状态
  * 创建日期：2017-11-27
- * 更新日期：2017-11-27
+ * 更新日期：2018-3-23
  */
 
 .disabled {
-    background-color: #f2f2f2;
-    color: #bfbfc1;
-    box-sizing: border-box;
+    background-color: #f2f2f2 !important;
+    color: #bfbfc1 !important;
     border: solid 2rpx #f2f2f2 !important;
+    box-sizing: border-box !important;
 }
 
 /**********************************************************************
@@ -777,7 +749,7 @@ icon {
     color: #59c7f9;
 }
 
-.text-warning {
+.text-warn {
     color: #ff870d;
     border-color: transparent;
     background-color: transparent;
@@ -785,7 +757,7 @@ icon {
     -webkit-transition: all 0.2s;
 }
 
-.text-warning:active {
+.text-warn:active {
     color: #f9a650;
 }
 
@@ -920,7 +892,7 @@ icon {
 
 .btn {
     display: inline-block;
-    padding: 16rpx 28rpx;
+    padding: 16rpx 32rpx;
     text-align: center;
     font-size: 30rpx;
     outline: none;
@@ -955,7 +927,6 @@ icon {
 .btn.btn-dashed:active {
     color: #2d8cf0;
     border: dashed 2rpx #2d8cf0;
-    text-decoration: none;
 }
 
 /*dashed-按钮*/
@@ -998,15 +969,15 @@ icon {
     text-decoration: none;
 }
 
-/*warning-按钮*/
+/*warn-按钮*/
 
-.btn.btn-warning {
+.btn.btn-warn {
     color: #fff;
     background: #ff870d;
     border: solid 2rpx #ff870d;
 }
 
-.btn.btn-warning:active {
+.btn.btn-warn:active {
     background-color: #f9a650;
     border: solid 2rpx #f9a650;
 }
@@ -1095,15 +1066,15 @@ icon {
     border: 1px solid #59c7f9;
 }
 
-/*warning-空心*/
+/*warn-空心*/
 
-.btn.btn-warning-outline {
+.btn.btn-warn-outline {
     color: #ff870d;
     background-color: #fff;
     border: solid 1px #ff870d;
 }
 
-.btn.btn-warning-outline:active {
+.btn.btn-warn-outline:active {
     color: #f9a650;
     border: 1px solid #f9a650;
 }
@@ -1121,72 +1092,14 @@ icon {
     border: 1px solid #f9605f;
 }
 
-/*带icon图标*/
-
-.btn .icon {
-    margin-right: 6rpx;
-}
-
-.btn icon {
-    padding: 0rpx 10rpx;
-    vertical-align: middle;
-    margin-top: -10rpx;
-    size: 18px;
-}
-
-.btn.size-mini icon {
-    padding: 0rpx 10rpx;
-    vertical-align: middle;
-    margin-top: -6rpx;
-    size: 18px;
-}
-
-.btn.size-large image {
-    height: 36rpx;
-    width: 36rpx;
-    padding: 0rpx 14rpx;
-    vertical-align: middle;
-    margin-top: -12rpx;
-}
-
-.btn.size-big image {
-    height: 32rpx;
-    width: 32rpx;
-    padding: 0rpx 12rpx;
-    vertical-align: middle;
-    margin-top: -14rpx;
-}
-
-.btn image {
-    height: 28rpx;
-    width: 28rpx;
-    padding: 0rpx 10rpx;
-    vertical-align: middle;
-    margin-top: -12rpx;
-}
-
-.btn.size-small image {
-    height: 24rpx;
-    width: 24rpx;
-    padding: 0rpx 8rpx;
-    vertical-align: middle;
-    margin-top: -8rpx;
-}
-
-.btn.size-mini image {
-    height: 20rpx;
-    width: 20rpx;
-    padding: 0rpx 6rpx;
-    vertical-align: middle;
-    margin-top: -4rpx;
-}
-
 /*按钮正在处理中*/
 
 .btn.loading {
     background-color: #f2f2f2;
     color: #bfbfc1;
     border: solid 2rpx #eee;
+    padding: 16rpx 32rpx !important;
+    font-size: 30rpx !important;
 }
 
 .btn.loading .wexui-loading1,
@@ -1196,13 +1109,55 @@ icon {
 .btn.loading .wexui-loading5,
 .btn.loading .wexui-loading6,
 .btn.loading .wexui-loading7 {
-    margin-right: 6rpx;
+    position: relative;
+    height: 28rpx;
+    width: 28rpx;
+    vertical-align: middle;
+    top: -4rpx;
+    margin-right: 4rpx;
 }
 
 .btn.loading:active {
     background-color: #f2f2f2;
     color: #bfbfc1;
     border: solid 2rpx #eee;
+}
+
+/*按钮尺寸*/
+
+.btn.size-big {
+    padding: 22rpx 44rpx;
+    font-size: 32rpx;
+}
+
+.btn.size-small {
+    padding: 10rpx 20rpx;
+    font-size: 26rpx;
+}
+
+/*按钮里面是字体图标*/
+
+.btn .icon {
+    padding: 0px 4rpx;
+    vertical-align: middle;
+}
+
+/*按钮里面是官方图标*/
+
+.btn icon {
+    padding: 0rpx 4rpx;
+    vertical-align: middle;
+    margin-top: -4rpx;
+}
+
+/*按钮里面是图片*/
+
+.btn image {
+    height: 28rpx;
+    width: 28rpx;
+    padding: 0rpx 4rpx;
+    vertical-align: middle;
+    margin-top: -4rpx;
 }
 
 /*
@@ -1228,17 +1183,11 @@ icon {
 .input-text input {
     padding: 0px;
     width: 100%;
+    margin: 0px;
 }
 
-.input-text.input-border {
+.input-text.input-bottom-border {
     border-bottom: solid 2rpx #eee;
-}
-
-/*文本框禁用*/
-
-.input-text.disabled {
-    background-color: #f2f2f2;
-    color: #bfbfc1;
 }
 
 /*带图标或者图片的文本框*/
@@ -1248,20 +1197,23 @@ icon {
 }
 
 .input-text image {
-    height: 36rpx;
-    width: 36rpx;
+    height: 40rpx;
+    width: 40rpx;
+}
+
+.input-text .icon {
+    font-size: 38rpx;
+    color: #8e8e90;
 }
 
 /*输入框尺寸大小重新定义*/
 
 .input-text.size-big {
-    padding-left: 18rpx !important;
-    padding-right: 18rpx !important;
+    padding: 22rpx;
 }
 
-.input-text.size-large {
-    padding-left: 22rpx !important;
-    padding-right: 22rpx !important;
+.input-text.size-small {
+    padding: 0px 10rpx;
 }
 
 /*
@@ -1357,12 +1309,6 @@ icon {
     border-radius: 0;
 }
 
-.input-number.disabled {
-    border: 0 !important;
-    background-color: #f2f2f2;
-    color: #bfbfc1;
-}
-
 /*inputNumber尺寸大小，有size-small和size-big*/
 
 .input-number.size-small {
@@ -1390,6 +1336,12 @@ icon {
 
 .input-number.size-big>.input-number-label {
     padding: 8rpx 40rpx !important;
+}
+
+/*input-number下的禁用*/
+
+.input-number.disabled {
+    border: 0 !important;
 }
 
 /*
@@ -2690,9 +2642,9 @@ icon {
     color: #fff;
 }
 
-/*warning*/
+/*warn*/
 
-.wexui-tags.tags-warning {
+.wexui-tags.tags-warn {
     background: #ff870d;
     border: solid 2rpx #ff870d;
     color: #fff;
@@ -2709,7 +2661,7 @@ icon {
 .wexui-tags.tags-primary .tags-close::after,
 .wexui-tags.tags-info .tags-close::after,
 .wexui-tags.tags-success .tags-close::after,
-.wexui-tags.tags-warning .tags-close::after,
+.wexui-tags.tags-warn .tags-close::after,
 .wexui-tags.tags-danger .tags-close::after {
     content: "×";
     position: absolute;
@@ -2824,15 +2776,15 @@ icon {
     border-right: solid 2rpx #5bc558;
 }
 
-/*warning-空心*/
+/*warn-空心*/
 
-.wexui-tags.tags-warning-outline {
+.wexui-tags.tags-warn-outline {
     background: #fff;
     border: solid 2rpx #ff870d;
     color: #ff870d;
 }
 
-.wexui-tags.tags-warning-outline .tags-close::after {
+.wexui-tags.tags-warn-outline .tags-close::after {
     content: "×";
     position: absolute;
     bottom: -1rpx;
@@ -2843,11 +2795,11 @@ icon {
     transition: all 0.2s;
 }
 
-.wexui-tags.tags-warning-outline.tags-split .tags-close {
+.wexui-tags.tags-warn-outline.tags-split .tags-close {
     margin-left: 8rpx !important;
 }
 
-.wexui-tags.tags-warning-outline.tags-split::after {
+.wexui-tags.tags-warn-outline.tags-split::after {
     content: "";
     height: 100%;
     width: 2rpx;

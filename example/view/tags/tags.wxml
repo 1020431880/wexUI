@@ -19,7 +19,7 @@
         <view class="wexui-tags tags-success size-small">小标签</view>
         <view class="wexui-tags tags-danger">默认大小</view>
         <view class="wexui-tags tags-success-outline size-big">大标签</view>
-        <view class="wexui-tags tags-warning size-big">大标签</view>
+        <view class="wexui-tags tags-warn size-big">大标签</view>
     </view>
     <!-- 模块 -->
     <view class="example-title">不同颜色标签</view>
@@ -28,7 +28,7 @@
         <view class="wexui-tags tags-primary">标签一</view>
         <view class="wexui-tags tags-info">标签二</view>
         <view class="wexui-tags tags-success">标签二</view>
-        <view class="wexui-tags tags-warning">标签二</view>
+        <view class="wexui-tags tags-warn">标签二</view>
         <view class="wexui-tags tags-danger">标签二</view>
     </view>
     <!-- 模块 -->
@@ -37,7 +37,7 @@
         <view class="wexui-tags tags-primary">标签一<span class="tags-close"></span></view>
         <view class="wexui-tags tags-info">标签二<span class="tags-close"></span></view>
         <view class="wexui-tags tags-success">标签二<span class="tags-close"></span></view>
-        <view class="wexui-tags tags-warning">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-warn">标签二<span class="tags-close"></span></view>
         <view class="wexui-tags tags-danger">标签二<span class="tags-close"></span></view>
     </view>
     <!-- 模块 -->
@@ -46,7 +46,7 @@
         <view class="wexui-tags tags-primary-outline">标签一<span class="tags-close"></span></view>
         <view class="wexui-tags tags-info-outline">标签二<span class="tags-close"></span></view>
         <view class="wexui-tags tags-success-outline">标签二<span class="tags-close"></span></view>
-        <view class="wexui-tags tags-warning-outline">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-warn-outline">标签二<span class="tags-close"></span></view>
         <view class="wexui-tags tags-danger-outline">标签二<span class="tags-close"></span></view>
     </view>
     <!-- 模块 -->
@@ -55,7 +55,7 @@
         <view class="wexui-tags tags-primary-outline tags-split">标签一<span class="tags-close"></span></view>
         <view class="wexui-tags tags-info-outline tags-split">标签二<span class="tags-close"></span></view>
         <view class="wexui-tags tags-success-outline tags-split">标签二<span class="tags-close"></span></view>
-        <view class="wexui-tags tags-warning-outline tags-split">标签二<span class="tags-close"></span></view>
+        <view class="wexui-tags tags-warn-outline tags-split">标签二<span class="tags-close"></span></view>
         <view class="wexui-tags tags-danger-outline tags-split">标签二<span class="tags-close"></span></view>
     </view>
 </view>
