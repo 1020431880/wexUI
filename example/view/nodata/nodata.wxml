@@ -1,0 +1,24 @@
+<view class="container">
+    <view class="doc-title h3">Nodata 暂无数据</view>
+    <!-- 模块 -->
+    <view class="example-title">普通文字</view>
+    <view class="example-content">
+        <view class="wexui-nodata">暂无数据</view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">带横线</view>
+    <view class="example-content">
+        <view class="wexui-nodata nodata-line">
+            <view class="nodata-tips">暂无数据</view>
+        </view>
+    </view>
+    <!-- 模块 -->
+    <view class="example-title">带图标</view>
+    <view class="example-content">
+        <view class="wexui-nodata">
+            <view class="icon icon-nodata"></view>
+            <view class="nodata-tips">抱歉，暂无数据</view>
+        </view>
+    </view>
+
+</view>

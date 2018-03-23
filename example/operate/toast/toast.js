@@ -46,37 +46,37 @@ Page(Object.assign({}, wexUI.Toast, {
   },
   tapShowToastLoading(e) {
     this.showToast({
-      title: "你好，正在操作中",
+      title: "你好，正在操作中..",
       icon: "loading"
     });
   },
   tapShowToastSuccess(e) {
     this.showToast({
-      title: "你好，正在操作中",
+      title: "你好，操作成功！",
       icon: "success"
     });
   },
   tapShowToastFail(e) {
     this.showToast({
-      title: "你好，正在操作中",
+      title: "抱歉，操作失败！",
       icon: "fail"
     });
   },
   tapShowToastInfo(e) {
     this.showToast({
-      title: "你好，正在操作中",
+      title: "抱歉，操作提示！",
       icon: "info"
     });
   },
   tapShowToastWarn(e) {
     this.showToast({
-      title: "你好，正在操作中",
+      title: "抱歉，操作警告！",
       icon: "warn"
     });
   },
   tapShowToastImage(e) {
     this.showToast({
-      title: "你好，正在操作中",
+      title: "正在使用自定义图标..",
       icon: "warn",
       image: "https://b.yzcdn.cn/v2/image/dashboard/secured_transaction/suc_green@2x.png"
     });

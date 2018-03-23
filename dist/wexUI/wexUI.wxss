@@ -1898,6 +1898,7 @@ icon {
     padding: 16rpx;
     position: relative;
     background: #fff;
+    font-size: 30rpx;
 }
 
 .wexui-panel:not(:first-child):before {
@@ -2184,7 +2185,7 @@ icon {
 }
 
 .wexui-list.list-form .list-content .add-images .add-icon:last-child {
-    line-height: 120rpx;
+    line-height: 110rpx;
 }
 
 .wexui-list.list-form .list-content .add-images .add-icon {
@@ -3175,7 +3176,7 @@ icon {
 }
 
 .input-group>input:last-child {
-    padding: 18rpx 18rpx 16rpx 18rpx;
+    padding: 18rpx;
     border-top-left-radius: 0;
     flex: 9;
     border-bottom-left-radius: 0;
@@ -3252,6 +3253,57 @@ icon {
 }
 
 /*
+ * 功能：页面展示-Nodata暂无数据
+ *
+ * 描述：nodata暂无数据
+ * 创建日期：2018-3-23
+ * 更新日期：2018-3-23
+ */
+
+.wexui-nodata {
+    position: relative;
+    padding: 20rpx;
+    font-size: 26rpx;
+    color: #8e8e90;
+    text-align: center;
+    background: #fff;
+    z-index: 1;
+}
+
+.wexui-nodata .nodata-tips {
+    display: inline-block;
+    margin: 0px auto;
+    background: #fff;
+    padding: 0px 10rpx;
+}
+
+.wexui-nodata.nodata-line::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 36rpx;
+    left: 10%;
+    right: 10%;
+    height: 2rpx;
+    background: #eee;
+    z-index: -1;
+}
+
+/*带图片的暂无数据*/
+
+.wexui-nodata .icon.icon-nodata {
+    position: relative;
+    font-size: 180rpx;
+    right: -24rpx;
+}
+
+.wexui-nodata .icon.icon-nodata+.nodata-tips {
+    display: block;
+    position: relative;
+    top: -20rpx;
+}
+
+/*
  * 功能：页面展示-搜索框
  *
  * 描述：搜索框
@@ -3260,25 +3312,25 @@ icon {
  */
 
 .wexui-searchbox {
-    padding: 16rpx 18rpx;
     position: relative;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
-    background: #fff;
     transition: all 0.2s;
     font-size: 30rpx;
 }
 
 .wexui-searchbox .searchbox-input {
+    padding: 16rpx 18rpx;
     flex: 1;
+    background: #fff;
     -webkit-box-flex: 1;
 }
 
 .wexui-searchbox .searchbox-input icon {
     position: absolute;
-    top: 30.33333%;
+    top: 30.333%;
 }
 
 .wexui-searchbox .searchbox-input input {

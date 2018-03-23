@@ -94,6 +94,7 @@
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/buttonGroup/buttonGroup">ButtonGroup 按钮组</view>
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/inputGroup/inputGroup">InputGroup 输入框组</view>
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/loadMore/loadMore">LoadMore 加载更多</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/nodata/nodata">Nodata 暂无数据</view>
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/progress/progress">Progress 进度条</view>
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/searchBox/searchBox">Searchbox 搜索框</view>
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/view/steps/steps">Steps 步骤条</view>

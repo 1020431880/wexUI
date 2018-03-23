@@ -16,9 +16,9 @@
     <view class="example-content">
         <view class="wexui-tags disabled size-small">小标签禁用</view>
         <view class="wexui-tags tags-primary-outline size-small">小标签</view>
-        <view class="wexui-tags tags-success-outline size-big">大标签</view>
         <view class="wexui-tags tags-success size-small">小标签</view>
         <view class="wexui-tags tags-danger">默认大小</view>
+        <view class="wexui-tags tags-success-outline size-big">大标签</view>
         <view class="wexui-tags tags-warning size-big">大标签</view>
     </view>
     <!-- 模块 -->

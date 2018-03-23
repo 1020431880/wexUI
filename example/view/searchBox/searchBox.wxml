@@ -22,9 +22,10 @@
     <view class="example-content">
         <view class="wexui-searchbox">
             <view class="searchbox-input">
-                <input type="text" placeholder="搜索内容" />
+                <icon type="search" size="16" />
+                <input type="text" placeholder="搜索内容" bindfocus="tapToggleSearchCancel" bindblur="tapToggleSearchCancel" />
             </view>
-            <view class="searchbox-text text-success">取消</view>
+            <view class="searchbox-text text-success" wx:if="{{isSearchCancel}}" bindtap="tapSearchCancel">取消</view>
         </view>
     </view>
 </view>

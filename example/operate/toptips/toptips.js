@@ -46,13 +46,13 @@ Page(Object.assign({}, wexUI.Toptips, {
   },
   tapShowToptipsInfo() {
     this.showToptips({
-      title: "操作信息！",
+      title: "操作提示！",
       type: "info"
     });
   },
   tapShowToptipsWarn() {
     this.showToptips({
-      title: "操作发出警告！",
+      title: "操作警告！",
 
       type: "warn"
     });

@@ -1,5 +1,7 @@
 {
   "pages": [
+
+
     "example/index",
 
     "example/basic/typography/typography",
@@ -44,6 +46,7 @@
     "example/view/buttonGroup/buttonGroup",
     "example/view/inputGroup/inputGroup",
     "example/view/loadMore/loadMore",
+    "example/view/nodata/nodata",
     "example/view/progress/progress",
     "example/view/searchBox/searchBox",
     "example/view/steps/steps",
