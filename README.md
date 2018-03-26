@@ -4,16 +4,16 @@
 > 口号：do more. do better!
 
 ---
-##**概述**
+## 概述
 ------
 &nbsp;&nbsp;[wexUI框架](https://github.com/1020431880/wexUI.git)是个人开发的一套适用于小程序的UI框架，目前还在不断成长和完善中，后续会实时跟进小程序官方的一些特性来做出新的功能，期待ing^_^...
 
-##**下载**
+## 下载
 ------
 ```js
 git clone https://github.com/1020431880/wexUI.git
 ```
-##**预览**
+## 预览
 ------
 * 1.&nbsp;打开[微信](https://weixin.qq.com/) > 扫一扫即可进入查看。
 ![image](http://i2.bvimg.com/638261/757a20b8cd8ca493t.jpg)
