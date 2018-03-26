@@ -1,7 +1,6 @@
 # wexUI框架
 
 标签（空格分隔）： 微信小程序UI框架
-> 口号：do more. do better!
 
 ---
 ## 概述
