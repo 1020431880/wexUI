@@ -4,7 +4,7 @@
 
 ![image](http://i2.bvimg.com/638261/757a20b8cd8ca493t.jpg)
  
-
+以下是效果图片：
 ![image](http://i2.bvimg.com/638261/8c3ff030bb804257t.jpg)
 ![image](http://i2.bvimg.com/638261/f716b9998934d93et.jpg)
 ![image](http://i2.bvimg.com/638261/91eaadf6d276376ft.jpg)
