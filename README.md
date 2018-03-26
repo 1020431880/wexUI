@@ -2,13 +2,13 @@
 
 直接下载后导入到开发者工具运行，所有打包后的代码都在dist/wexUI，项目里可以直接引用dist下面的wexUI。
 
-![image](https://github.com/1020431880/wexUI/blob/master/example/images/logo.png)
+![image](http://i2.bvimg.com/638261/757a20b8cd8ca493t.jpg)
  
 
-![image](https://github.com/1020431880/wexUI/blob/master/example/images/demo1.png)
-![image](https://github.com/1020431880/wexUI/blob/master/example/images/demo2.png)
-![image](https://github.com/1020431880/wexUI/blob/master/example/images/demo3.png)
-![image](https://github.com/1020431880/wexUI/blob/master/example/images/demo4.png)
-![image](https://github.com/1020431880/wexUI/blob/master/example/images/demo5.png)
+![image](http://i2.bvimg.com/638261/8c3ff030bb804257t.jpg)
+![image](http://i2.bvimg.com/638261/f716b9998934d93et.jpg)
+![image](http://i2.bvimg.com/638261/91eaadf6d276376ft.jpg)
+![image](http://i2.bvimg.com/638261/94e4bf2cbd0a354et.jpg)
+![image](http://i2.bvimg.com/638261/726f795d6e8d4f11t.jpg)
 
-![image](https://github.com/1020431880/wexUI/blob/master/example/images/wexUI%E6%A1%86%E6%9E%B6%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
+![image](http://i2.bvimg.com/638261/d7973da7f4e04f75t.jpg)
