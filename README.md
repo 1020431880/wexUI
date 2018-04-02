@@ -40,7 +40,7 @@ git clone https://github.com/1020431880/wexUI.git
 
 
 ## 讨论交流
-本人新建了个QQ群，加群可以多讨论交流，互相学习。
+本人新建了个QQ群，加群可以多讨论交流，互相学习。</br>
 ![image](http://i2.bvimg.com/638261/d7973da7f4e04f75t.jpg)
 
 ## 备注
