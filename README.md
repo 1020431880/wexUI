@@ -24,19 +24,19 @@ git clone https://github.com/1020431880/wexUI.git
 ```
 
 ## 效果预览
-![image](http://i4.bvimg.com/638261/8fd69acde7bf89b7.jpg)
-![image](http://i4.bvimg.com/638261/e0b9f1abf6b419d3.jpg)
-![image](http://i4.bvimg.com/638261/547d866b8c0cf055.jpg)
-![image](http://i4.bvimg.com/638261/0fe87648ee72e404.jpg)
-![image](http://i4.bvimg.com/638261/eeb1bbf95557ce88.jpg)
-![image](http://i4.bvimg.com/638261/86d2f8e02d0fea49.jpg)
-![image](http://i4.bvimg.com/638261/d82dbd8b1ede839d.jpg)
-![image](http://i4.bvimg.com/638261/05b3b9dce8a2cd8a.jpg)
-![image](http://i4.bvimg.com/638261/05b3b9dce8a2cd8a.jpg)
-![image](http://i4.bvimg.com/638261/f3e56365e7e3d2fd.jpg)
-![image](http://i4.bvimg.com/638261/118b65d5345f9018.jpg)
-![image](http://i4.bvimg.com/638261/12ccb1e43d622c1e.jpg)
-![image](http://i4.bvimg.com/638261/bf95681d040f5d79.jpg)
+![image](http://i4.bvimg.com/638261/8fd69acde7bf89b7.jpg)</br>
+![image](http://i4.bvimg.com/638261/e0b9f1abf6b419d3.jpg)</br>
+![image](http://i4.bvimg.com/638261/547d866b8c0cf055.jpg)</br>
+![image](http://i4.bvimg.com/638261/0fe87648ee72e404.jpg)</br>
+![image](http://i4.bvimg.com/638261/eeb1bbf95557ce88.jpg)</br>
+![image](http://i4.bvimg.com/638261/86d2f8e02d0fea49.jpg)</br>
+![image](http://i4.bvimg.com/638261/d82dbd8b1ede839d.jpg)</br>
+![image](http://i4.bvimg.com/638261/05b3b9dce8a2cd8a.jpg)</br>
+![image](http://i4.bvimg.com/638261/05b3b9dce8a2cd8a.jpg)</br>
+![image](http://i4.bvimg.com/638261/f3e56365e7e3d2fd.jpg)</br>
+![image](http://i4.bvimg.com/638261/118b65d5345f9018.jpg)</br>
+![image](http://i4.bvimg.com/638261/12ccb1e43d622c1e.jpg)</br>
+![image](http://i4.bvimg.com/638261/bf95681d040f5d79.jpg)</br>
 
 
 ## 讨论交流
