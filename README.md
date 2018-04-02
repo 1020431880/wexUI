@@ -9,11 +9,11 @@ git clone https://github.com/1020431880/wexUI.git
 ```
 
 ## 预览
-1.&nbsp;打开[微信](https://weixin.qq.com/) > 扫一扫即可进入查看。<br/>
+1.&nbsp;打开[微信](https://weixin.qq.com/) > 扫一扫即可进入查看。
 ![image](http://i2.bvimg.com/638261/757a20b8cd8ca493t.jpg)
 
-2.&nbsp;打开[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，添加新项目，即可在线查看[wexUI框架](https://github.com/1020431880/wexUI.git)的源码<br/>
-![image](http://i2.bvimg.com/638261/8c3ff030bb804257t.jpg)
+2.&nbsp;打开[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，添加新项目，即可在线查看[wexUI框架](https://github.com/1020431880/wexUI.git)的源码
+![image](http://i4.bvimg.com/638261/ab9ea3b204593103.jpg)
 
 
 ## 使用
@@ -23,11 +23,20 @@ git clone https://github.com/1020431880/wexUI.git
 2. 页面中的使用请查看example下面的引用示例
 ```
 
-## 一些效果预览
-![image](http://i2.bvimg.com/638261/f716b9998934d93et.jpg)
-![image](http://i2.bvimg.com/638261/91eaadf6d276376ft.jpg)
-![image](http://i2.bvimg.com/638261/94e4bf2cbd0a354et.jpg)
-![image](http://i2.bvimg.com/638261/726f795d6e8d4f11t.jpg)
+## 效果预览
+![image](http://i4.bvimg.com/638261/8fd69acde7bf89b7.jpg)
+![image](http://i4.bvimg.com/638261/e0b9f1abf6b419d3.jpg)
+![image](http://i4.bvimg.com/638261/547d866b8c0cf055.jpg)
+![image](http://i4.bvimg.com/638261/0fe87648ee72e404.jpg)
+![image](http://i4.bvimg.com/638261/eeb1bbf95557ce88.jpg)
+![image](http://i4.bvimg.com/638261/86d2f8e02d0fea49.jpg)
+![image](http://i4.bvimg.com/638261/d82dbd8b1ede839d.jpg)
+![image](http://i4.bvimg.com/638261/05b3b9dce8a2cd8a.jpg)
+![image](http://i4.bvimg.com/638261/05b3b9dce8a2cd8a.jpg)
+![image](http://i4.bvimg.com/638261/f3e56365e7e3d2fd.jpg)
+![image](http://i4.bvimg.com/638261/118b65d5345f9018.jpg)
+![image](http://i4.bvimg.com/638261/12ccb1e43d622c1e.jpg)
+![image](http://i4.bvimg.com/638261/bf95681d040f5d79.jpg)
 
 
 ## 讨论交流
