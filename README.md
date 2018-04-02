@@ -24,7 +24,7 @@ git clone https://github.com/1020431880/wexUI.git
 ```
 
 ## 效果预览
-![image](http://i4.bvimg.com/638261/8fd69acde7bf89b7.jpg)
+![image](http://i4.bvimg.com/638261/8fd69acde7bf89b7.jpg){:height="50%" width="50%"}
 ![image](http://i4.bvimg.com/638261/e0b9f1abf6b419d3.jpg)
 ![image](http://i4.bvimg.com/638261/547d866b8c0cf055.jpg)
 ![image](http://i4.bvimg.com/638261/0fe87648ee72e404.jpg)
