@@ -19,6 +19,7 @@ page {
     font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
 }
 
+
 /*
  * 功能：页面全屏
  *
@@ -41,6 +42,7 @@ page {
     -webkit-overflow-scrolling: touch;
 }
 
+
 /*
  * 功能：清除浮动
  *
@@ -57,6 +59,7 @@ page {
     visibility: hidden;
 }
 
+
 /*
  * 功能：icon垂直居中
  *
@@ -68,6 +71,7 @@ page {
 icon {
     vertical-align: middle;
 }
+
 
 /*
  * 功能：圆角样式
@@ -89,6 +93,7 @@ icon {
     border-radius: 100rpx !important;
 }
 
+
 /*
  * 功能：公用禁用状态
  *
@@ -104,11 +109,13 @@ icon {
     box-sizing: border-box !important;
 }
 
+
 /**********************************************************************
 ***********************************************************************
    类别：基本元素
 ***********************************************************************
 ***********************************************************************/
+
 
 /*
  * 功能：基本元素-文字排版
@@ -178,6 +185,7 @@ icon {
     font-size: 75%;
 }
 
+
 /*字体强调*/
 
 .text-deleted {
@@ -231,6 +239,7 @@ icon {
 .text-describe {
     color: #8e8e90;
 }
+
 
 /*字体大小*/
 
@@ -318,6 +327,7 @@ icon {
     font-size: 32px;
 }
 
+
 /*定位浮动、显示隐藏*/
 
 .float-left {
@@ -376,6 +386,7 @@ icon {
     position: relative;
 }
 
+
 /*上外边距*/
 
 .margin-top-3 {
@@ -405,6 +416,7 @@ icon {
 .margin-top-30 {
     margin-top: 60rpx;
 }
+
 
 /*下外边距*/
 
@@ -436,6 +448,7 @@ icon {
     margin-bottom: 60rpx;
 }
 
+
 /*左外边距*/
 
 .margin-left-3 {
@@ -465,6 +478,7 @@ icon {
 .margin-left-30 {
     margin-left: 60rpx;
 }
+
 
 /*右边距*/
 
@@ -496,6 +510,7 @@ icon {
     margin-right: 60rpx;
 }
 
+
 /*四周边距*/
 
 .margin-3 {
@@ -525,6 +540,7 @@ icon {
 .margin-30 {
     margin: 60rpx;
 }
+
 
 /*上内边距*/
 
@@ -556,6 +572,7 @@ icon {
     padding-top: 60rpx;
 }
 
+
 /*下内边距*/
 
 .padding-bottom-3 {
@@ -585,6 +602,7 @@ icon {
 .padding-bottom-30 {
     padding-bottom: 60rpx;
 }
+
 
 /*左内边距*/
 
@@ -616,6 +634,7 @@ icon {
     padding-left: 60rpx;
 }
 
+
 /*右内边距*/
 
 .padding-right-3 {
@@ -645,6 +664,7 @@ icon {
 .padding-right-30 {
     padding-right: 60rpx;
 }
+
 
 /*四周边距*/
 
@@ -676,6 +696,7 @@ icon {
     padding: 60rpx;
 }
 
+
 /*文字溢出显示省略号*/
 
 .line {
@@ -685,6 +706,7 @@ icon {
     float: none;
 }
 
+
 /*文字溢出显示省略号*/
 
 .text-overflow {
@@ -693,11 +715,13 @@ icon {
     white-space: nowrap;
 }
 
+
 /*描述提示性字体*/
 
 .text-placeholder {
     color: #8e8e90;
 }
+
 
 /*不同主题颜色文字*/
 
@@ -773,6 +797,7 @@ icon {
     color: #f9605f;
 }
 
+
 /*
  * 功能：基本元素-字体图标
  *
@@ -782,6 +807,7 @@ icon {
  */
 
 @import "libs/iconfont/iconfont.wxss";
+
 /*
  * 功能：基本元素-常用加载图标
  *
@@ -856,6 +882,7 @@ icon {
     background-size: 100%;
 }
 
+
 /*顺时针旋转*/
 
 @-webkit-keyframes spinner {
@@ -876,11 +903,13 @@ icon {
     }
 }
 
+
 /**********************************************************************
 ***********************************************************************
    类别：表单组件
 ***********************************************************************
 ***********************************************************************/
+
 
 /*
  * 功能：表单组件-按钮
@@ -905,6 +934,7 @@ icon {
     -webkit-transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear;
 }
 
+
 /*default-按钮*/
 
 .btn.btn-default {
@@ -917,6 +947,7 @@ icon {
     border: solid 2rpx #2d8cf0;
 }
 
+
 /*dashed-按钮*/
 
 .btn.btn-dashed {
@@ -928,6 +959,7 @@ icon {
     color: #2d8cf0;
     border: dashed 2rpx #2d8cf0;
 }
+
 
 /*dashed-按钮*/
 
@@ -942,6 +974,7 @@ icon {
     border: solid 2rpx #57a3f3;
 }
 
+
 /*success-按钮*/
 
 .btn.btn-success {
@@ -954,6 +987,7 @@ icon {
     background-color: #5bc558;
     border: solid 2rpx #5bc558;
 }
+
 
 /*info-按钮*/
 
@@ -969,6 +1003,7 @@ icon {
     text-decoration: none;
 }
 
+
 /*warn-按钮*/
 
 .btn.btn-warn {
@@ -982,6 +1017,7 @@ icon {
     border: solid 2rpx #f9a650;
 }
 
+
 /*danger-按钮*/
 
 .btn.btn-danger {
@@ -994,6 +1030,7 @@ icon {
     background-color: #f9605f;
     border: solid 2rpx #f9605f;
 }
+
 
 /*link-按钮*/
 
@@ -1009,11 +1046,13 @@ icon {
     background-color: transparent;
 }
 
+
 /*按钮变为块状*/
 
 .btn.btn-block {
     display: block;
 }
+
 
 /*default-默认*/
 
@@ -1026,6 +1065,7 @@ icon {
     color: #2d8cf0;
     border: solid 2rpx #2d8cf0;
 }
+
 
 /*primary-空心*/
 
@@ -1040,6 +1080,7 @@ icon {
     border: 1px solid #57a3f3;
 }
 
+
 /*success-空心*/
 
 .btn.btn-success-outline {
@@ -1052,6 +1093,7 @@ icon {
     color: #5bc558;
     border: 1px solid #5bc558;
 }
+
 
 /*info提示-空心*/
 
@@ -1066,6 +1108,7 @@ icon {
     border: 1px solid #59c7f9;
 }
 
+
 /*warn-空心*/
 
 .btn.btn-warn-outline {
@@ -1079,6 +1122,7 @@ icon {
     border: 1px solid #f9a650;
 }
 
+
 /*danger-空心*/
 
 .btn.btn-danger-outline {
@@ -1091,6 +1135,7 @@ icon {
     color: #f9605f;
     border: 1px solid #f9605f;
 }
+
 
 /*按钮正在处理中*/
 
@@ -1123,6 +1168,7 @@ icon {
     border: solid 2rpx #eee;
 }
 
+
 /*按钮尺寸*/
 
 .btn.size-big {
@@ -1135,12 +1181,14 @@ icon {
     font-size: 26rpx;
 }
 
+
 /*按钮里面是字体图标*/
 
 .btn .icon {
     padding: 0px 4rpx;
     vertical-align: middle;
 }
+
 
 /*按钮里面是官方图标*/
 
@@ -1149,6 +1197,7 @@ icon {
     vertical-align: middle;
     margin-top: -4rpx;
 }
+
 
 /*按钮里面是图片*/
 
@@ -1159,6 +1208,7 @@ icon {
     vertical-align: middle;
     margin-top: -4rpx;
 }
+
 
 /*
  * 功能：表单组件-文本框
@@ -1190,6 +1240,7 @@ icon {
     border-bottom: solid 2rpx #eee;
 }
 
+
 /*带图标或者图片的文本框*/
 
 .input-text input:last-child:not(:first-child) {
@@ -1206,6 +1257,7 @@ icon {
     color: #8e8e90;
 }
 
+
 /*输入框尺寸大小重新定义*/
 
 .input-text.size-big {
@@ -1217,6 +1269,7 @@ icon {
     padding: 0px 10rpx;
     font-size: 26rpx;
 }
+
 
 /*
  * 功能：表单组件-文本域
@@ -1239,6 +1292,7 @@ icon {
     padding: 0px;
     height: 160rpx;
 }
+
 
 /*
  * 功能：表单组件-数字输入框
@@ -1277,6 +1331,7 @@ icon {
     border-radius: 4rpx;
 }
 
+
 /*左边*/
 
 .input-number>.input-number-label:first-child {
@@ -1289,6 +1344,7 @@ icon {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
 
 /*右边*/
 
@@ -1303,6 +1359,7 @@ icon {
     border-bottom-right-radius: 0;
 }
 
+
 /*两侧*/
 
 .input-number>.input-number:not(:first-child):not(:last-child),
@@ -1310,6 +1367,7 @@ icon {
 .input-number>.input-number-label:not(:first-child):not(:last-child) {
     border-radius: 0;
 }
+
 
 /*inputNumber尺寸大小，有size-small和size-big*/
 
@@ -1340,11 +1398,13 @@ icon {
     padding: 8rpx 40rpx !important;
 }
 
+
 /*input-number下的禁用*/
 
 .input-number.disabled {
     border: 0 !important;
 }
+
 
 /*
  * 功能：表单组件-form表单布局
@@ -1380,11 +1440,13 @@ icon {
     color: #999;
 }
 
+
 /**********************************************************************
 ***********************************************************************
    类别：操作反馈
 ***********************************************************************
 ***********************************************************************/
+
 
 /*
  * 功能：操作反馈-自定义Toast
@@ -1419,6 +1481,7 @@ icon {
     visibility: visible;
 }
 
+
 /*展示背景遮罩层*/
 
 .wexui-toast-mask {
@@ -1431,6 +1494,7 @@ icon {
     z-index: 998;
 }
 
+
 /*提示层icon和图片样式*/
 
 .wexui-toast .toast-icon,
@@ -1438,6 +1502,7 @@ icon {
     height: 120rpx;
     line-height: 150rpx;
 }
+
 
 /*loading样式*/
 
@@ -1452,11 +1517,13 @@ icon {
     background-size: 100%;
 }
 
+
 /*使用Icon字体图标*/
 
 .wexui-toast .toast-icon .icon {
     font-size: 90rpx;
 }
+
 
 /*使用本地或者网络图片*/
 
@@ -1467,12 +1534,14 @@ icon {
     vertical-align: middle;
 }
 
+
 /*提示内容*/
 
 .wexui-toast .toast-content {
     word-wrap: break-word;
     padding: 16rpx 26rpx;
 }
+
 
 /*
  * 功能：操作反馈-Toptips顶部提示
@@ -1510,12 +1579,14 @@ icon {
     padding: 20rpx;
 }
 
+
 /*toptips顶部提示-默认*/
 
 .wexui-toptips {
     color: #fff;
     background: rgba(0, 0, 0, .7);
 }
+
 
 /*toptips顶部提示-loading*/
 
@@ -1539,6 +1610,7 @@ icon {
     padding: 20rpx 20rpx 20rpx 0px;
 }
 
+
 /*toptips顶部提示-success*/
 
 .wexui-toptips.success {
@@ -1549,6 +1621,7 @@ icon {
 .wexui-toptips.success .toptips-content {
     padding: 20rpx 20rpx 20rpx 0px;
 }
+
 
 /*toptips顶部提示-fail*/
 
@@ -1561,6 +1634,7 @@ icon {
     padding: 20rpx 20rpx 20rpx 0px;
 }
 
+
 /*toptips顶部提示-info*/
 
 .wexui-toptips.info {
@@ -1572,6 +1646,7 @@ icon {
     padding: 20rpx 20rpx 20rpx 0px;
 }
 
+
 /*toptips顶部提示-warn*/
 
 .wexui-toptips.warn {
@@ -1582,6 +1657,7 @@ icon {
 .wexui-toptips.warn .toptips-content {
     padding: 20rpx 20rpx 20rpx 0px;
 }
+
 
 /*
  * 功能：操作反馈-Actionsheet行动按钮
@@ -1601,6 +1677,7 @@ icon {
     visibility: visible;
 }
 
+
 /*Actionsheet背景*/
 
 .wexui-actionsheet .actionsheet-mask {
@@ -1618,6 +1695,7 @@ icon {
 .wexui-actionsheet.actionsheet-show .actionsheet-mask {
     opacity: 1;
 }
+
 
 /*Actionsheet按钮组*/
 
@@ -1694,6 +1772,7 @@ icon {
     font-size: 32rpx;
 }
 
+
 /*显示内容-底部显示*/
 
 .wexui-actionsheet .actionsheet-content {
@@ -1707,11 +1786,13 @@ icon {
     transform: translate3d(0, 0, 0);
 }
 
+
 /**********************************************************************
 ***********************************************************************
    类别：页面布局
 ***********************************************************************
 ***********************************************************************/
+
 
 /*
  * 功能：页面布局-flex布局
@@ -1791,6 +1872,7 @@ icon {
     flex: 12;
 }
 
+
 /*
  * 功能：页面布局-grid九宫格
  *
@@ -1836,6 +1918,7 @@ icon {
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
 
 /*
  * 功能：页面布局-panel面板
@@ -1973,6 +2056,7 @@ icon {
     overflow: hidden;
 }
 
+
 /*
  * 功能：页面布局-list列表
  *
@@ -2055,6 +2139,7 @@ icon {
     vertical-align: middle;
 }
 
+
 /*list使用form表单布局*/
 
 .wexui-list.list-form {
@@ -2107,6 +2192,7 @@ icon {
     border-bottom: 2rpx solid #eee;
     color: #e5e5e5;
 }
+
 
 /*增加图片列表*/
 
@@ -2174,6 +2260,7 @@ icon {
     height: 120rpx;
 }
 
+
 /*
  * 功能：页面布局-footer页脚
  *
@@ -2203,6 +2290,7 @@ icon {
     color: #57a3f3;
     background: none;
 }
+
 
 /*
  * 功能：页面布局-位置固定
@@ -2234,6 +2322,7 @@ icon {
 .wexui-affix .btn {
     border-radius: 0px;
 }
+
 
 /*
  * 功能：页面布局- Card卡片
@@ -2289,6 +2378,7 @@ icon {
     text-align: right;
     padding-left: 6rpx;
 }
+
 
 /*
  * 功能：页面布局- Accordion折叠
@@ -2347,11 +2437,13 @@ icon {
     transition: .3s;
 }
 
+
 /**********************************************************************
 ***********************************************************************
    类别：页面展示
 ***********************************************************************
 ***********************************************************************/
+
 
 /*
  * 功能：页面展示-文章
@@ -2387,6 +2479,7 @@ icon {
     text-align: center;
     margin: 10rpx;
 }
+
 
 /*
  * 功能：页面展示-徽章
@@ -2439,6 +2532,7 @@ icon {
     box-shadow: 0 0 0 4rpx #fff;
 }
 
+
 /*
  * 功能：页面展示-头像
  *
@@ -2469,6 +2563,7 @@ icon {
 .wexui-avatar.round {
     border-radius: 100%;
 }
+
 
 /*
  * 功能：页面展示-胶囊
@@ -2501,6 +2596,7 @@ icon {
     padding: 2rpx 4rpx;
 }
 
+
 /*capsule胶囊-primary*/
 
 .wexui-capsule.capsule-primary {
@@ -2514,6 +2610,7 @@ icon {
 .wexui-capsule.capsule-primary .capsule-right {
     color: #2d8cf0;
 }
+
 
 /*capsule胶囊-info*/
 
@@ -2529,6 +2626,7 @@ icon {
     color: #30b8f7;
 }
 
+
 /*capsule胶囊-success*/
 
 .wexui-capsule.capsule-success {
@@ -2542,6 +2640,7 @@ icon {
 .wexui-capsule.capsule-success .capsule-right {
     color: #29b327;
 }
+
 
 /*capsule胶囊-warn*/
 
@@ -2557,6 +2656,7 @@ icon {
     color: #ff870d;
 }
 
+
 /*capsule胶囊-danger*/
 
 .wexui-capsule.capsule-danger {
@@ -2570,6 +2670,7 @@ icon {
 .wexui-capsule.capsule-danger .capsule-right {
     color: #ec3535;
 }
+
 
 /*
  * 功能：页面展示-标签
@@ -2611,6 +2712,7 @@ icon {
     color: #afafb1;
 }
 
+
 /*标签尺寸大小*/
 
 .wexui-tags.size-small {
@@ -2624,6 +2726,7 @@ icon {
     padding: 8rpx 16rpx !important;
 }
 
+
 /*gray灰色*/
 
 .wexui-tags.tags-gray {
@@ -2631,6 +2734,7 @@ icon {
     border: solid 2rpx #8e8e90;
     color: #fff;
 }
+
 
 /*primary*/
 
@@ -2640,6 +2744,7 @@ icon {
     color: #fff;
 }
 
+
 /*info*/
 
 .wexui-tags.tags-info {
@@ -2647,6 +2752,7 @@ icon {
     border: solid 2rpx #30b8f7;
     color: #fff;
 }
+
 
 /*success*/
 
@@ -2656,6 +2762,7 @@ icon {
     color: #fff;
 }
 
+
 /*warn*/
 
 .wexui-tags.tags-warn {
@@ -2663,6 +2770,7 @@ icon {
     border: solid 2rpx #ff870d;
     color: #fff;
 }
+
 
 /*danger*/
 
@@ -2685,6 +2793,7 @@ icon {
     font-size: 40rpx;
     font-weight: 400;
 }
+
 
 /*primary-空心*/
 
@@ -2719,6 +2828,7 @@ icon {
     padding-left: 10rpx;
     border-right: solid 2rpx #2d8cf0;
 }
+
 
 /*info-空心*/
 
@@ -2755,6 +2865,7 @@ icon {
     border-right: solid 2rpx #30b8f7;
 }
 
+
 /*success-空心*/
 
 .wexui-tags.tags-success-outline {
@@ -2789,6 +2900,7 @@ icon {
     padding-left: 10rpx;
     border-right: solid 2rpx #5bc558;
 }
+
 
 /*warn-空心*/
 
@@ -2825,6 +2937,7 @@ icon {
     border-right: solid 2rpx #ff870d;
 }
 
+
 /*danger-空心*/
 
 .wexui-tags.tags-danger-outline {
@@ -2860,6 +2973,7 @@ icon {
     border-right: solid 2rpx #ec3535;
 }
 
+
 /*
  * 功能：页面展示-Steps步骤条
  *
@@ -2875,6 +2989,7 @@ icon {
     overflow: hidden;
 }
 
+
 /*横向排列*/
 
 .wexui-steps.steps-horiz .steps-container {
@@ -2889,6 +3004,7 @@ icon {
     top: 0;
     text-align: right;
 }
+
 
 /*步骤条文字和描述左中右排列*/
 
@@ -2914,6 +3030,7 @@ icon {
     text-align: right;
     transform: none;
 }
+
 
 /*步骤条的线左中右排列*/
 
@@ -2945,6 +3062,7 @@ icon {
     display: none;
 }
 
+
 /*图标和 线条样式*/
 
 .wexui-steps.steps-horiz .steps-container .steps-icons {
@@ -2971,6 +3089,7 @@ icon {
     color: #ddd;
 }
 
+
 /*已经完成的文字和线条样式*/
 
 .wexui-steps.steps-horiz .steps-container.steps-done .steps-title,
@@ -2990,6 +3109,7 @@ icon {
     background: #29b327;
 }
 
+
 /*不带描述和带描述的样式，主要是控制高度*/
 
 .wexui-steps.steps-horiz .steps-container.steps-hasdesc .steps-line {
@@ -2999,6 +3119,7 @@ icon {
 .wexui-steps.steps-horiz .steps-container.steps-hasdesc .steps-icons {
     top: 70rpx;
 }
+
 
 /**竖向步骤条*/
 
@@ -3076,6 +3197,7 @@ icon {
     font-size: 26rpx;
 }
 
+
 /*竖向步骤条不同状态下的线条和颜色*/
 
 .wexui-steps.steps-vert .steps-container.steps-done .steps-content,
@@ -3090,6 +3212,7 @@ icon {
 .wexui-steps.steps-vert .steps-container.steps-done.steps-current .steps-line {
     background: #ddd;
 }
+
 
 /*
  * 功能：页面展示-输入框组
@@ -3148,6 +3271,7 @@ icon {
     border-bottom-left-radius: 0;
 }
 
+
 /*
  * 功能：页面展示-按钮组
  *
@@ -3193,6 +3317,7 @@ icon {
     border-bottom-left-radius: 0;
 }
 
+
 /*
  * 功能：页面展示-加载更多
  *
@@ -3220,6 +3345,7 @@ icon {
     margin-top: -2rpx;
 }
 
+
 /*
  * 功能：页面展示-Nodata暂无数据
  *
@@ -3231,7 +3357,7 @@ icon {
 .wexui-nodata {
     position: relative;
     padding: 20rpx;
-    font-size: 26rpx;
+    font-size: 28rpx;
     color: #8e8e90;
     text-align: center;
     background: #fff;
@@ -3257,6 +3383,7 @@ icon {
     z-index: -1;
 }
 
+
 /*带图片的暂无数据*/
 
 .wexui-nodata .icon.icon-nodata {
@@ -3270,6 +3397,7 @@ icon {
     position: relative;
     top: -20rpx;
 }
+
 
 /*
  * 功能：页面展示-搜索框
@@ -3316,6 +3444,7 @@ icon {
     transition: all .2s;
 }
 
+
 /*
  * 功能：页面展示-弹出层
  *
@@ -3328,6 +3457,7 @@ icon {
     position: relative;
     visibility: hidden;
 }
+
 
 /*遮罩层样式*/
 
@@ -3351,6 +3481,7 @@ icon {
     opacity: 1;
 }
 
+
 /*中间content样式*/
 
 .wexui-popup .popup-container {
@@ -3365,6 +3496,7 @@ icon {
     transition: all .3s;
     z-index: 999;
 }
+
 
 /*显示内容-中间显示*/
 
@@ -3381,6 +3513,7 @@ icon {
     opacity: 1;
 }
 
+
 /*显示内容-顶部显示*/
 
 .wexui-popup.popup-top .popup-container {
@@ -3393,6 +3526,7 @@ icon {
 .wexui-popup.popup-show.popup-top .popup-container {
     transform: translate3d(0, 0, 0);
 }
+
 
 /*显示内容-底部显示*/
 
@@ -3407,6 +3541,7 @@ icon {
     transform: translate3d(0, 0, 0);
 }
 
+
 /*显示内容-左边显示*/
 
 .wexui-popup.popup-left .popup-container {
@@ -3420,6 +3555,7 @@ icon {
     transform: translate3d(0, 0, 0);
 }
 
+
 /*显示内容-右边显示*/
 
 .wexui-popup.popup-right .popup-container {
@@ -3432,6 +3568,7 @@ icon {
 .wexui-popup.popup-show.popup-right .popup-container {
     transform: translate3d(0, 0, 0);
 }
+
 
 /*
  * 功能：页面展示-backtop返回顶部
@@ -3476,11 +3613,13 @@ icon {
     border: solid 2rpx #ddd;
 }
 
+
 /**********************************************************************
 ***********************************************************************
    类别：页面导航
 ***********************************************************************
 ***********************************************************************/
+
 
 /*
  * 功能：页面导航-tabs选项卡
@@ -3524,6 +3663,7 @@ icon {
     padding-bottom: 10rpx;
     border-bottom: solid 4rpx #ec3535;
 }
+
 
 /*
  * 功能：页面导航-tabbar底部栏
@@ -3591,12 +3731,14 @@ icon {
     color: #2d8cf0;
 }
 
+
 /*重新定义徽标的位置*/
 
 .wexui-tabbar .tabbar-footer view .wexui-badge {
     left: 60%;
     top: 33%;
 }
+
 
 /*
  * 功能：页面导航-Breadcrumb面包屑
@@ -3624,6 +3766,7 @@ icon {
 .wexui-breadcrumb .breadcrumb-title.current {
     color: #8e8e90;
 }
+
 
 /*
  * 功能：页面导航-Pagination分页
@@ -3667,11 +3810,13 @@ icon {
     background: #fbfbfb;
 }
 
+
 /**********************************************************************
 ***********************************************************************
    类别：CSS3动画
 ***********************************************************************
 ***********************************************************************/
+
 
 /*
  * 功能：CSS3动画-CSS3动画

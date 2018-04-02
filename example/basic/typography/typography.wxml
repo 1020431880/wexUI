@@ -116,10 +116,10 @@
     <view class="example-title">文字大小规范建议</view>
     <view class="example-content">
         <view>1.wexUI默认字体32rpx(16p像素)</view>
-        <view>2.内容正文，form表单，页面布局，页面导航等场景下使用30rpx(15像素)</view>
-        <view>3.文字标题一般用32rpx(16像素)，可以加粗。</view>
-        <view>4.辅助性文字使用28rpx(14像素)</view>
-        <view>5.次要文字使用26rpx(13像素)</view>
-        <view>6.页脚，胶囊和一些狭小的空间内情景下使用的标签或者文字，使用24rpx(12像素)</view>
+        <view>2.标题文字一般用32rpx(16像素)，可以加粗。</view>
+        <view>3.内容正文，form表单，页面布局，页面导航等场景下使用30rpx(15像素)</view>
+        <view>4.配置信息文字，提示信息等文字使用28rpx(14像素)</view>
+        <view>5.辅助次要文字使用26rpx(13像素)</view>
+        <view>6.页脚，胶囊，标签等一些展示比较小的文字，使用24rpx(12像素)</view>
     </view>
 </view>
