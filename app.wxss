@@ -1,6 +1,6 @@
 @import 'dist/wexUI/wexUI.wxss';
 .container {
-    height: 110%;
+    height: 100%;
     padding: 20rpx;
     margin: 0px;
 }

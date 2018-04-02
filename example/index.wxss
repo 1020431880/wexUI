@@ -1,5 +1,7 @@
 .index {
     padding: 20rpx;
+    font-size: 30rpx;
+    color: #4b4c50;
 }
 
 .index .header {
@@ -13,26 +15,36 @@
     border-radius: 100%;
 }
 
-.index .header .header-title {}
-
 .index .header .header-desc {
     font-size: 28rpx;
     color: #8e8e90;
 }
 
 .body {
-    margin-top: 10%;
+    margin-top: 5%;
+    box-sizing: border-box;
 }
 
 .body .item {
     background: #fff;
-    border-radius: 8rpx;
-    margin-bottom: 20rpx;
+    border-radius: 6rpx;
     overflow: hidden;
+    position: relative;
+}
+
+.body .item::after {
+    content: "";
+    position: absolute;
+    height: 2rpx;
+    left: 20rpx;
+    right: 20rpx;
+    bottom: 0px;
+    background: #eee;
 }
 
 .item .title {
-    padding: 32rpx 20rpx;
+    box-sizing: border-box;
+    padding: 30rpx 20rpx;
     opacity: 1;
     transition: all .3s;
 }
@@ -72,6 +84,7 @@
     transition: all .2s;
     -webkit-transition: all .2s;
     position: relative;
+    font-size: 28rpx;
 }
 
 .item .item-list:active {
@@ -82,11 +95,10 @@
     content: "";
     position: absolute;
     top: 0;
-    right: 0;
+    left: 40rpx;
+    right: 40rpx;
     height: 2rpx;
-    border-bottom: 2rpx solid #eee;
-    color: #e5e5e5;
-    left: 20rpx;
+    background: #eee;
 }
 
 .item .item-list::after {
@@ -103,7 +115,7 @@
     position: absolute;
     top: 50%;
     margin-top: -8rpx;
-    right: 20rpx;
+    right: 40rpx;
 }
 
 .item .item-list:active {

@@ -1,4 +1,4 @@
-// pages/index.js
+import utils from "../dist/wexUI/libs/utils"
 Page({
 
 
@@ -11,7 +11,6 @@ Page({
     item6: false,
     item7: false
   },
-
 
   onLoad: function (options) {},
   onShow: function () {},
