@@ -13,7 +13,7 @@ git clone https://github.com/1020431880/wexUI.git
 ![image](http://i2.bvimg.com/638261/757a20b8cd8ca493t.jpg)</br>
 
 2.&nbsp;打开[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，添加新项目，即可在线查看[wexUI框架](https://github.com/1020431880/wexUI.git)的源码</br>
-<img src="http://i4.bvimg.com/638261/ab9ea3b204593103.jpg" width="60%"/>
+<img src="http://i4.bvimg.com/638261/ab9ea3b204593103.jpg" width="50%"/>
 
 
 ## 使用
