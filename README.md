@@ -9,10 +9,10 @@ git clone https://github.com/1020431880/wexUI.git
 ```
 
 ## 预览
-1.&nbsp;打开[微信](https://weixin.qq.com/) > 扫一扫即可进入查看。
-![image](http://i2.bvimg.com/638261/757a20b8cd8ca493t.jpg)
+1.&nbsp;打开[微信](https://weixin.qq.com/) > 扫一扫即可进入查看。</br>
+![image](http://i2.bvimg.com/638261/757a20b8cd8ca493t.jpg)</br>
 
-2.&nbsp;打开[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，添加新项目，即可在线查看[wexUI框架](https://github.com/1020431880/wexUI.git)的源码
+2.&nbsp;打开[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，添加新项目，即可在线查看[wexUI框架](https://github.com/1020431880/wexUI.git)的源码</br>
 ![image](http://i4.bvimg.com/638261/ab9ea3b204593103.jpg)
 
 
@@ -24,7 +24,7 @@ git clone https://github.com/1020431880/wexUI.git
 ```
 
 ## 效果预览
-![image](http://i4.bvimg.com/638261/8fd69acde7bf89b7.jpg =100x20)
+![image](http://i4.bvimg.com/638261/8fd69acde7bf89b7.jpg)
 ![image](http://i4.bvimg.com/638261/e0b9f1abf6b419d3.jpg)
 ![image](http://i4.bvimg.com/638261/547d866b8c0cf055.jpg)
 ![image](http://i4.bvimg.com/638261/0fe87648ee72e404.jpg)
