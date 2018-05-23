@@ -30,12 +30,12 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 0,
 			"list": [
 				{
 					"id": 0,
 					"name": "popup",
-					"pathName": "example/form/button/button",
+					"pathName": "example/basic/color/color",
 					"query": ""
 				},
 				{
