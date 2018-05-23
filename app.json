@@ -16,6 +16,7 @@
     "example/form/checkbox/checkbox",
     "example/form/switch/switch",
     "example/form/slider/slider",
+    "example/form/form/form",
 
     "example/operate/loading/loading",
     "example/operate/toast/toast",

@@ -4,51 +4,21 @@
     <view class="example-title">文本框</view>
     <view class="example-content">
         <view class="h5 desc">普通文本框</view>
-        <view class="input-text">
-            <input type="text" placeholder="请输入内容" />
-        </view>
-        <view class="h5 desc">带下边框</view>
-        <view class="input-text input-bottom-border">
-            <input type="text" placeholder="请输入内容" />
-        </view>
+        <input type="text" class="input-text" placeholder="默认大小文本框" />
     </view>
     <!-- 模块 -->
     <view class="example-title">尺寸</view>
     <view class="example-content">
         <view class="h5 desc">size-big</view>
-        <view class="input-text size-big input-bottom-border">
-            <input type="text" placeholder="请输入内容" />
-        </view>
+        <input type="text" class="input-text size-big" placeholder="大文本框" />
         <view class="h5 desc">默认大小</view>
-        <view class="input-text input-bottom-border">
-            <input type="text" placeholder="请输入内容" />
-        </view>
+        <input type="text" class="input-text" placeholder="默认大小文本框" />
         <view class="h5 desc">size-small</view>
-        <view class="input-text size-small input-bottom-border">
-            <input type="text" placeholder="请输入内容" />
-        </view>
+        <input type="text" class="input-text size-small" placeholder="小文本框" />
     </view>
     <!-- 模块 -->
     <view class="example-title">文本框禁用状态</view>
     <view class="example-content">
-        <view class="input-text disabled">
-            <input type="text" placeholder="请输入内容" disabled />
-        </view>
-    </view>
-    <!-- 模块 -->
-    <view class="example-title">带图标输入框</view>
-    <view class="example-content">
-        <view class="input-text input-bottom-border">
-            <icon type="warn" size="20" />
-            <input type="text" placeholder="请输入内容" />
-        </view>
-        <view class="input-text input-bottom-border">
-            <label class="icon icon-account"></label>
-            <input type="text" placeholder="请输入内容" />
-        </view>
-        <view class="input-text input-bottom-border">
-            <image src="../../images/key.png" />
-            <input type="text" placeholder="请输入内容" />
-        </view>
+        <input type="text" class="input-text disabled" placeholder="请输入内容" disabled />
     </view>
 </view>

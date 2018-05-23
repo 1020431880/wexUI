@@ -30,6 +30,7 @@
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/checkbox/checkbox">Checkbox 复选框</view>
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/switch/switch">Switch 开关切换</view>
                     <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/slider/slider">Slider 滑块</view>
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/form/form/form">Form 表单</view>
                 </view>
             </view>
         </view>
@@ -104,5 +105,5 @@
             </view>
         </view>
     </view>
-    
+
 </view>

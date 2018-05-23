@@ -4,22 +4,22 @@
     <view class="example-title">1.输入框组</view>
     <view class="example-content">
         <view class="button-group">
-            <view class="btn btn-default">按钮1</view>
-            <view class="btn btn-default">按钮2</view>
-            <view class="btn btn-default">按钮3</view>
-            <view class="btn btn-default">按钮4</view>
+            <button class="btn btn-default">按钮1</button>
+            <button class="btn btn-default">按钮2</button>
+            <button class="btn btn-default">按钮3</button>
+            <button class="btn btn-default">按钮4</button>
         </view>
         <view class="button-group margin-top-10">
-            <view class="btn btn-primary">按钮1</view>
-            <view class="btn btn-primary">按钮2</view>
-            <view class="btn btn-primary">按钮3</view>
-            <view class="btn btn-primary">按钮4</view>
+            <button class="btn btn-primary">按钮1</button>
+            <button class="btn btn-primary">按钮2</button>
+            <button class="btn btn-primary">按钮3</button>
+            <button class="btn btn-primary">按钮4</button>
         </view>
         <view class="button-group margin-top-10">
-            <view class="btn btn-danger-outline">按钮1</view>
-            <view class="btn btn-danger-outline">按钮2</view>
-            <view class="btn btn-danger-outline">按钮3</view>
-            <view class="btn btn-danger-outline">按钮4</view>
+            <button class="btn btn-danger-outline">按钮1</button>
+            <button class="btn btn-danger-outline">按钮2</button>
+            <button class="btn btn-danger-outline">按钮3</button>
+            <button class="btn btn-danger-outline">按钮4</button>
         </view>
     </view>
 </view>

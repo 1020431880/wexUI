@@ -1,0 +1,9 @@
+.operate {
+    text-align: center;
+    padding-top: 20rpx;
+}
+
+.operate .btn {
+    padding: 0px 30px;
+    margin: 10rpx;
+}

@@ -3,24 +3,29 @@
     <!-- 模块 -->
     <view class="example-title">输入框组</view>
     <view class="example-content">
-        <!-- 带icon图标 -->
+
+        <view class="h5 desc">使用官方Icon图标</view>
         <view class="input-group">
-            <label class="input-label">
-                <icon type="search" size="18"  />
-            </label>
-            <input type="text" placeholder="内容"  />
+            <icon type="search" size="14" />
+            <input type="text" class="input-text" placeholder="内容" />
         </view>
-        <!-- 文字 -->
-        <view class="input-group margin-top-10">
+
+        <view class="h5 desc">使用字体图标</view>
+        <view class="input-group">
+            <text class="icon icon-edit"></text>
+            <input type="text" class="input-text" placeholder="内容" />
+        </view>
+
+        <view class="h5 desc">使用图片</view>
+        <view class="input-group">
+            <image src="../../images/account.png" />
+            <input type="text" class="input-text" placeholder="内容" />
+        </view>
+
+        <view class="h5 desc">使用label文字</view>
+        <view class="input-group">
             <label class="input-label">名称</label>
-            <input type="text" placeholder="内容"  />
-        </view>
-        <!-- 图片 -->
-        <view class="input-group margin-top-10">
-            <label class="input-label">
-                <image src="../../images/account.png"  />
-            </label>
-            <input type="text" placeholder="内容"  />
+            <input type="text" class="input-text" placeholder="内容" />
         </view>
     </view>
 </view>

@@ -3,8 +3,6 @@
     <!-- 模块 -->
     <view class="example-title">文本域</view>
     <view class="example-content">
-        <view class="input-textarea">
-            <textarea placeholder="请输入内容" maxlength="-1"  />
-        </view>
+        <textarea class="input-textarea" placeholder="请输入内容" maxlength="-1" />
     </view>
 </view>

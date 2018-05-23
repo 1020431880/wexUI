@@ -1,0 +1,125 @@
+<view class="container">
+    <view class="doc-title h3">Form 表单</view>
+    <!-- 模块 -->
+    <view class="example-title">form 表单布局</view>
+    <view class="example-content">
+        <view class="wexui-form">
+            <view class="wexui-list form-item">
+                <view class="list-label list-required" style="width:90px;">姓名</view>
+                <view class="list-content">
+                    <input type="text" placeholder="请输入内容" />
+                </view>
+            </view>
+            <view class="wexui-list form-item">
+                <view class="list-label list-required" style="width:90px;">联系人电话</view>
+                <view class="list-content">
+                    <input type="text" placeholder="请输入内容" />
+                </view>
+            </view>
+            <view class="wexui-list form-item">
+                <view class="list-label list-required" style="width:90px;">验证码</view>
+                <view class="list-content" style="border-right:solid 2rpx #eee;">
+                    <input type="text" placeholder="请输入验证码" />
+                </view>
+                <view class="list-desc">
+                    <span class="text-success" style="padding-left:10rpx;">获得验证码</span>
+                </view>
+            </view>
+            <picker mode="date">
+                <view class="wexui-list form-item list-arrow list-active">
+                    <view class="list-label" style="width:90px;">出生日期</view>
+                    <view class="list-content">1991-10-10</view>
+                </view>
+            </picker>
+            <view class="wexui-list form-item">
+                <view class="list-label" style="width:90px;color:#ea5162;">卡号</view>
+                <view class="list-content">
+                    <input type="text" class="weui-input" placeholder="请输入卡号" />
+                </view>
+                <view class="list-desc">
+                    <icon type="info" size="20" />
+                </view>
+            </view>
+            <view class="wexui-list form-item">
+                <view class="list-label" style="width:90px;">金额</view>
+                <view class="list-content">
+                    <input type="text" class="weui-input" placeholder="请输入金额" />
+                </view>
+                <view class="list-desc">(元)</view>
+            </view>
+            <view class="wexui-list form-item">
+                <view class="list-logo">
+                    <image src="../../images/place.png" />
+                </view>
+                <view class="list-content">
+                    <input type="text" class="weui-input" placeholder="请输入位置信息" />
+                </view>
+            </view>
+            <view class="wexui-list form-item">
+                <view class="list-label" style="width:90px;">开关</view>
+                <view class="list-content">
+                    <switch/>
+                </view>
+            </view>
+            <view class="wexui-list form-item">
+                <view class="list-label" style="width:90px;">性别</view>
+                <view class="list-content">
+                    <radio-group>
+                        <label>
+                            <radio value="男" />男</label>
+                        <label>
+                            <radio/>女</label>
+                    </radio-group>
+                </view>
+            </view>
+            <view class="wexui-list form-item">
+                <view class="list-label" style="width:90px;">爱好</view>
+                <view class="list-content">
+                    <checkbox-group>
+                        <label>
+                            <checkbox/>打球</label>
+                        <label>
+                            <checkbox/>游泳</label>
+                    </checkbox-group>
+                </view>
+            </view>
+            <view class="wexui-list form-item">
+                <view class="list-label" style="width:90px;">开关</view>
+                <view class="list-content">
+                    <switch/>
+                </view>
+            </view>
+            <view class="wexui-list form-item">
+                <view class="list-content">
+                    <view class="list-label">上传照片</view>
+                    <view class="list-images">
+                        <image src="../../images/card.png" />
+                        <icon type="clear" size="18" />
+                    </view>
+                    <view class="list-images">
+                        <image src="../../images/card.png" />
+                        <icon type="clear" size="18" />
+                    </view>
+                    <view class="add-images">
+                        <span class="add-icon">+</span>
+                    </view>
+                    <view class="add-images">
+                        <span class="add-icon">+</span>
+                        <span class="add-text">添加图片</span>
+                    </view>
+                </view>
+            </view>
+            <view class="wexui-list form-item">
+                <view class="list-content">
+                    <view class="list-label">备注</view>
+                    <textarea placeholder="请输入备注" />
+                </view>
+            </view>
+            <view class="operate">
+                <button class="btn btn-default">取消</button>
+                <button class="btn btn-primary">保存</button>
+            </view>
+        </view>
+
+    </view>
+</view>
