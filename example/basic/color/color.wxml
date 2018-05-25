@@ -99,7 +99,7 @@
         <view class="outer">
             <view class="color" style="background:#353638;color:#fff;">#353638 主要</view>
             <view class="color" style="background:#4b4c50;color:#fff;">#4b4c50 正文</view>
-            <view class="color" style="background:#8e8e90;color:#fff;">#8e8e90 描述</view>
+            <view class="color" style="background:#9a9a9e;color:#fff;">#9a9a9e 描述</view>
             <view class="color" style="background:#bfbfc1;color:#fff;">#bfbfc1 次要</view>
         </view>
     </view>
@@ -107,12 +107,12 @@
     <view class="example-title">灰色极简</view>
     <view class="example-content">
         <view class="outer">
-            <view class="color" style="background:#dddddd;color:#4b4c50;">#dddddd</view>
-            <view class="color" style="background:#eeeeee;color:#4b4c50;">#eeeeee</view>
+            <view class="color" style="background:#dddee1;color:#4b4c50;">#dddee1</view>
+            <view class="color" style="background:#efeff1;color:#4b4c50;">#efeff1</view>
         </view>
         <view class="outer">
-            <view class="color" style="background:#f2f2f2;color:#4b4c50;">#f2f2f2</view>
-            <view class="color" style="background:#f8f8f8;color:#4b4c50;">#f8f8f8</view>
+            <view class="color" style="background:#f2f2f3;color:#4b4c50;">#f2f2f3</view>
+            <view class="color" style="background:#f8f8f9;color:#4b4c50;">#f8f8f9</view>
             <view class="color" style="background:#fbfbfb;color:#4b4c50;">#fbfbfb</view>
         </view>
     </view>

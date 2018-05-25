@@ -7,7 +7,7 @@
  */
 
 page {
-    background: #f2f2f2;
+    background: #f2f2f3;
     color: #4b4c50;
     width: auto;
     height: auto;
@@ -98,9 +98,9 @@ icon {
  */
 
 .disabled {
-    background-color: #f2f2f2 !important;
+    background-color: #f2f2f3 !important;
     color: #bfbfc1 !important;
-    border: solid 2rpx #eee !important;
+    border: solid 2rpx #efeff1 !important;
     box-sizing: border-box !important;
 }
 
@@ -165,7 +165,7 @@ icon {
 .h3>.small {
     font-weight: 400;
     line-height: 1;
-    color: #8e8e90;
+    color: #9a9a9e;
     font-size: 75%;
 }
 
@@ -174,7 +174,7 @@ icon {
 .h6>.small {
     font-weight: 400;
     line-height: 1;
-    color: #8e8e90;
+    color: #9a9a9e;
     font-size: 75%;
 }
 
@@ -211,7 +211,7 @@ icon {
     padding: 4rpx 6rpx;
     white-space: nowrap;
     margin: 0px 4rpx;
-    border: 2rpx solid #ddd;
+    border: 2rpx solid #dddee1;
     border-radius: 4rpx;
     background: #fafafa;
 }
@@ -229,96 +229,96 @@ icon {
 }
 
 .text-describe {
-    color: #8e8e90;
+    color: #9a9a9e;
 }
 
 /*字体大小*/
 
 .font-12 {
-    font-size: 12px;
+    font-size: 24rpx;
 }
 
 .font-13 {
-    font-size: 13px;
+    font-size: 26rpx;
 }
 
 .font-14 {
-    font-size: 14px;
+    font-size: 28rpx;
 }
 
 .font-15 {
-    font-size: 15px;
+    font-size: 30rpx;
 }
 
 .font-16 {
-    font-size: 16px;
+    font-size: 32rpx;
 }
 
 .font-17 {
-    font-size: 17px;
+    font-size: 34rpx;
 }
 
 .font-18 {
-    font-size: 18px;
+    font-size: 36rpx;
 }
 
 .font-19 {
-    font-size: 19px;
+    font-size: 38rpx;
 }
 
 .font-20 {
-    font-size: 20px;
+    font-size: 40rpx;
 }
 
 .font-21 {
-    font-size: 21px;
+    font-size: 42rpx;
 }
 
 .font-22 {
-    font-size: 22px;
+    font-size: 44rpx;
 }
 
 .font-23 {
-    font-size: 23px;
+    font-size: 46rpx;
 }
 
 .font-24 {
-    font-size: 24px;
+    font-size: 48rpx;
 }
 
 .font-25 {
-    font-size: 25px;
+    font-size: 50rpx;
 }
 
 .font-26 {
-    font-size: 26px;
+    font-size: 52rpx;
 }
 
 .font-27 {
-    font-size: 27px;
+    font-size: 54rpx;
 }
 
 .font-28 {
-    font-size: 28px;
+    font-size: 56rpx;
 }
 
 .font-29 {
-    font-size: 29px;
+    font-size: 58rpx;
 }
 
 .font-30 {
-    font-size: 30px;
+    font-size: 60rpx;
 }
 
 .font-31 {
-    font-size: 31px;
+    font-size: 62rpx;
 }
 
 .font-32 {
-    font-size: 32px;
+    font-size: 64rpx;
 }
 
-/*定位浮动、显示隐藏*/
+/*定位,浮动,显示,隐藏，水平和垂直位置样式*/
 
 .float-left {
     float: left;
@@ -681,7 +681,7 @@ icon {
 .line {
     font-size: 0px;
     line-height: 0px;
-    border-top: solid 2rpx #ddd;
+    border-top: solid 2rpx #dddee1;
     float: none;
 }
 
@@ -696,7 +696,7 @@ icon {
 /*描述提示性字体*/
 
 .text-placeholder {
-    color: #8e8e90;
+    color: #9a9a9e;
 }
 
 /*不同主题颜色文字*/
@@ -885,7 +885,7 @@ icon {
 /*
  * 功能：表单组件-按钮
  *
- * 描述：按钮
+ * 描述：使用小程序自带的按钮
  * 创建日期：2017-11-27
  * 更新日期：2017-11-27
  */
@@ -921,7 +921,7 @@ icon {
 
 .btn.btn-default {
     background-color: #fff;
-    border: solid 2rpx #ddd;
+    border: solid 2rpx #dddee1;
 }
 
 .btn.btn-default:active {
@@ -933,7 +933,7 @@ icon {
 
 .btn.btn-dashed {
     background: #fff;
-    border: dashed 2rpx #ddd;
+    border: dashed 2rpx #dddee1;
 }
 
 .btn.btn-dashed:active {
@@ -1030,7 +1030,7 @@ icon {
 /*default-默认*/
 
 .btn.btn-default-outline {
-    border: 2rpx solid #ddd;
+    border: 2rpx solid #dddee1;
     background-color: #fff;
 }
 
@@ -1107,9 +1107,9 @@ icon {
 /*按钮正在处理中*/
 
 .btn.loading {
-    background-color: #f2f2f2;
+    background-color: #f2f2f3;
     color: #bfbfc1;
-    border-color: #f2f2f2;
+    border-color: #f2f2f3;
     font-size: 30rpx !important;
 }
 
@@ -1129,9 +1129,9 @@ icon {
 }
 
 .btn.loading:active {
-    background-color: #f2f2f2;
+    background-color: #f2f2f3;
     color: #bfbfc1;
-    border-color: #f2f2f2;
+    border-color: #f2f2f3;
 }
 
 /*按钮尺寸*/
@@ -1199,7 +1199,7 @@ icon {
     background-color: #fff;
     transition: all 0.2s;
     font-size: 30rpx;
-    border: solid 2rpx #eee;
+    border: solid 2rpx #efeff1;
 }
 
 /*输入框尺寸大小重新定义*/
@@ -1255,7 +1255,7 @@ icon {
 }
 
 .input-number input {
-    border: solid 2rpx #ddd;
+    border: solid 2rpx #dddee1;
     padding: 6rpx 12rpx;
     width: 90rpx;
     text-align: center;
@@ -1265,7 +1265,7 @@ icon {
     padding: 0px 30rpx;
     font-weight: normal;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #dddee1;
     white-space: nowrap;
     box-sizing: border-box;
     vertical-align: middle;
@@ -1404,7 +1404,7 @@ icon {
     bottom: 0;
     right: -20rpx;
     height: 2rpx;
-    border-bottom: 2rpx solid #eee;
+    border-bottom: 2rpx solid #efeff1;
     color: #e5e5e5;
 }
 
@@ -1439,7 +1439,7 @@ icon {
     width: 130rpx;
     box-sizing: border-box;
     border-radius: 4rpx;
-    border: solid 2rpx #ddd;
+    border: solid 2rpx #dddee1;
     display: inline-block;
     vertical-align: middle;
     font-size: 36px;
@@ -1724,7 +1724,7 @@ icon {
     text-align: center;
     transform-origin: center;
     box-sizing: border-box;
-    background: #eee;
+    background: #efeff1;
     transition: all .3s;
     z-index: 999;
 }
@@ -1738,13 +1738,13 @@ icon {
 
 .wexui-actionsheet .actionsheet-content .actionsheet-actions span {
     font-size: 26rpx;
-    color: #8e8e90;
+    color: #9a9a9e;
     padding-left: 6rpx;
 }
 
 .wexui-actionsheet .actionsheet-content .actionsheet-actions:active,
 .wexui-actionsheet .actionsheet-content .actionsheet-default:active {
-    background: #f8f8f8;
+    background: #f8f8f9;
 }
 
 .wexui-actionsheet .actionsheet-content .actionsheet-actions::before {
@@ -1754,7 +1754,7 @@ icon {
     bottom: 0;
     right: 0;
     height: 2rpx;
-    border-bottom: 2rpx solid #eee;
+    border-bottom: 2rpx solid #efeff1;
     color: #e5e5e5;
 }
 
@@ -1779,7 +1779,7 @@ icon {
 }
 
 .wexui-actionsheet .actionsheet-default .share-button:active {
-    background-color: #f8f8f8;
+    background-color: #f8f8f9;
 }
 
 .wexui-actionsheet .actionsheet-default:last-child {
@@ -1894,8 +1894,8 @@ icon {
  */
 
 .wexui-grid {
-    border-top: 1rpx solid #ddd;
-    border-left: 1rpx solid #ddd;
+    border-top: 1rpx solid #dddee1;
+    border-left: 1rpx solid #dddee1;
     overflow: hidden;
 }
 
@@ -1905,13 +1905,13 @@ icon {
     padding: 20px 10px;
     width: 33.33333333%;
     box-sizing: border-box;
-    border-right: 1rpx solid #ddd;
-    border-bottom: 1rpx solid #ddd;
+    border-right: 1rpx solid #dddee1;
+    border-bottom: 1rpx solid #dddee1;
     transition: all 0.2s;
 }
 
 .wexui-grid .grid-item:active {
-    background: #f8f8f8;
+    background: #f8f8f9;
 }
 
 .wexui-grid .grid-item .grid-item-icon {
@@ -1957,7 +1957,7 @@ icon {
     top: 0;
     right: 0;
     height: 2rpx;
-    border-top: 2rpx solid #eee;
+    border-top: 2rpx solid #efeff1;
     color: #e5e5e5;
     left: 20rpx;
 }
@@ -2000,7 +2000,7 @@ icon {
 
 .wexui-panel .panel-content .panel-desc {
     padding-top: 6rpx;
-    color: #8e8e90;
+    color: #9a9a9e;
     font-size: 30rpx;
     line-height: 1.2;
     overflow: hidden;
@@ -2026,7 +2026,7 @@ icon {
 }
 
 .wexui-panel-more:active {
-    background: #f8f8f8;
+    background: #f8f8f9;
     color: #2d8cf0;
 }
 
@@ -2036,7 +2036,7 @@ icon {
     top: 0;
     right: 0;
     height: 2rpx;
-    border-top: 2rpx solid #eee;
+    border-top: 2rpx solid #efeff1;
     color: #e5e5e5;
     left: 20rpx;
 }
@@ -2047,7 +2047,7 @@ icon {
     height: 12rpx;
     width: 12rpx;
     border-width: 4rpx 4rpx 0 0;
-    border-color: #ddd;
+    border-color: #dddee1;
     border-style: solid;
     -webkit-transform: matrix(0.71, 0.71, -.71, 0.71, 0, 0);
     transform: matrix(0.71, 0.71, -.71, 0.71, 0, 0);
@@ -2088,12 +2088,12 @@ icon {
 }
 
 .wexui-list.list-active:active {
-    background: #f8f8f8;
+    background: #f8f8f9;
 }
 
 .wexui-list::before {
     content: "";
-    background: #eee;
+    background: #efeff1;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -2111,7 +2111,7 @@ icon {
     height: 6px;
     width: 6px;
     border-width: 4rpx 4rpx 0 0;
-    border-color: #ddd;
+    border-color: #dddee1;
     border-style: solid;
     -webkit-transform: matrix(0.71, 0.71, -.71, 0.71, 0, 0);
     transform: matrix(0.71, 0.71, -.71, 0.71, 0, 0);
@@ -2139,7 +2139,7 @@ icon {
 }
 
 .wexui-list .list-desc {
-    color: #8e8e90;
+    color: #9a9a9e;
 }
 
 .wexui-list .list-desc image {
@@ -2160,7 +2160,7 @@ icon {
 .wexui-footer {
     text-align: center;
     font-size: 24rpx;
-    color: #8e8e90;
+    color: #9a9a9e;
 }
 
 .wexui-footer .footer-link {
@@ -2236,7 +2236,7 @@ icon {
     left: 26%;
     right: 20rpx;
     bottom: 0;
-    background: #eee;
+    background: #efeff1;
 }
 
 .wexui-card .card-thumb image {
@@ -2354,7 +2354,7 @@ icon {
 .wexui-article .article-section .article-section-image {
     min-height: 400rpx;
     line-height: 400rpx;
-    background: #eee;
+    background: #efeff1;
     border-radius: 8rpx;
     color: #bfbfc1;
     font-size: 38rpx;
@@ -2457,7 +2457,7 @@ icon {
     position: relative;
     display: inline-block;
     font-size: 24rpx;
-    border: solid 2rpx #8e8e90;
+    border: solid 2rpx #9a9a9e;
     border-radius: 4rpx;
     transform: scale(.86);
     box-sizing: border-box;
@@ -2465,14 +2465,14 @@ icon {
 
 .wexui-capsule .capsule-left {
     float: left;
-    background: #8e8e90;
+    background: #9a9a9e;
     color: #fff;
     padding: 2rpx 4rpx;
 }
 
 .wexui-capsule .capsule-right {
     float: right;
-    color: #8e8e90;
+    color: #9a9a9e;
     padding: 2rpx 4rpx;
 }
 
@@ -2556,7 +2556,7 @@ icon {
 
 .wexui-tags {
     display: inline-block;
-    border: solid 2rpx #ddd;
+    border: solid 2rpx #dddee1;
     color: #bfbfc1;
     font-size: 26rpx;
     margin: 10rpx;
@@ -2602,8 +2602,8 @@ icon {
 /*gray灰色*/
 
 .wexui-tags.tags-gray {
-    background: #8e8e90;
-    border: solid 2rpx #8e8e90;
+    background: #9a9a9e;
+    border: solid 2rpx #9a9a9e;
     color: #fff;
 }
 
@@ -2877,7 +2877,7 @@ icon {
 .wexui-steps.steps-horiz .steps-container .steps-desc {
     text-align: center;
     transform: translateX(-45%);
-    color: #8e8e90;
+    color: #9a9a9e;
 }
 
 .wexui-steps.steps-horiz .steps-container .steps-desc {
@@ -2898,7 +2898,7 @@ icon {
     top: 60rpx;
     width: 100%;
     height: 2rpx;
-    background-color: #ddd;
+    background-color: #dddee1;
 }
 
 .wexui-steps.steps-horiz .steps-container .steps-line {
@@ -2907,7 +2907,7 @@ icon {
     top: 60rpx;
     width: 100%;
     height: 2rpx;
-    background-color: #ddd;
+    background-color: #dddee1;
 }
 
 .wexui-steps.steps-horiz .steps-container.steps-last-child .step-line {
@@ -2916,7 +2916,7 @@ icon {
     top: 60rpx;
     width: 100%;
     height: 2rpx;
-    background-color: #ddd;
+    background-color: #dddee1;
     display: none;
 }
 
@@ -2943,7 +2943,7 @@ icon {
 
 .wexui-steps.steps-horiz .steps-container .steps-icons text {
     font-size: 12rpx;
-    color: #ddd;
+    color: #dddee1;
 }
 
 /*已经完成的文字和线条样式*/
@@ -2958,7 +2958,7 @@ icon {
 }
 
 .wexui-steps.steps-horiz .steps-container.steps-done.steps-current .steps-line {
-    background: #ddd;
+    background: #dddee1;
 }
 
 .wexui-steps.steps-horiz .steps-container.steps-done.steps-current.steps-last-child .steps-line {
@@ -2989,7 +2989,7 @@ icon {
     top: 0;
     bottom: 0;
     width: 2rpx;
-    background: #ddd;
+    background: #dddee1;
 }
 
 .wexui-steps.steps-vert .steps-container:last-child .steps-line {
@@ -3024,7 +3024,7 @@ icon {
 
 .wexui-steps.steps-vert .steps-container .steps-head span .icon {
     font-size: 12rpx;
-    color: #ddd;
+    color: #dddee1;
     width: 7px;
     height: 7px;
     text-align: center;
@@ -3038,7 +3038,7 @@ icon {
     overflow: hidden;
     display: block;
     padding-left: 10px;
-    color: #8e8e90;
+    color: #9a9a9e;
 }
 
 .wexui-steps.steps-vert .steps-container .steps-head,
@@ -3063,7 +3063,7 @@ icon {
 }
 
 .wexui-steps.steps-vert .steps-container.steps-done.steps-current .steps-line {
-    background: #ddd;
+    background: #dddee1;
 }
 
 /*
@@ -3078,7 +3078,7 @@ icon {
     display: flex;
     position: relative;
     border-collapse: separate;
-    border: solid 2rpx #ddd;
+    border: solid 2rpx #dddee1;
     border-radius: 4rpx;
     align-items: center;
     /*指定垂直居中*/
@@ -3181,7 +3181,7 @@ icon {
 
 .wexui-loadmore {
     font-size: 28rpx;
-    color: #8e8e90;
+    color: #9a9a9e;
     text-align: center;
     padding: 30rpx;
 }
@@ -3210,7 +3210,7 @@ icon {
     position: relative;
     padding: 20rpx;
     font-size: 28rpx;
-    color: #8e8e90;
+    color: #9a9a9e;
     text-align: center;
     background: #fff;
     z-index: 1;
@@ -3231,7 +3231,7 @@ icon {
     left: 10%;
     right: 10%;
     height: 2rpx;
-    background: #eee;
+    background: #efeff1;
     z-index: -1;
 }
 
@@ -3428,9 +3428,9 @@ icon {
     box-sizing: border-box;
     text-align: center;
     line-height: 90rpx;
-    background: #eee;
+    background: #efeff1;
     border-radius: 100%;
-    border: solid 2rpx #eee;
+    border: solid 2rpx #efeff1;
     font-weight: bold;
     transition: all .2s;
 }
@@ -3439,7 +3439,7 @@ icon {
     position: relative;
     top: -2rpx;
     font-size: 40rpx;
-    color: #8e8e90;
+    color: #9a9a9e;
     transition: all .2s;
 }
 
@@ -3449,9 +3449,9 @@ icon {
 }
 
 .wexui-backtop:active {
-    background: #ddd;
+    background: #dddee1;
     color: #4b4c50;
-    border: solid 2rpx #ddd;
+    border: solid 2rpx #dddee1;
 }
 
 /**********************************************************************
@@ -3537,14 +3537,14 @@ icon {
     background: #fff;
     padding: 8rpx;
     box-sizing: border-box;
-    border-top: solid 2rpx #ddd;
+    border-top: solid 2rpx #dddee1;
 }
 
 .wexui-tabbar .tabbar-footer view {
     flex: 1;
     text-align: center;
     display: block;
-    color: #8e8e90;
+    color: #9a9a9e;
     transition: all 0.2s;
     position: relative;
 }
@@ -3600,7 +3600,7 @@ icon {
 }
 
 .wexui-breadcrumb .breadcrumb-title.current {
-    color: #8e8e90;
+    color: #9a9a9e;
 }
 
 /*
@@ -3627,7 +3627,7 @@ icon {
 .wexui-pagination .pagination-prev {
     float: left;
     padding: 12rpx 26rpx;
-    border: solid 2rpx #eee;
+    border: solid 2rpx #efeff1;
     background: #f5f5f5;
     transition: all .2s;
 }
@@ -3635,14 +3635,14 @@ icon {
 .wexui-pagination .pagination-next {
     float: right;
     padding: 12rpx 26rpx;
-    border: solid 2rpx #eee;
+    border: solid 2rpx #efeff1;
     background: #f5f5f5;
     transition: all .2s;
 }
 
 .wexui-pagination .pagination-prev:active,
 .wexui-pagination .pagination-next:active {
-    background: #f8f8f8;
+    background: #f8f8f9;
 }
 
 /**********************************************************************
