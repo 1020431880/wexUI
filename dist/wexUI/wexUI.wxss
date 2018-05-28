@@ -9,10 +9,11 @@
 page {
     background: #f2f2f3;
     color: #4b4c50;
-    width: auto;
-    height: auto;
     padding: 0px;
     margin: 0px;
+    width: auto;
+    height: 100%;
+    min-height: 100%;
     font-size: 32rpx;
     line-height: 1.25;
     -webkit-font-smoothing: antialiased;
@@ -1025,6 +1026,7 @@ icon {
 
 .btn.btn-block {
     display: block;
+    border-radius: 0px;
 }
 
 /*default-默认*/
