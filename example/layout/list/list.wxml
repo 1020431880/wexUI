@@ -59,14 +59,14 @@
     <view class="example-title">带图标、文字、说明、箭头</view>
     <view class="example-content">
         <view class="wexui-list list-arrow">
-            <view class="list-logo">
+            <view class="list-label">
                 <image src="../../images/card.png" />
             </view>
             <view class="list-content">标题文字</view>
             <view class="list-desc">描述文字</view>
         </view>
         <view class="wexui-list list-arrow">
-            <view class="list-logo">
+            <view class="list-label">
                 <image src="../../images/card.png" />
             </view>
             <view class="list-content">标题文字</view>
@@ -77,13 +77,13 @@
     <view class="example-title">带图标、说明</view>
     <view class="example-content">
         <view class="wexui-list">
-            <view class="list-logo">
+            <view class="list-label">
                 <image src="../../images/card.png" />
             </view>
             <view class="list-desc">请选择内容</view>
         </view>
         <view class="wexui-list">
-            <view class="list-logo">
+            <view class="list-label">
                 <image src="../../images/card.png" />
             </view>
             <view class="list-desc">请选择内容</view>

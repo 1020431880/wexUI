@@ -52,13 +52,13 @@
     <!-- 模块 -->
     <view class="example-content">
         <view class="wexui-list list-active">
-            <view class="list-logo">
+            <view class="list-label">
                 <image src="../../images/card.png" />
             </view>
             <view class="list-desc">请选择内容<span class="wexui-badge badge-dot"></span></view>
         </view>
         <view class="wexui-list list-active">
-            <view class="list-logo">
+            <view class="list-label">
                 <image src="../../images/card.png" />
             </view>
             <view class="list-desc">请选择内容<span class="wexui-badge badge-dot"></span></view>
@@ -67,13 +67,13 @@
     <!-- 模块 -->
     <view class="example-content">
         <view class="wexui-list list-active">
-            <view class="list-logo">
+            <view class="list-label">
                 <image src="../../images/card.png" />
             </view>
             <view class="list-content">请选择内容<span class="wexui-badge badge-dot"></span></view>
         </view>
         <view class="wexui-list list-active">
-            <view class="list-logo">
+            <view class="list-label">
                 <image src="../../images/card.png" />
             </view>
             <view class="list-content">请选择内容 <span class="wexui-badge badge-dot"></span></view>

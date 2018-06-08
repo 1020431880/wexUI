@@ -27,14 +27,20 @@
             </view>
             <picker mode="date">
                 <view class="wexui-list form-item list-arrow list-active">
-                    <view class="list-label" style="width:90px;">出生日期</view>
+                    <view class="list-label" style="width:90px;">开始时间</view>
+                    <view class="list-content">1991-10-10</view>
+                </view>
+            </picker>
+            <picker mode="date">
+                <view class="wexui-list form-item list-arrow list-active">
+                    <view class="list-label" style="width:90px;">结束时间</view>
                     <view class="list-content">1991-10-10</view>
                 </view>
             </picker>
             <view class="wexui-list form-item">
                 <view class="list-label" style="width:90px;color:#ea5162;">卡号</view>
                 <view class="list-content">
-                    <input type="text" class="weui-input" placeholder="请输入卡号" />
+                    <input type="text" placeholder="请输入卡号" />
                 </view>
                 <view class="list-desc">
                     <icon type="info" size="20" />
@@ -43,12 +49,12 @@
             <view class="wexui-list form-item">
                 <view class="list-label" style="width:90px;">金额</view>
                 <view class="list-content">
-                    <input type="text" class="weui-input" placeholder="请输入金额" />
+                    <input type="text" placeholder="请输入金额" />
                 </view>
                 <view class="list-desc">(元)</view>
             </view>
             <view class="wexui-list form-item">
-                <view class="list-logo">
+                <view class="list-label">
                     <image src="../../images/place.png" />
                 </view>
                 <view class="list-content">
@@ -58,7 +64,7 @@
             <view class="wexui-list form-item">
                 <view class="list-label" style="width:90px;">开关</view>
                 <view class="list-content">
-                    <switch/>
+                    <switch />
                 </view>
             </view>
             <view class="wexui-list form-item">
@@ -66,9 +72,11 @@
                 <view class="list-content">
                     <radio-group>
                         <label>
-                            <radio value="男" />男</label>
+                            <radio value="男" /> 男
+                        </label>
                         <label>
-                            <radio/>女</label>
+                            <radio /> 女
+                        </label>
                     </radio-group>
                 </view>
             </view>
@@ -77,21 +85,23 @@
                 <view class="list-content">
                     <checkbox-group>
                         <label>
-                            <checkbox/>打球</label>
+                            <checkbox /> 打球
+                        </label>
                         <label>
-                            <checkbox/>游泳</label>
+                            <checkbox /> 游泳
+                        </label>
                     </checkbox-group>
                 </view>
             </view>
             <view class="wexui-list form-item">
                 <view class="list-label" style="width:90px;">开关</view>
                 <view class="list-content">
-                    <switch/>
+                    <switch />
                 </view>
             </view>
             <view class="wexui-list form-item">
                 <view class="list-content">
-                    <view class="list-label">上传照片</view>
+                    <view class="list-title">上传照片</view>
                     <view class="list-images">
                         <image src="../../images/card.png" />
                         <icon type="clear" size="18" />
@@ -111,7 +121,7 @@
             </view>
             <view class="wexui-list form-item">
                 <view class="list-content">
-                    <view class="list-label">备注</view>
+                    <view class="list-title">备注</view>
                     <textarea placeholder="请输入备注" />
                 </view>
             </view>
@@ -120,6 +130,5 @@
                 <button class="btn btn-primary">保存</button>
             </view>
         </view>
-
     </view>
 </view>

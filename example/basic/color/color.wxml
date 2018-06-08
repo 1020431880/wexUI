@@ -86,7 +86,7 @@
         </view>
         <view class="outer">
             <view class="color" style="background:#8c909a;color:#fff;">#8c909a</view>
-            <view class="color" style="background:#c8cace;color:#fff;">#c8cace</view>
+            <view class="color" style="background:#c2c7d6;color:#fff;">#c2c7d6</view>
         </view>
         <view class="outer">
             <view class="color" style="background:#434a54;color:#fff;">#434a54</view>

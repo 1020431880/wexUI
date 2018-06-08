@@ -38,7 +38,7 @@ page {
     width: auto;
     display: block;
     overflow: hidden;
-    z-index: 9999;
+    z-index: 999;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -101,7 +101,7 @@ icon {
 .disabled {
     background-color: #f2f2f3 !important;
     color: #bfbfc1 !important;
-    border: solid 2rpx #efeff1 !important;
+    border: solid 2rpx #e9eaec !important;
     box-sizing: border-box !important;
 }
 
@@ -191,6 +191,10 @@ icon {
 
 .text-bold {
     font-weight: bold;
+}
+
+.text-bold-500 {
+    font-weight: 500;
 }
 
 .text-smail {
@@ -341,15 +345,15 @@ icon {
     display: block;
 }
 
-.text-left {
+.text-align-left {
     text-align: left;
 }
 
-.text-center {
+.text-align-center {
     text-align: center;
 }
 
-.text-right {
+.text-align-right {
     text-align: right;
 }
 
@@ -1201,7 +1205,7 @@ icon {
     background-color: #fff;
     transition: all 0.2s;
     font-size: 30rpx;
-    border: solid 2rpx #efeff1;
+    border: solid 2rpx #e9eaec;
 }
 
 /*输入框尺寸大小重新定义*/
@@ -1370,8 +1374,6 @@ icon {
     text-align: left;
     word-wrap: break-word;
     word-break: break-all;
-    padding-right: 20rpx;
-    position: relative;
 }
 
 .wexui-form .wexui-list.form-item .list-label.list-required::after {
@@ -1379,7 +1381,7 @@ icon {
     font-size: 28rpx;
     position: absolute;
     left: -15rpx;
-    top: 4rpx;
+    top: 5rpx;
     color: #ec3535;
 }
 
@@ -1394,23 +1396,22 @@ icon {
     margin: 0px 6rpx;
 }
 
-.wexui-form .wexui-list.form-item .list-content .list-label {
-    position: relative;
+/*增加图片列表*/
+
+.wexui-form .wexui-list.form-item .list-content .list-title {
     padding: 20rpx 0px;
+    position: relative;
 }
 
-.wexui-form .wexui-list.form-item .list-content .list-label::before {
+.wexui-form .wexui-list.form-item .list-content .list-title::before {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
     right: -20rpx;
-    height: 2rpx;
-    border-bottom: 2rpx solid #efeff1;
-    color: #e5e5e5;
+    bottom: 0;
+    height: 1px;
+    background: #e9eaec;
 }
-
-/*增加图片列表*/
 
 .wexui-form .wexui-list.form-item .list-content .list-images {
     display: inline-block;
@@ -1503,7 +1504,7 @@ icon {
     box-sizing: border-box;
     text-align: center;
     border-radius: 4rpx;
-    z-index: 999;
+    z-index: 1000;
     max-width: 260rpx;
     opacity: 0;
     visibility: hidden;
@@ -1587,7 +1588,7 @@ icon {
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .wexui-toptips .toptips-icon {
@@ -1726,9 +1727,9 @@ icon {
     text-align: center;
     transform-origin: center;
     box-sizing: border-box;
-    background: #efeff1;
+    background: #e9eaec;
     transition: all .3s;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .wexui-actionsheet .actionsheet-content .actionsheet-actions {
@@ -1756,7 +1757,7 @@ icon {
     bottom: 0;
     right: 0;
     height: 2rpx;
-    border-bottom: 2rpx solid #efeff1;
+    border-bottom: 2rpx solid #e9eaec;
     color: #e5e5e5;
 }
 
@@ -1959,7 +1960,7 @@ icon {
     top: 0;
     right: 0;
     height: 2rpx;
-    border-top: 2rpx solid #efeff1;
+    border-top: 2rpx solid #e9eaec;
     color: #e5e5e5;
     left: 20rpx;
 }
@@ -1983,7 +1984,6 @@ icon {
 }
 
 .wexui-panel .panel-content {
-    -webkit-box-flex: 1;
     -webkit-flex: 1;
     flex: 1;
     min-width: 0;
@@ -2038,7 +2038,7 @@ icon {
     top: 0;
     right: 0;
     height: 2rpx;
-    border-top: 2rpx solid #efeff1;
+    border-top: 2rpx solid #e9eaec;
     color: #e5e5e5;
     left: 20rpx;
 }
@@ -2078,12 +2078,12 @@ icon {
  */
 
 .wexui-list {
-    padding: 22rpx 20rpx;
     position: relative;
-    display: -webkit-flex;
+    padding: 22rpx 20rpx;
     display: flex;
-    -webkit-align-items: center;
+    display: -webkit-flex;
     align-items: center;
+    -webkit-align-items: center;
     background: #fff;
     transition: all 0.2s;
     font-size: 30rpx;
@@ -2095,12 +2095,16 @@ icon {
 
 .wexui-list::before {
     content: "";
-    background: #efeff1;
     position: absolute;
     bottom: 0;
     right: 0;
-    left: 20rpx;
+    left: 0;
     height: 2rpx;
+    background: #e9eaec;
+}
+
+.wexui-list:not(:first-child):last-child::before {
+    background: none;
 }
 
 .wexui-list.list-arrow {
@@ -2110,45 +2114,42 @@ icon {
 .wexui-list.list-arrow:after {
     content: "";
     display: inline-block;
-    height: 6px;
-    width: 6px;
+    height: 12rpx;
+    width: 12rpx;
     border-width: 4rpx 4rpx 0 0;
     border-color: #dddee1;
     border-style: solid;
     -webkit-transform: matrix(0.71, 0.71, -.71, 0.71, 0, 0);
     transform: matrix(0.71, 0.71, -.71, 0.71, 0, 0);
-    top: -2px;
+    top: -4rpx;
     position: absolute;
     top: 50%;
-    margin-top: -4px;
+    margin-top: -8rpx;
     right: 20rpx;
 }
 
-.wexui-list .list-logo image {
+.wexui-list .list-label {
+    position: relative;
+}
+
+.wexui-list .list-label image {
     margin-top: -5rpx;
     margin-right: 5px;
     vertical-align: middle;
-    width: 20px;
-    height: 20px;
+    width: 40rpx;
+    height: 40rpx;
     display: inline-block;
     overflow: hidden;
     border: 0;
 }
 
 .wexui-list .list-content {
-    -webkit-flex: 1;
     flex: 1;
+    -webkit-flex: 1;
 }
 
 .wexui-list .list-desc {
     color: #9a9a9e;
-}
-
-.wexui-list .list-desc image {
-    margin-left: 5px;
-    height: 45px;
-    width: 90px;
-    vertical-align: middle;
 }
 
 /*
@@ -2238,7 +2239,7 @@ icon {
     left: 26%;
     right: 20rpx;
     bottom: 0;
-    background: #efeff1;
+    background: #e9eaec;
 }
 
 .wexui-card .card-thumb image {
@@ -2356,7 +2357,7 @@ icon {
 .wexui-article .article-section .article-section-image {
     min-height: 400rpx;
     line-height: 400rpx;
-    background: #efeff1;
+    background: #e9eaec;
     border-radius: 8rpx;
     color: #bfbfc1;
     font-size: 38rpx;
@@ -3233,7 +3234,7 @@ icon {
     left: 10%;
     right: 10%;
     height: 2rpx;
-    background: #efeff1;
+    background: #e9eaec;
     z-index: -1;
 }
 
@@ -3317,7 +3318,7 @@ icon {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 998;
+    z-index: 1000;
     background: rgba(0, 0, 0, 0.7);
     opacity: 0;
     transition: all .3s;
@@ -3343,7 +3344,7 @@ icon {
     box-sizing: border-box;
     background: #fff;
     transition: all .3s;
-    z-index: 999;
+    z-index: 1001;
 }
 
 /*显示内容-中间显示*/
@@ -3430,9 +3431,9 @@ icon {
     box-sizing: border-box;
     text-align: center;
     line-height: 90rpx;
-    background: #efeff1;
+    background: #e9eaec;
     border-radius: 100%;
-    border: solid 2rpx #efeff1;
+    border: solid 2rpx #e9eaec;
     font-weight: bold;
     transition: all .2s;
 }
@@ -3525,7 +3526,7 @@ icon {
     width: auto;
     display: block;
     overflow: hidden;
-    z-index: 9999;
+    z-index: 1000;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -3629,7 +3630,7 @@ icon {
 .wexui-pagination .pagination-prev {
     float: left;
     padding: 12rpx 26rpx;
-    border: solid 2rpx #efeff1;
+    border: solid 2rpx #e9eaec;
     background: #f5f5f5;
     transition: all .2s;
 }
@@ -3637,7 +3638,7 @@ icon {
 .wexui-pagination .pagination-next {
     float: right;
     padding: 12rpx 26rpx;
-    border: solid 2rpx #efeff1;
+    border: solid 2rpx #e9eaec;
     background: #f5f5f5;
     transition: all .2s;
 }
