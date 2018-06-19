@@ -1504,7 +1504,7 @@ icon {
     box-sizing: border-box;
     text-align: center;
     border-radius: 4rpx;
-    z-index: 1000;
+    z-index: 1030;
     max-width: 260rpx;
     opacity: 0;
     visibility: hidden;
@@ -1553,6 +1553,7 @@ icon {
 
 .wexui-toast .toast-icon .icon {
     font-size: 90rpx;
+    color: #fff;
 }
 
 /*使用本地或者网络图片*/
@@ -1588,7 +1589,7 @@ icon {
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
-    z-index: 1000;
+    z-index: 1010;
 }
 
 .wexui-toptips .toptips-icon {
@@ -1600,6 +1601,7 @@ icon {
     font-size: 36rpx;
     margin-top: -2rpx;
     vertical-align: middle;
+    color: #fff;
 }
 
 .wexui-toptips .toptips-content {
@@ -3244,6 +3246,7 @@ icon {
     position: relative;
     font-size: 180rpx;
     right: -24rpx;
+    color: #9a9a9e;
 }
 
 .wexui-nodata .icon.icon-nodata+.nodata-tips {
