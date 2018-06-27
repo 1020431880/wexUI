@@ -602,11 +602,11 @@ icon {
 }
 
 .padding-left-10 {
-    padding-top: 20rpx;
+    padding-left: 20rpx;
 }
 
 .padding-left-15 {
-    padding-top: 30rpx;
+    padding-left: 30rpx;
 }
 
 .padding-left-20 {
