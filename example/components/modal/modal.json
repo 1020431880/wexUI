@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "Modal 模态框",
+    "usingComponents": {
+        "Modal": "/dist/wexUI/components/modal/modal"
+    }
+}

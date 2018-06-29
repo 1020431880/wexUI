@@ -34,14 +34,14 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "popup",
-					"pathName": "example/form/button/button",
+					"name": "modal",
+					"pathName": "example/components/modal/modal",
 					"query": ""
 				},
 				{
 					"id": 1,
-					"name": "nput",
-					"pathName": "example/form/input/input",
+					"name": "popup",
+					"pathName": "example/view/popup/popup",
 					"query": ""
 				},
 				{

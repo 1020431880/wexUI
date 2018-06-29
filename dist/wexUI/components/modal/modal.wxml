@@ -1,0 +1,14 @@
+<view class="wexui-modal {{vModel?'modal-show':''}}">
+    <view class="wexui-modal-mask" catch:tap="maskCloseModal"></view>
+    <view class="wexui-modal-container" style="width:{{width||'80%'}}">
+        <view class="modal-container-head">{{title}}</view>
+        <view class="modal-container-body">
+            <slot></slot>
+        </view>
+        <slot name="foot" wx:if="{{slotFoot}}"></slot>
+        <view class="modal-container-foot" wx:else>
+            <view class="modal-container-foot-cancel" catch:tap="onCancel" wx:if="{{showCancel}}">{{cancelText}}</view>
+            <view class="modal-container-foot-ok" catch:tap="onOk">{{okText}}</view>
+        </view>
+    </view>
+</view>

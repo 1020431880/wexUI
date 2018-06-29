@@ -28,33 +28,33 @@ Page(Object.assign({}, wexUI.Toptips, {
   tapShowToptipsLoading() {
     this.showToptips({
       title: "正在加载...",
-      type: "loading"
+      icon: "loading"
     });
   },
   tapShowToptipsSuccess() {
     this.showToptips({
       title: "操作成功！",
-      type: "success"
+      icon: "success"
     });
   },
   tapShowToptipsFail() {
     this.showToptips({
       title: "抱歉，操作失败！",
       showIcon: false,
-      type: "fail"
+      icon: "fail"
     });
   },
   tapShowToptipsInfo() {
     this.showToptips({
       title: "操作提示！",
-      type: "info"
+      icon: "info"
     });
   },
   tapShowToptipsWarn() {
     this.showToptips({
       title: "操作警告！",
 
-      type: "warn"
+      icon: "warn"
     });
   },
 

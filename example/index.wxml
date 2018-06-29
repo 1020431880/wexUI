@@ -104,6 +104,15 @@
                 </view>
             </view>
         </view>
+        <!-- 组件应用 -->
+        <view class="item">
+            <view class="title {{item8?'title-show':''}}" bindtap="showMenu" data-item="item8">组件应用</view>
+            <view class="item-outer {{item8?'item-outer-show':''}}">
+                <view class="item-inner {{item8?'item-inner-show':''}}">
+                    <view class="item-list" bindtap="tapExamplePage" data-src="/example/components/modal/modal">Modal 模态框</view>
+                </view>
+            </view>
+        </view>
     </view>
 
 </view>

@@ -11,7 +11,8 @@
             h2 大标题
             <text class="small">小标题</text>
         </view>
-        <view class="h3">h3 大标题
+        <view class="h3">
+            h3 大标题
             <text class="small">小标题</text>
         </view>
         <view class="h4">
@@ -57,12 +58,12 @@
     <!-- 模块 -->
     <view class="example-title">内容对齐</view>
     <view class="example-content">
-        <view>text-left 左对齐</view>
-        <view>text-center 居中</view>
-        <view>text-right 右对齐</view>
-        <view>valign-top 居上</view>
-        <view>valign-middle 居中</view>
-        <view>valign-bottom 局下</view>
+        <view>text-align-left 左对齐</view>
+        <view>text-align-center 居中</view>
+        <view>text-align-right 右对齐</view>
+        <view>vertical-align-top 居上</view>
+        <view>vertical-align-middle 居中</view>
+        <view>vertical-align-bottom 局下</view>
     </view>
     <!-- 模块 -->
     <view class="example-title">定位浮动</view>
@@ -70,9 +71,11 @@
         <view>float-left 样式左浮动</view>
         <view>float-right 样式右浮动</view>
         <view>float-none 样式没有浮动none</view>
-        <view>clearfix 样式清除浮动</view>
+        <view>float-clear 样式清除浮动</view>
         <view>display-none 样式display=none</view>
+        <view>display-inline 样式display=inline</view>
         <view>display-block 样式display=block</view>
+        <view>display-inline-block 样式display=inline-block</view>
         <view>position-absolute 样式position=absolute</view>
         <view>position-fixed 样式position=fixed</view>
         <view>position-relative 样式position=relative</view>
@@ -85,6 +88,8 @@
         <view>margin-top-10</view>
         <view>margin-top-15</view>
         <view>margin-top-20</view>
+        <view>margin-top-25</view>
+        <view>margin-top-30</view>
         <view>...</view>
     </view>
     <!-- 模块 -->
@@ -95,6 +100,8 @@
         <view>padding-top-10</view>
         <view>padding-top-15</view>
         <view>padding-top-20</view>
+        <view>padding-top-25</view>
+        <view>padding-top-30</view>
         <view>...</view>
     </view>
     <!-- 模块 -->

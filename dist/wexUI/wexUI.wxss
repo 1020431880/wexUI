@@ -43,22 +43,6 @@ page {
 }
 
 /*
- * 功能：清除浮动
- *
- * 描述：清除浮动
- * 创建日期：2017-11-27
- * 更新日期：2017-11-27
- */
-
-.clearfix:after {
-    content: "";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-
-/*
  * 功能：icon垂直居中
  *
  * 描述：icon垂直居中
@@ -101,7 +85,7 @@ icon {
 .disabled {
     background-color: #f2f2f3 !important;
     color: #bfbfc1 !important;
-    border: solid 2rpx #e9eaec !important;
+    border: solid 2rpx #f2f2f3 !important;
     box-sizing: border-box !important;
 }
 
@@ -337,12 +321,28 @@ icon {
     float: none;
 }
 
+.float-clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
 .display-none {
     display: none;
 }
 
+.display-inline {
+    display: inline;
+}
+
 .display-block {
     display: block;
+}
+
+.display-inline-block {
+    display: inline-block;
 }
 
 .text-align-left {
@@ -357,15 +357,15 @@ icon {
     text-align: right;
 }
 
-.valign-top {
+.vertical-align-top {
     vertical-align: top;
 }
 
-.valign-middle {
+.vertical-align-middle {
     vertical-align: middle;
 }
 
-.valign-bottom {
+.vertical-align-bottom {
     vertical-align: bottom;
 }
 

@@ -3,17 +3,17 @@
  *
  * 描述：小程序常用到的一些处理方法集合
  * 创建日期：2018-3-27
- * 更新日期：2018-3-27
+ * 更新日期：2018-5-17
  */
 export default {
-    // 常用正则,使用方法：utils.regular.mobile.test(str)，返回true和false
+    // 常用正则,使用方法：utils.regular.mobile.test(str)，验证通过返回true，验证失败返回false
     regular: {
         email: /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/, //验证邮箱
         mobile: /^1(3|4|5|7|8)\d{9}$/, //验证手机号码
         telphone: /^(0[0-9]{2,3}\-)([2-9][0-9]{6,7})+(\-[0-9]{1,4})?$/, //验证固话
         idcard: /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/, // 验证身份证，支持15位和18位身份证
         password: /^[a-zA-Z]\w{6,18}$/, // 以字母开头，长度在6~18之间，只能包含字母、数字和下划线
-        postcode: /^[1-9]\d{5}$/ //邮编
+        postcode: /^[1-9]\d{5}$/ //邮政编码
     },
     /*
      * 设置storage缓存（同步）
@@ -42,29 +42,38 @@ export default {
     /**
      * 数字补零
      * 
-     * @return 返回两位数字
+     * @param str：要补齐零的数字
+     * @param num：补零的个数，默认是1个
      */
-    digit(n) {
-        n = n.toString();
-        return n[1] ? n : '0' + n;
+    digit(str, num = 1) {
+        str = str.toString();
+        return str[1] ? str : '0' + str;
     },
     /*
      * 判断是否是数字
-     * 
-     * @param str：字符串参数
-     * @return 返回true和false
      */
     isNumber(str) {
-        return (str != null && str != "") ? !isNaN(str) : false;
+        return !this.isNull(str) ? !isNaN(str) : false;
+    },
+    /**
+     * 判断两个值是否相等
+     * 注：强制比较，包括同一个字符，但是不同类型
+     */
+    equals(arg1, arg2) {
+        return Object.is(arg1, arg2);
+    },
+    /**
+     * 
+     * 判断是否是整数
+     */
+    isInteger(str) {
+        return Number.isInteger(str);
     },
     /*
      * 判断数据是否为空，可以验证字符串和数组和Object
-     *     
-     * @param obj:参数
-     * @return 返回true和false
      */
     isNull(obj) {
-        return (obj == undefined || obj == null || obj == "" || obj == [] || obj.length == 0 || Object.keys(obj).length == 0);
+        return (obj == undefined || obj == null || obj == "" || obj.length == 0 || (obj == null && obj == "" && Object.keys(obj).length == 0));
     },
     /*
      * 将字符转换为数字
@@ -89,13 +98,45 @@ export default {
         if (this.isNull(str)) return;
         return str.replace(/\s/g, '');
     },
+    /**
+     * Map转为Object对象
+     */
+    mapToObject(map) {
+        let obj = Object.create(null);
+        for (let [k, v] of map) {
+            obj[k] = v;
+        }
+        return obj;
+    },
+    /**
+     * Object对象转为Map
+     */
+    objectToMap(obj) {
+        let map = new Map();
+        for (let k of Object.keys(obj)) {
+            map.set(k, obj[k]);
+        }
+        return map;
+    },
+    /**
+     * Map转为Json
+     */
+    mapToJson(map) {
+        return JSON.stringify(this.mapToObject(map));
+    },
+    /**
+     * Json转为Map
+     */
+    jsonToMap(json) {
+        return this.objectToMap(JSON.parse(json));
+    },
     /*
      * 获得默认日期，格式为：yyyy-MM-dd
      */
     getDefaultDate(date = new Date()) {
-        var year = date.getFullYear();
-        var month = date.getMonth() + 1;
-        var day = date.getDate();
+        let year = date.getFullYear();
+        let month = date.getMonth() + 1;
+        let day = date.getDate();
 
         return [year, month, day].map(this.digit).join("-");
     },
@@ -103,12 +144,12 @@ export default {
      * 获得默认时间，格式为：yyyy-MM-dd HH:mm:ss
      */
     getDefaultTime(date = new Date()) {
-        var year = date.getFullYear();
-        var month = date.getMonth() + 1;
-        var day = date.getDate();
-        var hour = date.getHours();
-        var minute = date.getMinutes();
-        var second = date.getSeconds();
+        let year = date.getFullYear();
+        let month = date.getMonth() + 1;
+        let day = date.getDate();
+        let hour = date.getHours();
+        let minute = date.getMinutes();
+        let second = date.getSeconds();
 
         return [year, month, day].map(this.digit).join("-") + " " + [hour, minute, second].map(this.digit).join(":");
     },
@@ -116,35 +157,23 @@ export default {
     /**
      * 将日期字符串转换为数组
      * 
-     * @param dateStr:日期字符串 格式为yyyy-MM-dd HH:mm:ss
-     * @return 返回数组
+     * @param dateStr:日期字符串 格式为yyyy-MM-dd HH:mm:ss或者yyyy/MM/dd HH:mm:ss
+     * @return 返回字符串数组
      */
     formatDateStrToArray(dateStr) {
-        if (this.isNull(dateStr)) return;
-        var array = new Array();
-        if (dateStr.length <= 10) {
-            array.push(dateStr.substring(0, 4));
-            array.push(dateStr.substring(5, 7));
-            array.push(dateStr.substring(8, 10));
-        } else {
-            array.push(dateStr.substring(0, 4));
-            array.push(dateStr.substring(5, 7));
-            array.push(dateStr.substring(8, 10));
-            array.push(dateStr.substring(11, 13));
-            array.push(dateStr.substring(14, 16));
-            array.push(dateStr.substring(17, 19));
-        }
-        return array;
+        dateStr = dateStr.replace(/(\-)|(\:)|(\s)|(\/)/g, ',');
+        return dateStr.split(",");
     },
     /**
      * 格式化日期字符串为日期对象
      * 
-     * @param dateStr：日期字符串，仅支持yyyy-MM-dd
+     * @param dateStr：日期字符串，支持yyyy-MM-dd HH:mm:ss或者yyyy/MM/dd HH:mm:ss
      * @return 返回日期对象
      */
-    formatStrToDate: function (dateStr) {
+    formatDateStrToDate: function (dateStr) {
         if (this.isNull(dateStr)) return;
-        return new Date(dateStr.split("-"));
+        dateStr = dateStr.replace(/\-/g, "/");
+        return new Date(dateStr);
     },
     /**
      * 将日期对象转为指定日期格式的字符串
@@ -153,12 +182,12 @@ export default {
      * @param formatStr:需要格式化的字符串，如yyyy/MM/dd HH:mm:ss，默认是yyyy-MM-dd
      * @return 返回指定格式的日期字符串
      */
-    formatDateToStr(date, formatStr = "yyyy-MM-dd") {
+    formatDateToDateStr(date, formatStr = "yyyy-MM-dd") {
         if ((!date) || new Date(date) == 'Invalid Date') {
             return null;
         }
         // 日期字符串格式化
-        var o = {
+        let o = {
             "M+": date.getMonth() + 1, // 月
             "d+": date.getDate(), // 日
             "h+": (date.getHours() % 12) == 0 ? 12 : (date.getHours() % 12), // 12小时制
@@ -171,7 +200,7 @@ export default {
         if (/(y+)/.test(formatStr)) {
             formatStr = formatStr.replace(RegExp.$1, (date.getFullYear() + "").substr(4 - RegExp.$1.length));
         }
-        for (var k in o) {
+        for (let k in o) {
             if (new RegExp("(" + k + ")").test(formatStr))
                 formatStr = formatStr.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
         }
@@ -196,15 +225,15 @@ export default {
      * @return 返回日期字符串数组
      */
     getBetweenDateStr: function (beginStr, endStr) {
-        var diffDates = [];
-        var startDate = this.formatStrToDate(beginStr);
-        var endDate = this.formatStrToDate(endStr);
+        let diffDates = [];
+        let startDate = this.formatStrToDate(beginStr);
+        let endDate = this.formatStrToDate(endStr);
 
         // 计算日期
         while (endDate.getTime() - startDate.getTime() >= 0) {
-            var year = startDate.getFullYear();
-            var month = startDate.getMonth().toString().length == 1 ? "0" + (startDate.getMonth() + 1).toString() : (startDate.getMonth() + 1);
-            var day = startDate.getDate().toString().length == 1 ? "0" + startDate.getDate() : startDate.getDate();
+            let year = startDate.getFullYear();
+            let month = startDate.getMonth().toString().length == 1 ? "0" + (startDate.getMonth() + 1).toString() : (startDate.getMonth() + 1);
+            let day = startDate.getDate().toString().length == 1 ? "0" + startDate.getDate() : startDate.getDate();
             diffDates.push(year + "-" + month + "-" + day);
             startDate.setDate(startDate.getDate() + 1);
         }
@@ -212,7 +241,7 @@ export default {
         return diffDates;
     },
     /**
-     * 根据年月日获得当天是周几
+     * 判断是否是闰年
      * 
      * @param y:年份
      * @return 返回true和false
@@ -224,12 +253,12 @@ export default {
      * 根据年月日获得当天是周几
      * 
      * @param date:日期
-     * @param type:为0则返回周一，周二这样的汉字，为1返回1,2
+     * @param type:为0则返回周一，周二这样的汉字，为1返回1,2,3,4
      * @return 返回周几
      */
     getWeekOfDate: function (date, type = 0) {
         if (this.isNull(date)) return;
-        var weekStr = null;
+        let weekStr = null;
         if (type) {
             weekStr = new Array("周日", "周一", "周二", "周三", "周四", "周五", "周六")[date.getDay()];
         } else {
@@ -246,14 +275,9 @@ export default {
      * @param array：查找的数组
      * @return 返回true和false
      */
-    containsInArray: function (str, array) {
-        if (array == null || array.length <= 0) return;
-        for (var v of array) {
-            if (str == v) {
-                return true;
-            }
-        }
-        return false;
+    containInArray: function (str, array) {
+        if (this.isNull(str) || this.isNull(array)) return;
+        return array.includes(str);
     },
     /**
      * 获得字符串在数组中出现位置

@@ -51,7 +51,9 @@
     "example/view/searchBox/searchBox",
     "example/view/steps/steps",
     "example/view/popup/popup",
-    "example/view/backtop/backtop"
+    "example/view/backtop/backtop",
+
+    "example/components/modal/modal"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -13,7 +13,7 @@ export default {
         const settings = {
             show: true, //是否展示，默认true
             title: "", // 提示的内容
-            type: "", //展示类型，有“loadig”，“success”，“fail”，“info”，“warn”，默认只显示文字
+            icon: "", //展示类型，有“loadig”，“success”，“fail”，“info”，“warn”，默认只显示文字
             showIcon: true, //是否展示icon图标，对应type的类型
             duration: 1500, //提示的延迟时间，单位毫秒，默认：1500
             callback(e) {} // 接口调用结束的回调函数

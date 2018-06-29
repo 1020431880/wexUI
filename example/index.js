@@ -9,7 +9,8 @@ Page({
     item4: false,
     item5: false,
     item6: false,
-    item7: false
+    item7: false,
+    item8: false
   },
 
   onLoad: function (options) {},
@@ -46,6 +47,10 @@ Page({
     } else if (item == "item7") {
       this.setData({
         item7: !this.data.item7
+      });
+    } else if (item == "item8") {
+      this.setData({
+        item8: !this.data.item8
       });
     }
   },

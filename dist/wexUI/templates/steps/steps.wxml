@@ -1,6 +1,6 @@
 <template name="wexui-steps">
     <!--横向步骤条-->
-    <view class="wexui-steps steps-horiz {{className}} clearfix" wx:if="{{type=='horiz'}}">
+    <view class="wexui-steps steps-horiz {{className}} float-clear" wx:if="{{type=='horiz'}}">
         <view class="steps-container {{item.done?'steps-done':''}} {{item.current?'steps-current':''}} {{index==0?'steps-first-child':''}} {{(index==steps.length-1)?'steps-last-child':''}} {{hasDesc?'steps-hasdesc':''}}" wx:for="{{steps}}" wx:key="item" style="width:{{100/(steps.length-1)}}%;">
             <view class="steps-title">{{item.text}}</view>
             <view class="steps-desc" wx:if="{{hasDesc}}">{{item.desc}}</view>
@@ -12,7 +12,7 @@
         </view>
     </view>
     <!--纵向步骤条-->
-    <view class="wexui-steps steps-vert {{className}} clearfix" wx:if="{{type=='vert'}}">
+    <view class="wexui-steps steps-vert {{className}} float-clear" wx:if="{{type=='vert'}}">
         <view class="steps-container {{item.done?'steps-done':''}} {{item.current?'steps-current':''}}" wx:for="{{steps}}" wx:key="item">
             <view class="steps-line"></view>
             <view class="steps-head"><icon type="success" size="14" color="#29b327" wx:if="{{item.done}}" /><span  wx:else><text class="icon icon-dot"></text></span></view>
