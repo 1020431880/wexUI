@@ -45,9 +45,9 @@
 					"query": ""
 				},
 				{
-					"id": -1,
-					"name": "form",
-					"pathName": "example/form/form/form",
+					"id": 2,
+					"name": "color",
+					"pathName": "example/basic/color/color",
 					"query": ""
 				},
 				{

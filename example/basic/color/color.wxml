@@ -23,7 +23,6 @@
             <view class="color" style="background:#ec3535;color:#fff;">#ec3535</view>
             <view class="color" style="background:#f9605f;color:#fff;">#f9605f</view>
         </view>
-
     </view>
     <!-- 模块 -->
     <view class="example-title">辅助配色</view>
@@ -69,6 +68,10 @@
             <view class="color" style="background:#fb5590;color:#fff;">#fb5590</view>
         </view>
         <view class="outer">
+            <view class="color" style="background:#d770ad;color:#fff;">#d770ad</view>
+            <view class="color" style="background:#ec87c0;color:#fff;">#ec87c0</view>
+        </view>
+        <view class="outer">
             <view class="color" style="background:#da4453;color:#fff;">#da4453</view>
             <view class="color" style="background:#ed5565;color:#fff;">#ed5565</view>
         </view>
@@ -108,7 +111,7 @@
     <view class="example-content">
         <view class="outer">
             <view class="color" style="background:#dddee1;color:#4b4c50;">#dddee1</view>
-            <view class="color" style="background:#efeff1;color:#4b4c50;">#efeff1</view>
+            <view class="color" style="background:#e9eaec;color:#4b4c50;">#e9eaec</view>
         </view>
         <view class="outer">
             <view class="color" style="background:#f2f2f3;color:#4b4c50;">#f2f2f3</view>

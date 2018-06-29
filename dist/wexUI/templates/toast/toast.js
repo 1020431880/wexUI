@@ -17,7 +17,7 @@ export default {
             image: "", //自定义图标的本地路径，image 的优先级高于 icon
             duration: 1500, //提示的延迟时间，单位毫秒，默认：1500
             mask: false, // 是否显示透明蒙层，防止触摸穿透，默认：false
-            callback(e) { } // 调用回调函数
+            callback(e) {} // 调用回调函数
         }
 
         // 合并默认配置和传递的配置
@@ -36,14 +36,14 @@ export default {
             // 清空timer
             clearTimeout(this.timer);
             this.timer = setTimeout(() => {
-                this.hideToast();
+                this.hideToastAndCallback();
             }, Toast.duration);
         }
     },
     /**
-     * 定时结束后隐藏Toast
+     * 显示一定时间后隐藏toast并执行回调函数
      */
-    hideToast() {
+    hideToastAndCallback() {
         clearTimeout(this.timer);
         this.setData({
             "Toast.mask": false,
@@ -51,5 +51,15 @@ export default {
         });
         // 调用回调函数
         this.data.Toast.callback && this.data.Toast.callback();
+    },
+    /**
+     * 定时结束后完全隐藏Toast
+     */
+    hideToast() {
+        clearTimeout(this.timer);
+        this.setData({
+            "Toast.mask": false,
+            "Toast.show": false
+        });
     }
 }
