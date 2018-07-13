@@ -1,6 +1,8 @@
-import wexUI from "../../../dist/wexUI/wexUI.js";
+import {
+  Toptips
+} from "../../../dist/wexUI/wexUI.js";
 
-Page(Object.assign({}, wexUI.Toptips, {
+Page(Object.assign({}, Toptips, {
   data: {
     text: "Page toptips"
   },

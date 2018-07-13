@@ -1,6 +1,8 @@
-import wexUI from "../../../dist/wexUI/wexUI.js";
+import {
+  Actionsheet
+} from "../../../dist/wexUI/wexUI.js";
 
-Page(Object.assign({}, wexUI.Actionsheet, {
+Page(Object.assign({}, Actionsheet, {
   data: {
     text: "Page Actionsheet"
   },

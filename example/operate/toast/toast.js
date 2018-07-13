@@ -1,6 +1,8 @@
-import wexUI from "../../../dist/wexUI/wexUI.js";
+import {
+  Toast
+} from "../../../dist/wexUI/wexUI.js";
 
-Page(Object.assign({}, wexUI.Toast, {
+Page(Object.assign({}, Toast, {
   data: {
     text: "Page toast"
   },
