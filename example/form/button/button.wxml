@@ -67,5 +67,6 @@
         <button class="btn btn-success size-big btn-block">大按钮</button>
         <button class="btn btn-primary btn-block">默认大小</button>
         <button class="btn btn-danger size-small btn-block">小按钮</button>
+        <button class="btn btn-danger size-mini btn-block">迷你按钮</button>
     </view>
 </view>

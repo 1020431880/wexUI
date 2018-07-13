@@ -915,12 +915,20 @@ icon {
     -webkit-transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear;
 }
 
+/*去除自带button按钮的边框*/
+
+.btn::after {
+    content: "";
+    box-sizing: border-box;
+    border-color: transparent;
+    border-radius: 4rpx;
+}
+
 /*default-按钮*/
 
 .btn.btn-default {
     background-color: #fff;
-    border-style: solid;
-    border-color: #dddee1;
+    border: solid 2rpx #dddee1;
 }
 
 .btn.btn-default:active {
@@ -1154,16 +1162,16 @@ icon {
 .btn.size-small {
     padding-left: 16rpx;
     padding-right: 16rpx;
-    height: 52rpx;
-    line-height: 52rpx;
+    height: 56rpx;
+    line-height: 56rpx;
     font-size: 26rpx;
 }
 
 .btn.size-mini {
     padding-left: 12rpx;
     padding-right: 12rpx;
-    height: 46rpx;
-    line-height: 46rpx;
+    height: 40rpx;
+    line-height: 40rpx;
     font-size: 24rpx;
 }
 
@@ -1220,8 +1228,8 @@ icon {
 /*输入框尺寸大小重新定义*/
 
 .input-text.size-big {
-    height: 88rpx;
-    line-height: 88rpx;
+    height: 90rpx;
+    line-height: 90rpx;
     padding: 0px 26rpx;
     font-size: 32rpx;
 }
@@ -1375,7 +1383,7 @@ icon {
     margin: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    min-height: 88rpx;
+    min-height: 90rpx;
     box-sizing: border-box;
 }
 

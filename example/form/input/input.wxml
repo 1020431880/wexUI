@@ -13,7 +13,7 @@
         <input type="text" class="input-text size-big" placeholder="大文本框" />
         <view class="h5 desc">默认大小</view>
         <input type="text" class="input-text" placeholder="默认大小文本框" />
-        <view class="h5 desc">size-small</view>
+        <view class="h5 desc">小文本框</view>
         <input type="text" class="input-text size-small" placeholder="小文本框" />
     </view>
     <!-- 模块 -->
