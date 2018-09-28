@@ -4,10 +4,15 @@ Component({
     },
     behaviors: [],
     properties: {
+        // 控制是否显示
+        vModel: {
+            type: Boolean,
+            value: false,
+        },
         // 内容的宽度
         width: {
             type: String,
-            value: '10%'
+            value: '80%'
         },
         // 文本标题
         title: {
@@ -19,10 +24,20 @@ Component({
             type: String,
             value: '取消'
         },
+        // 取消文字的颜色
+        cancelColor: {
+            type: String,
+            value: '#ec3535',
+        },
         // 确定的文字
         okText: {
             type: String,
             value: '确定'
+        },
+        // 确定文字的颜色
+        okColor: {
+            type: String,
+            value: '#2d8cf0'
         },
         // modal底部的slot
         slotFoot: {
@@ -33,11 +48,6 @@ Component({
         maskClosable: {
             type: Boolean,
             value: true
-        },
-        // 控制是否显示
-        vModel: {
-            type: Boolean,
-            value: false,
         },
         // 是否显示取消按钮
         showCancel: {
@@ -65,5 +75,7 @@ Component({
                 this.onCancel(e);
             }
         },
+        // 阻止弹出框的时候背景页面会滚动
+        preventdefault(){}
     }
 })

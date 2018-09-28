@@ -8,7 +8,7 @@
 
 .wexui-modal {
     position: relative;
-    font-size: 30rpx;
+    font-size: 28rpx;
     visibility: hidden;
 }
 
@@ -23,7 +23,7 @@
     right: 0;
     bottom: 0;
     opacity: 0;
-    transition: all .1s;
+    transition: all .2s;
     background: rgba(0, 0, 0, 0.7);
 }
 
@@ -34,7 +34,7 @@
     top: 45%;
     left: 50%;
     width: 80%;
-    z-index: 1001;
+    z-index: 9999;
     background: #fff;
     border-radius: 6rpx;
     box-sizing: border-box;
@@ -52,39 +52,36 @@
 
 .wexui-modal .wexui-modal-container .modal-container-head {
     padding: 30rpx;
-    border-bottom: solid 2rpx #e9eaec;
     text-align: center;
     font-weight: 500;
 }
 
 .wexui-modal .wexui-modal-container .modal-container-body {
-    padding: 40rpx 20rpx;
     font-size: 28rpx;
+    padding: 20rpx 30rpx;
+    min-height: 120rpx;
 }
 
 .wexui-modal .wexui-modal-container .modal-container-foot {
     display: flex;
     align-items: center;
     text-align: center;
-    transition: all .2s;
+    transition: all .3s;
     border-top: solid 2rpx #e9eaec;
 }
 
 .wexui-modal .wexui-modal-container .modal-container-foot .modal-container-foot-cancel {
     flex: 1;
     padding: 26rpx;
-    color: #ec3535;
-    transition: all .2s;
     border-right: solid 2rpx #e9eaec;
 }
 
 .wexui-modal .wexui-modal-container .modal-container-foot .modal-container-foot-ok {
     padding: 26rpx;
     flex: 1;
-    color: #2d8cf0;
 }
 
 .wexui-modal .wexui-modal-container .modal-container-foot .modal-container-foot-cancel:active,
 .wexui-modal .wexui-modal-container .modal-container-foot .modal-container-foot-ok:active {
-    background: #e9eaec;
+    background: #fbfbfb;
 }
