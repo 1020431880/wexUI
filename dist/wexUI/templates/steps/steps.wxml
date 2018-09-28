@@ -5,7 +5,7 @@
             <view class="steps-title">{{item.text}}</view>
             <view class="steps-desc" wx:if="{{hasDesc}}">{{item.desc}}</view>
             <view class="steps-icons">
-                <icon type="success" size="14" color="#29b327" wx:if="{{item.done}}" />
+                <icon type="success" size="14" color="#2d8cf0" wx:if="{{item.done}}" />
                 <text wx:else class="icon icon-dot"></text>
             </view>
             <view class="steps-line"></view>
@@ -15,7 +15,7 @@
     <view class="wexui-steps steps-vert {{className}} float-clear" wx:if="{{type=='vert'}}">
         <view class="steps-container {{item.done?'steps-done':''}} {{item.current?'steps-current':''}}" wx:for="{{steps}}" wx:key="item">
             <view class="steps-line"></view>
-            <view class="steps-head"><icon type="success" size="14" color="#29b327" wx:if="{{item.done}}" /><span  wx:else><text class="icon icon-dot"></text></span></view>
+            <view class="steps-head"><icon type="success" size="14" color="#2d8cf0" wx:if="{{item.done}}" /><span  wx:else><text class="icon icon-dot"></text></span></view>
             <view class="steps-content ">
                 <view class="steps-title">{{item.text}}</view>
                 <view class="steps-desc" wx:if="{{hasDesc}}">{{item.desc}}</view>

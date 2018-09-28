@@ -1,6 +1,6 @@
 .index {
     padding: 20rpx;
-    font-size: 30rpx;
+    font-size: 28rpx;
     color: #4b4c50;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .index .header .header-desc {
-    font-size: 28rpx;
+    font-size: 24rpx;
     color: #9a9a9e;
 }
 
@@ -76,6 +76,7 @@
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
+
 }
 
 .item .item-list {
