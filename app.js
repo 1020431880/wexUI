@@ -1,4 +1,4 @@
-//app.js
+//app.js文件
 App({
   onLaunch: function () {
 
